@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.9)  21 JAN 2014 11:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.9)  21 JAN 2014 12:50
 entering extended mode
  %&-line parsing enabled.
 **manuscript
@@ -116,21 +116,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-) (./manuscript.aux
-
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 ...mand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-? 
-)
+) (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -145,7 +131,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen114
@@ -161,25 +148,25 @@ LaTeX Font Info:    ... okay on input line 11.
 
 LaTeX Warning: No \author given.
 
-(./manuscript.bbl [1
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./manuscript.bbl)
 [2] (./manuscript.aux) ) 
 Here is how much of TeX's memory you used:
  1860 strings out of 495061
  22370 string characters out of 1182622
- 78728 words of memory out of 3000000
+ 77727 words of memory out of 3000000
  5063 multiletter control sequences out of 15000+50000
  7469 words of font info for 27 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,6n,21p,613b,213s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,21p,613b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texl
 ive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (2 pages, 80964 bytes).
+Output written on manuscript.pdf (2 pages, 81209 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

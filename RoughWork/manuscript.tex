@@ -23,19 +23,22 @@ Abstract to be completed
 %To be inlcluded: NEMO overview, tides, rivers, bathymetry, atmospheric forcing, vertical/lateral mixing, boundary conditions, grid. 
 
 % Kate: A description of the tides and river forcing can be included here. 
-\subsection{River forcing}
-River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterisations were required to represent river flow. \cite{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Exact data were acquired from \cite{morrison2011rivers}, including the runoff volumes for each watershed for each year from 1970 to 2012, as well as monthly averages. 
+\subsection{Tidal forcing} %Kate
+The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. To be continued...
+
+\subsection{River forcing} %Kate
+River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterisations were required to represent river flow. \cite{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Monthly runoff volumes for each watershed for each year from 1970 to 2012 were acquired from \cite{morrison2011rivers}, as well as monthly averages. 
 
 Freshwater runoff from each watershed was divided between the rivers in that watershed, based on estimations of the area that each river drained in its catchment. The area drained by each river was estimated from Toporama maps by the Atlas of Canada and watershed maps available on the Washington State government website. The watersheds included in our model were Fraser (which represents approximately 44\% of the freshwater input into the region), Skagit (12\%), East Vancouver Island (North and South) (12\%), Howe (7\%), Bute (7\%), Puget (6\%), Juan de Fuca (5\%), Jervis (4\%) and Toba (3\%). 
 
-The monthly flow from each river was input as a point source in the 3 grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh, with a temperature of ?? degrees C. A total of 150 rivers were parametrised by this method. 
+The monthly flow from each river was input as a point source in the three grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh, with a temperature of ?? degrees C. A total of 150 rivers were parametrised by this method. 
 
 \section{Storm Surge Hindcasts}\label{sec:storm}
 
 \section{Conclusions}\label{sec:conclusions}
 
 
-\bibliographystyle{plainnat}
+\bibliographystyle{plain}
 \bibliography{ref}
 
 \end{document}
