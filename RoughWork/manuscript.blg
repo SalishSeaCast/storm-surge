@@ -2,9 +2,11 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: manuscript.aux
 The style file: plain.bst
 Database file #1: ref.bib
+Warning--I didn't find a database entry for "foreman00webtide"
+Warning--I didn't find a database entry for "foreman95tidal"
 You've used 2 entries,
             2118 wiz_defined-function locations,
-            512 strings with 4378 characters,
+            514 strings with 4408 characters,
 and the built_in function-call counts, 663 in all, are:
 = -- 62
 > -- 31
@@ -43,3 +45,4 @@ warning$ -- 0
 while$ -- 6
 width$ -- 3
 write$ -- 24
+(There were 2 warnings)

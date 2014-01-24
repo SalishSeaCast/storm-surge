@@ -18,20 +18,25 @@ Abstract to be completed
 \section{Introduction}\label{sec:intro}
 \citep{masson2004modelling} %testing a citation
 
-\section{Model Evaluation}\label{sec:model}
+\section{Model Configuration}
 %A section about how we configured the model for SoG 
-%To be inlcluded: NEMO overview, tides, rivers, bathymetry, atmospheric forcing, vertical/lateral mixing, boundary conditions, grid. 
-
 % Kate: A description of the tides and river forcing can be included here. 
 \subsection{Tidal forcing} %Kate
-The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. To be continued...
+The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on \citep{foreman00webtide}. The Johnstone Strait boundary was forced with...?
 
 \subsection{River forcing} %Kate
-River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterisations were required to represent river flow. \cite{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Monthly runoff volumes for each watershed for each year from 1970 to 2012 were acquired from \cite{morrison2011rivers}, as well as monthly averages. 
+River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterisations were required to represent river flow. \citep{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Monthly runoff volumes for each watershed for each year from 1970 to 2012 were acquired from \citep{morrison2011rivers}, as well as monthly averages. 
 
 Freshwater runoff from each watershed was divided between the rivers in that watershed, based on estimations of the area that each river drained in its catchment. The area drained by each river was estimated from Toporama maps by the Atlas of Canada and watershed maps available on the Washington State government website. The watersheds included in our model were Fraser (which represents approximately 44\% of the freshwater input into the region), Skagit (12\%), East Vancouver Island (North and South) (12\%), Howe (7\%), Bute (7\%), Puget (6\%), Juan de Fuca (5\%), Jervis (4\%) and Toba (3\%). 
 
-The monthly flow from each river was input as a point source in the three grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh, with a temperature of ?? degrees C. A total of 150 rivers were parametrised by this method. 
+The monthly flow from each river was input as a point source in the three grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh, with a temperature of ?? degrees C. A total of 150 rivers were parameterised by this method. 
+
+\section{Model Evaluation}\label{sec:model}
+%To be included: NEMO overview, tides, rivers, bathymetry, atmospheric forcing, vertical/lateral mixing, boundary conditions, grid. 
+\subsection{Tidal evaluation}
+The model was initially evaluated by comparing modelled harmonic constituents to measured harmonic constituents at tidal measuring stations throughout the domain. Comparisons were made using the complex difference, defined by \cite{foreman95tidal} as:
+
+To be continued!
 
 \section{Storm Surge Hindcasts}\label{sec:storm}
 
