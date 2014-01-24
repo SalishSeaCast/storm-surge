@@ -2,47 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: manuscript.aux
 The style file: plain.bst
 Database file #1: ref.bib
-Warning--I didn't find a database entry for "foreman00webtide"
-Warning--I didn't find a database entry for "foreman95tidal"
-You've used 2 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            514 strings with 4408 characters,
-and the built_in function-call counts, 663 in all, are:
-= -- 62
-> -- 31
+            534 strings with 5028 characters,
+and the built_in function-call counts, 1889 in all, are:
+= -- 178
+> -- 100
 < -- 0
-+ -- 13
-- -- 10
-* -- 53
-:= -- 119
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 11
++ -- 42
+- -- 34
+* -- 159
+:= -- 325
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 22
-empty$ -- 51
-format.name$ -- 10
-if$ -- 134
+cite$ -- 5
+duplicate$ -- 55
+empty$ -- 139
+format.name$ -- 34
+if$ -- 383
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 2
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 7
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 10
+pop$ -- 22
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 27
 quote$ -- 0
-skip$ -- 15
+skip$ -- 37
 stack$ -- 0
-substring$ -- 41
-swap$ -- 2
+substring$ -- 145
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 20
 warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 24
-(There were 2 warnings)
+while$ -- 15
+width$ -- 6
+write$ -- 57

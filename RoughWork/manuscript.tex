@@ -17,26 +17,52 @@ Abstract to be completed
 
 \section{Introduction}\label{sec:intro}
 \citep{masson2004modelling} %testing a citation
+%To be included: NEMO overview, tides, rivers, bathymetry, atmospheric forcing, vertical/lateral mixing, boundary conditions, grid. 
 
 \section{Model Configuration}
 %A section about how we configured the model for SoG 
-% Kate: A description of the tides and river forcing can be included here. 
-\subsection{Tidal forcing} %Kate
-The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on \citep{foreman00webtide}. The Johnstone Strait boundary was forced with...?
+\subsection{Model domain}
+
+\subsection{Boundary conditions}
+
+\subsubsection{Tidal forcing} %Kate
+The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on \citep{foreman2000webtide}. The Johnstone Strait boundary was forced with...? (e.g. we might use tidal harmonics measured and calculated by \citep{thomson1980johnstone})
+
+\subsubsection{Temperature and salinity}
+Temperature and salinity at the Juan de Fuca boundary were taken from a climatology which was created from observations collected by (which Masson ref?) over the period of 19??-2004?.
+
+\subsection{Initial conditions}
 
 \subsection{River forcing} %Kate
 River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterisations were required to represent river flow. \citep{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Monthly runoff volumes for each watershed for each year from 1970 to 2012 were acquired from \citep{morrison2011rivers}, as well as monthly averages. 
 
-Freshwater runoff from each watershed was divided between the rivers in that watershed, based on estimations of the area that each river drained in its catchment. The area drained by each river was estimated from Toporama maps by the Atlas of Canada and watershed maps available on the Washington State government website. The watersheds included in our model were Fraser (which represents approximately 44\% of the freshwater input into the region), Skagit (12\%), East Vancouver Island (North and South) (12\%), Howe (7\%), Bute (7\%), Puget (6\%), Juan de Fuca (5\%), Jervis (4\%) and Toba (3\%). 
+Freshwater runoff from each watershed was divided between the rivers in that watershed. The area drained by each river was estimated from Toporama maps by the Atlas of Canada and watershed maps available on the Washington State government website. The watersheds included in our model were Fraser (which represents approximately 44\% of the freshwater input into our domain), Skagit (12\%), East Vancouver Island (North and South) (12\%), Howe (7\%), Bute (7\%), Puget (6\%), Juan de Fuca (5\%), Jervis (4\%) and Toba (3\%). 
 
 The monthly flow from each river was input as a point source in the three grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh, with a temperature of ?? degrees C. A total of 150 rivers were parameterised by this method. 
 
-\section{Model Evaluation}\label{sec:model}
-%To be included: NEMO overview, tides, rivers, bathymetry, atmospheric forcing, vertical/lateral mixing, boundary conditions, grid. 
-\subsection{Tidal evaluation}
-The model was initially evaluated by comparing modelled harmonic constituents to measured harmonic constituents at tidal measuring stations throughout the domain. Comparisons were made using the complex difference, defined by \cite{foreman95tidal} as:
+%we could show the location of all the rivers on the overall location map, or on a picture of our domain, since the rivers are on the edges of the domain so they won't block any bathymetry information
 
-To be continued!
+\subsection{Atmospheric forcing}
+
+\section{Model Evaluation}\label{sec:model}
+
+\subsection{Tidal evaluation}
+The model was initially evaluated qualitatively by comparing patterns of tidal amplitude and phase to results from \citep{foreman1995tidal}. For example, the amphidromic dome around Victoria was produced in the $M_2$ results, as well as the monotonic decrease in $M_2$ amplitude moving northwards along the Strait of Georgia. Initially, the Johnstone Strait boundary was closed, but modelled $M_2$ amplitudes were too small compared to measured amplitudes... TBC
+
+%perhaps a nice contour map of M2 and K1 amps and phases goes here?
+
+Once our model was reproducing observed tidal patterns, model results were quantitatively evaluated by comparing modelled harmonic constituents to measured harmonic constituents at tidal measuring stations throughout the domain. Comparisons were made using the complex difference (D), defined by \citep{foreman1995tidal} as:
+
+\begin{equation}
+D = [(A_0 \cos g_0 - A_m \cos g_m)^2 + (A_0 \sin g_0 - A_m \sin g_m)^2]^{1/2}
+\end{equation}
+where $A_0$, $A_m$, $g_0$ and $g_m$ are observed and modelled amplitudes and phases.
+
+%perhaps a table of complex differences at tidal stations similar to Table 1 of Foreman et al (1995)  (such as the one produced by tidetools.calc_diffs_meas_mod) here?
+%(would be cool to include the complex differences calculated at the VENUS nodes too)
+
+Complex differences were less than ??cm at all stations in our domain, which was assumed to be acceptable for our purposes. 
+%if it's favourable, we could compare our complex differences to Foreman et al (1995), who got an average of D=3cm for M2 and D=2.5cm for K1
 
 \section{Storm Surge Hindcasts}\label{sec:storm}
 

@@ -1,5 +1,17 @@
 \begin{thebibliography}{1}
 
+\bibitem{foreman1995tidal}
+M.~G.~G. Foreman, R.~A. Walters, R.~F. Henry, C.~P. Keller, and A.~G. Dolling.
+\newblock A tidal model for eastern {Juan de Fuca Strait} and the southern
+  {Strait OF Georgia}.
+\newblock {\em Journal of Geophysical Research-Oceans}, 100(C1):721--740, 1995.
+
+\bibitem{foreman2000webtide}
+M.G.G. Foreman, W.R. Crawford, J.Y. Cherniawsky, R.F. Henry, and M.R. Tarbotto.
+\newblock A high-resolution assimilating tidal model for the northeast {Pacific
+  Ocean}.
+\newblock {\em Journal of Geophysical Research}, 105(C1):28,629--28,652, 2000.
+
 \bibitem{masson2004modelling}
 D.~Masson and P.~F. Cummins.
 \newblock Observations and modeling of seasonal variability in the {Straits of
@@ -11,5 +23,10 @@ J.~Morrison, M.G.G. Foreman, and D.~Masson.
 \newblock A method for estimating monthly freshwater discharge affecting
   {British Columbia} coastal waters.
 \newblock {\em Atmosphere-Ocean}, 50(1):1--8, 2011.
+
+\bibitem{thomson1980johnstone}
+Richard~E. Thomson and W.~Stanford Huggett.
+\newblock M2 baroclinic tides in {Johnstone Strait, British Columbia}.
+\newblock {\em Journal of Physical Oceanography}, 10:1509--1539, 1980.
 
 \end{thebibliography}
