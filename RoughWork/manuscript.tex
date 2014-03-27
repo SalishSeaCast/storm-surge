@@ -19,13 +19,22 @@ Abstract to be completed
 \citep{masson2004modelling} %testing a citation
 %To be included: NEMO overview, tides, rivers, bathymetry, atmospheric forcing, vertical/lateral mixing, boundary conditions, grid. 
 
-\section{Model Configuration}
+\section{Model Configuration}\label{sec:config}
 %A section about how we configured the model for SoG 
 \subsection{Model domain}
+The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait as shown in Figure \ref{fig:domain}. Bathymetry from the Cascadia physiography dataset \cite{?} was smoothed to limit the difference in depth across grid cells. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was performed to achieve constant depth across the first ten grid cells. 
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{Figures/bathy.png}
+\caption{Model domain including bathymetry, rivers (*), and storm surge locations (o) of interest.}\label{fig:domain}
+\end{figure}
 
 \subsection{Boundary conditions}
+%lateral and bottom friction, open boundaries, eta surface
 
-\subsubsection{Tidal forcing} %Kate
+\subsubsection{Tidal forcing} 
 The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on \citep{foreman2000webtide}. The Johnstone Strait boundary was forced with...? (e.g. we might use tidal harmonics measured and calculated by \citep{thomson1980johnstone})
 
 \subsubsection{Temperature and salinity}

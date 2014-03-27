@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  3 FEB 2014 16:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  27 MAR 2014 15:02
 entering extended mode
  %&-line parsing enabled.
 **manuscript.tex
@@ -148,48 +148,50 @@ LaTeX Font Info:    ... okay on input line 11.
 
 LaTeX Warning: No \author given.
 
+<Figures/bathy.png, id=1, 722.7pt x 505.89pt>
+File: Figures/bathy.png Graphic file (type png)
+ <use Figures/bathy.png>
 
-Package natbib Warning: Citation `massonfine2012' on page 1 undefined on input 
-line 32.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package natbib Warning: Citation `.' on page 2 undefined on input line 39.
+Package natbib Warning: Citation `.' on page 2 undefined on input line 46.
 
 
-Package natbib Warning: Citation `T' on page 2 undefined on input line 39.
+Package natbib Warning: Citation `T' on page 2 undefined on input line 46.
 
-
-Package natbib Warning: Citation `pawlowiczetal2007' on page 2 undefined on inp
-ut line 53.
-
-[2] (./manuscript.bbl [3])
+[2 <./Figures/bathy.png>] [3] (./manuscript.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[4] (./manuscript.aux) ) 
+[4] (./manuscript.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1892 strings out of 495061
- 22848 string characters out of 1182622
- 78772 words of memory out of 3000000
- 5088 multiletter control sequences out of 15000+50000
+ 1906 strings out of 495061
+ 23092 string characters out of 1182622
+ 78818 words of memory out of 3000000
+ 5099 multiletter control sequences out of 15000+50000
  10888 words of font info for 39 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,6n,21p,686b,213s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (4 pages, 122936 bytes).
+ 27i,7n,21p,686b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on manuscript.pdf (4 pages, 655501 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
