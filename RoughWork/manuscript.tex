@@ -22,7 +22,7 @@ Abstract to be completed
 \section{Model Configuration}\label{sec:config}
 %A section about how we configured the model for SoG 
 \subsection{Model domain}
-The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait as shown in Figure \ref{fig:domain}. Bathymetry from the Cascadia physiography dataset \cite{?} was smoothed to limit the difference in depth across grid cells. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was performed to achieve constant depth across the first ten grid cells. 
+The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait as shown in Figure \ref{fig:domain}. Bathymetry from the Cascadia physiography dataset \citep{haugerud1999digital} was smoothed to limit the difference in depth across grid cells. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was imposed to achieve constant depth across the first ten grid cells. 
 
 
 \begin{figure}[h]
@@ -35,7 +35,7 @@ The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Jo
 %lateral and bottom friction, open boundaries, eta surface
 
 \subsubsection{Tidal forcing} 
-The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on \citep{foreman2000webtide}. The Johnstone Strait boundary was forced with...? (e.g. we might use tidal harmonics measured and calculated by \citep{thomson1980johnstone})
+The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents for eight tidal constituents (K1 ,O1, P1, Q1, M2, K2, N2, S2) at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major M2 and K1 constituents. Additionally, O1 and S2 elevation harmonics from their measuresments were employed. The remaining consituents were extrapolated from Webtide. 
 
 \subsubsection{Temperature and salinity}
 Temperature and salinity at the Juan de Fuca boundary were taken from a weekly climatology which was created from results from a model covering the Salish Sea and the west coast of Vancouver Island \citep{massonfine2012}.  Their results, originally on s-levels were interpolated onto z-levels and then onto the NEMO horizontal grid.  To prepare the climatology all years (1995-2008) were averaged and results, approximately every 15 days, were interpolated to a weekly climatology.
@@ -45,14 +45,16 @@ Sea surface height at the mouth of Juan de Fuca was set using values from the To
 
 \subsubsection{Open Boundary Conditions}
 
-The model relaxed to the forced temperature and salinity over the 10 grid points (about 5km) closest to the open boundaries, using the NEMO FRS scheme \cite.  The tidal forcing and sea surface height was used in the barotropic velocity forcing which used the NEMO Flather scheme \cite  The baroclinic velocities at the boundary were set to be equal to the values inside the boundary (zero-gradient boundary conditions).  This scheme is not part of core NEMO.  Zero gradient conditions were chose because the baroclinic velocity at the mouth of Juan de Fuca is primarily estuarine and thus set by density variations between inside and outside the domain.
+The model relaxed to the forced temperature and salinity over the 10 grid points (about 5km) closest to the open boundaries, using the NEMO FRS scheme \citep{madec2008nemo}. %other references>
+The tidal forcing and sea surface height was used in the barotropic velocity forcing which used the NEMO Flather scheme \citet{madec2008nemo}. %other references?
+The baroclinic velocities at the boundary were set to be equal to the values inside the boundary (zero-gradient boundary conditions).  This scheme is not part of core NEMO.  Zero gradient conditions were chosen because the baroclinic velocity at the mouth of Juan de Fuca is primarily estuarine and thus set by density variations between inside and outside the domain.
 
-\subsection{River forcing} %Kate
-River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterisations were required to represent river flow. \citep{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Monthly runoff volumes for each watershed for each year from 1970 to 2012 were acquired from \citep{morrison2011rivers}, as well as monthly averages. 
+\subsection{River forcing}
+River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterisations were required to represent river flow. \citet{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Monthly runoff volumes for each watershed for each year from 1970 to 2012 were acquired from \citet{morrison2011rivers}, as well as monthly averages. 
 
 Freshwater runoff from each watershed was divided between the rivers in that watershed. The area drained by each river was estimated from Toporama maps by the Atlas of Canada and watershed maps available on the Washington State government website. The watersheds included in our model were Fraser (which represents approximately 44\% of the freshwater input into our domain), Skagit (12\%), East Vancouver Island (North and South) (12\%), Howe (7\%), Bute (7\%), Puget (6\%), Juan de Fuca (5\%), Jervis (4\%) and Toba (3\%). 
 
-The monthly flow from each river was input as a point source in the three grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh, with a temperature of ?? degrees C. A total of 150 rivers were parameterised by this method. 
+The monthly flow from each river was input as a point source in the three grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh and at the temperature of the surface. A total of 150 rivers were parameterised by this method. 
 
 %we could show the location of all the rivers on the overall location map, or on a picture of our domain, since the rivers are on the edges of the domain so they won't block any bathymetry information
 
@@ -62,7 +64,7 @@ The monthly flow from each river was input as a point source in the three grid p
 Initial conditions for temperature and salinity were taken from a CTD cast in the middle Strait of Georgia taken in Sept 2002 \citep{pawlowiczetal2007}.  Conditions were initially uniform horizontally.  Velocity was initialized at zero.
 
 \subsection{Spin-up}
-The model was spun up for a 15.5 months from the initial conditions above, starting Sep 16, 2002, using atmospheric forcing from 2002-2003, climatological temperature and salinity and sea surface height at the boundaries, with tides and climatological river output.  All storm surge runs were started.....
+The model was spun up for a 15.5 months from the initial conditions above, starting Sep 16, 2002, using atmospheric forcing from 2002-2003, climatological temperature and salinity and sea surface height at the boundaries, with tides and climatological river output.  All storm surge runs were started three days prior to the event of interest with zero initial velocities and sea surface height and a stratification profile from model spin up. The modelled sea surface height adjusted to forcing in less than one day. 
 
 \section{Model Evaluation}\label{sec:model}
 
@@ -89,7 +91,7 @@ Complex differences were less than ??cm at all stations in our domain, which was
 \section{Conclusions}\label{sec:conclusions}
 
 
-\bibliographystyle{plain}
+\bibliographystyle{chicago}
 \bibliography{ref}
 
 \end{document}

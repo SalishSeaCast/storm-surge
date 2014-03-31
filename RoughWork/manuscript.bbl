@@ -1,44 +1,66 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{foreman1995tidal}
-M.~G.~G. Foreman, R.~A. Walters, R.~F. Henry, C.~P. Keller, and A.~G. Dolling.
-\newblock A tidal model for eastern {Juan de Fuca Strait} and the southern
-  {Strait OF Georgia}.
-\newblock {\em Journal of Geophysical Research-Oceans}, 100(C1):721--740, 1995.
-
-\bibitem{foreman2000webtide}
-M.G.G. Foreman, W.R. Crawford, J.Y. Cherniawsky, R.F. Henry, and M.R. Tarbotto.
+\bibitem[\protect\citeauthoryear{Foreman, Crawford, Cherniawsky, Henry, and
+  Tarbotto}{Foreman et~al.}{2000}]{foreman2000webtide}
+Foreman, M., W.~Crawford, J.~Cherniawsky, R.~Henry, and M.~Tarbotto (2000).
 \newblock A high-resolution assimilating tidal model for the northeast {Pacific
   Ocean}.
-\newblock {\em Journal of Geophysical Research}, 105(C1):28,629--28,652, 2000.
+\newblock {\em Journal of Geophysical Research\/}~{\em 105\/}(C1),
+  28,629--28,652.
 
-\bibitem{masson2004modelling}
-D.~Masson and P.~F. Cummins.
+\bibitem[\protect\citeauthoryear{Foreman, Walters, Henry, Keller, and
+  Dolling}{Foreman et~al.}{1995}]{foreman1995tidal}
+Foreman, M. G.~G., R.~A. Walters, R.~F. Henry, C.~P. Keller, and A.~G. Dolling
+  (1995).
+\newblock A tidal model for eastern {Juan de Fuca Strait} and the southern
+  {Strait OF Georgia}.
+\newblock {\em Journal of Geophysical Research-Oceans\/}~{\em 100\/}(C1),
+  721--740.
+
+\bibitem[\protect\citeauthoryear{Haugerud}{Haugerud}{1999}]{haugerud1999digita%
+l}
+Haugerud, R.~A. (1999).
+\newblock {\em Digital elevation model (DEM) of Cascadia, latitude 39N-53N,
+  longitude 116W-133W}.
+\newblock U. S. Geological Survey Open-File Report 99-369.
+\newblock http://pubs.usgs.gov/of/1999/0369/.
+
+\bibitem[\protect\citeauthoryear{Madec}{Madec}{2008}]{madec2008nemo}
+Madec, G. (2008).
+\newblock Nemo ocean engine.
+
+\bibitem[\protect\citeauthoryear{Masson and Cummins}{Masson and
+  Cummins}{2004}]{masson2004modelling}
+Masson, D. and P.~F. Cummins (2004).
 \newblock Observations and modeling of seasonal variability in the {Straits of
   Georgia and Juan de Fuca}.
-\newblock {\em Journal of Marine Research}, 62(4):491--516, 2004.
+\newblock {\em Journal of Marine Research\/}~{\em 62\/}(4), 491--516.
 
-\bibitem{massonfine2012}
-Diane Masson and Isaac Fine.
+\bibitem[\protect\citeauthoryear{Masson and Fine}{Masson and
+  Fine}{2012}]{massonfine2012}
+Masson, D. and I.~Fine (2012).
 \newblock Modeling seasonal to interannual ocean variability of coastal british
   columbia.
-\newblock {\em Journal of Geophysical Research}, 117(C10), 2012.
+\newblock {\em Journal of Geophysical Research\/}~{\em 117\/}(C10).
 
-\bibitem{morrison2011rivers}
-J.~Morrison, M.G.G. Foreman, and D.~Masson.
+\bibitem[\protect\citeauthoryear{Morrison, Foreman, and Masson}{Morrison
+  et~al.}{2011}]{morrison2011rivers}
+Morrison, J., M.~Foreman, and D.~Masson (2011).
 \newblock A method for estimating monthly freshwater discharge affecting
   {British Columbia} coastal waters.
-\newblock {\em Atmosphere-Ocean}, 50(1):1--8, 2011.
+\newblock {\em Atmosphere-Ocean\/}~{\em 50\/}(1), 1--8.
 
-\bibitem{pawlowiczetal2007}
-R.~Pawlowicz, O.~Riche, and M.~Halverson.
+\bibitem[\protect\citeauthoryear{Pawlowicz, Riche, and Halverson}{Pawlowicz
+  et~al.}{2007}]{pawlowiczetal2007}
+Pawlowicz, R., O.~Riche, and M.~Halverson (2007).
 \newblock The circulation and residence time of the {Strait of Georgia} using a
   simple mixing-box approach.
-\newblock {\em Atmos. Ocean}, 45:173--193, 2007.
+\newblock {\em Atmos. Ocean\/}~{\em 45}, 173--193.
 
-\bibitem{thomson1980johnstone}
-Richard~E. Thomson and W.~Stanford Huggett.
+\bibitem[\protect\citeauthoryear{Thomson and Huggett}{Thomson and
+  Huggett}{1980}]{thomson1980johnstone}
+Thomson, R.~E. and W.~S. Huggett (1980).
 \newblock M2 baroclinic tides in {Johnstone Strait, British Columbia}.
-\newblock {\em Journal of Physical Oceanography}, 10:1509--1539, 1980.
+\newblock {\em Journal of Physical Oceanography\/}~{\em 10}, 1509--1539.
 
 \end{thebibliography}
