@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  31 MAR 2014 16:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  2 APR 2014 17:06
 entering extended mode
  %&-line parsing enabled.
 **manuscript.tex
@@ -157,13 +157,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./Figures/bathy.png>] 
-[3] (./manuscript.bbl
+[3] (./manuscript.bbl [4]
 Underfull \hbox (badness 1337) in paragraph at lines 22--27
 \OT1/cmr/m/it/12 53N, lon-gi-tude 116W-133W\OT1/cmr/m/n/12 .  U. S. Ge-o-log-i-
 cal Sur-vey Open-File Re-port 99-369.
  []
 
-[4]) [5] (./manuscript.aux) ) 
+) [5] (./manuscript.aux) ) 
 Here is how much of TeX's memory you used:
  1910 strings out of 495061
  23230 string characters out of 1182622
@@ -171,19 +171,20 @@ Here is how much of TeX's memory you used:
  5103 multiletter control sequences out of 15000+50000
  10888 words of font info for 39 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,6n,21p,749b,214s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (5 pages, 661290 bytes).
+ 27i,6n,21p,769b,206s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on manuscript.pdf (5 pages, 672042 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

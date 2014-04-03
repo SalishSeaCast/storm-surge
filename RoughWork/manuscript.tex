@@ -22,7 +22,9 @@ Abstract to be completed
 \section{Model Configuration}\label{sec:config}
 %A section about how we configured the model for SoG 
 \subsection{Model domain}
-The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait as shown in Figure \ref{fig:domain}. Bathymetry from the Cascadia physiography dataset \citep{haugerud1999digital} was smoothed to limit the difference in depth across grid cells. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was imposed to achieve constant depth across the first ten grid cells. 
+The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait as shown in Figure \ref{fig:domain}. Bathymetry from the Cascadia physiography dataset \citep{haugerud1999digital} was smoothed to limit the difference in depth across grid cells. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was imposed to achieve constant depth across the first ten grid cells. As depicted in Figure \ref{fig:domain}, the numerical grid is rotated $29^{\circ}$ counter-clockwise of North in order to maintain computationally efficency since currents within the Strait of Georgia are mainly aligned with this rotated axis. 
+
+The rectangular numerical grid is divided into 900 by 400 by 40 grid cells, which results in a horizontal resolution of about 400 m by 500 m. The 40 vertical $z$-levels are stretched gradually in order to achieve higher resolution in the surface layer, with approximately 1 m vertical grid spacing down to 25 m (?) in depth. At the bottom boundary, partial $z$-levels are employed to limit large changes in bathymetry across grid cells \citep{madec2008nemo}. 
 
 
 \begin{figure}[h]
@@ -33,6 +35,10 @@ The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Jo
 
 \subsection{Boundary conditions}
 %lateral and bottom friction, open boundaries, eta surface
+The model includes two open boundaries that connect to the Pacific Ocean, the western boundary of the Strait of Juan de Fucan as well as Johnstone Strait at the north, both of which are forced with eight tidal constituents, temperature and salinity climatologies, and the sea surface height anomaly. The details of these forcing conditions are described below. At coastal boundaries, the partial slip paramertrization implemented by NEMO \citep{madec2008nemo} is employed. At the ocean surface, atmospheric conditions and fresh water input from rivers are included and described in more detail below. Bottom friction is evaluated through a quadratic parametrization \citep{madec2008nemo} with a drag coefficient $C_D = 5\times 10^{-3}$. 
+
+The free surface is evaluated .. (description of split-explicit and nonlinear free surface scheme here) 
+
 
 \subsubsection{Tidal forcing} 
 The model was forced by tidal elevations and currents at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents for eight tidal constituents (K1 ,O1, P1, Q1, M2, K2, N2, S2) at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major M2 and K1 constituents. Additionally, O1 and S2 elevation harmonics from their measuresments were employed. The remaining consituents were extrapolated from Webtide. 
