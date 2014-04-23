@@ -63,4 +63,10 @@ Thomson, R.~E. and W.~S. Huggett (1980).
 \newblock M2 baroclinic tides in {Johnstone Strait, British Columbia}.
 \newblock {\em Journal of Physical Oceanography\/}~{\em 10}, 1509--1539.
 
+\bibitem[\protect\citeauthoryear{Umlauf and Burchard}{Umlauf and
+  Burchard}{2003}]{umlauf2003generic}
+Umlauf, L. and H.~Burchard (2003).
+\newblock A generic length-scale equation for geophysical turbulence models.
+\newblock {\em Journal of Marine Research\/}~{\em 61\/}(2), 235--265.
+
 \end{thebibliography}

@@ -1,4 +1,4 @@
-\documentclass[pdftex,12pt]{article}
+\documentclass[pdftex,10pt]{article}
 \usepackage{fullpage}
 \usepackage{graphicx}
 \usepackage{natbib}
@@ -21,10 +21,12 @@ Abstract to be completed
 
 \section{Model Configuration}\label{sec:config}
 %A section about how we configured the model for SoG 
-\subsection{Model domain}
-The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait as shown in Figure \ref{fig:domain}. Bathymetry from the Cascadia physiography dataset \citep{haugerud1999digital} was smoothed to limit the difference in depth across grid cells. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was imposed to achieve constant depth across the first ten grid cells. As depicted in Figure \ref{fig:domain}, the numerical grid is rotated $29^{\circ}$ counter-clockwise of North in order to maintain computationally efficency since currents within the Strait of Georgia are mainly aligned with this rotated axis. 
+We have used the Nucleus for European Modelling of the Ocean (NEMO) framework in its regional configuration to develop an ocean model for the Strait of Georgia and Salish Sea. NEMO is a highly modularized tool used for studying ocean physics, ocean-ice interactions, and the biogeochemical properties of the ocean. NEMO's ocean core solves the three-dimensional hydrostatic equations of motion for an incompressible fluid under the Boussinesq approximation on a structured computational grid. Although not used in the present work, NEMO's options for grid nesting and biogeochemical coupling make it a useful tool for studying the complex physics and biogeochemical interactions within the Strait of Georgia. This work focuses on validating the physical set up of the Salish Sea model, in particular, determining appropriate forcing and boundary conditions for accurate reproduction of tidal amplitudes and phases as well as storm surge elevations. Future work will include biogeochemical coupling and data assimilation. 
 
-The rectangular numerical grid is divided into 900 by 400 by 40 grid cells, which results in a horizontal resolution of about 400 m by 500 m. The 40 vertical $z$-levels are stretched gradually in order to achieve higher resolution in the surface layer, with approximately 1 m vertical grid spacing down to 25 m (?) in depth. At the bottom boundary, partial $z$-levels are employed to limit large changes in bathymetry across grid cells \citep{madec2008nemo}. 
+\subsection{Model domain}
+The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait as shown in Figure \ref{fig:domain}. Bathymetry from the Cascadia physiography dataset \citep{haugerud1999digital} was smoothed to limit the difference in depth across grid cells. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was imposed to achieve constant depth across the first ten grid cells. As depicted in Figure \ref{fig:domain}, the numerical grid is rotated $29^{\circ}$ counter-clockwise of North in order to maintain computational efficency since currents within the Strait of Georgia are mainly aligned with this rotated axis. 
+
+The curvilinear orthogonal numerical grid is divided into 400 by 900 by 40 grid cells, which results in an almost uniform horizontal resolution with grid spacing approximately 400 m by 500 m. The 40 vertical $z$-levels are stretched gradually in order to achieve higher resolution in the surface layer, with approximately 1 m vertical grid spacing down to about 20 m in depth. At the bottom boundary, partial $z$-levels are utilized in order to limit large changes in bathymetry across grid cells \citep{madec2008nemo}. 
 
 
 \begin{figure}[h]
@@ -33,11 +35,11 @@ The rectangular numerical grid is divided into 900 by 400 by 40 grid cells, whic
 \caption{Model domain including bathymetry, rivers (*), and storm surge locations (o) of interest.}\label{fig:domain}
 \end{figure}
 
-\subsection{Boundary conditions}
+\subsection{Boundary conditions and subgrid scale processes}
 %lateral and bottom friction, open boundaries, eta surface
-The model includes two open boundaries that connect to the Pacific Ocean, the western boundary of the Strait of Juan de Fucan as well as Johnstone Strait at the north, both of which are forced with eight tidal constituents, temperature and salinity climatologies, and the sea surface height anomaly. The details of these forcing conditions are described below. At coastal boundaries, the partial slip paramertrization implemented by NEMO \citep{madec2008nemo} is employed. At the ocean surface, atmospheric conditions and fresh water input from rivers are included and described in more detail below. Bottom friction is evaluated through a quadratic parametrization \citep{madec2008nemo} with a drag coefficient $C_D = 5\times 10^{-3}$. 
+The model includes two open boundaries that connect to the Pacific Ocean, the western boundary of the Strait of Juan de Fuca as well as Johnstone Strait at the north, both of which are forced with eight tidal constituents, temperature and salinity climatologies, and the sea surface height anomaly. The details of these forcing conditions are described below. At coastal boundaries, the partial slip boundary condition, an approximation of the no slip boundary condition, is used. The partial slip boundary condition allows one to include the frictional effects of lateral boundaries without the restricitve resolution required to represent the lateral boundary layer under no slip conditions. A lateral eddy viscosity of 20 m $^2$ s $^{-1}$ parameterizes horizontal friction and the lateral eddy diffusivity is 20.5 m $^2$ s $^{-1}$ . At the ocean surface, meterological conditions and fresh water input from rivers are included and described in more detail below. Bottom friction is represented by a quadratic law for the bottom momentum flux with drag coefficient $C_D = 5\times 10^{-3}$. Vertical turbulence and mixing is calculated through the $k-\epsilon$ configuration of the generic length scale (GLS) turbulence closure \citep{umlauf2003generic} with background vertical eddy viscosity and diffusivity set to $1\times10^{-4}$ and $1\times10^{-5}$ m$^2$ s$^{-1}$ respectively. Details on the NEMO implementation of the partial slip lateral boundary condition, quadratic bottom friction law, and GLS turbulence closure scheme are provided by \citep{madec2008nemo}.
 
-The free surface is evaluated .. (description of split-explicit and nonlinear free surface scheme here) 
+In addition to the equations of motion, a prognostic equation for the sea surface height is solved at each time step. The inclusion the sea surface height equation requires a fairly restrictive time step due to the presence of high speed surface gravity waves. As such, the split-explicit time stepping algorithm is employed, where the free surface and barotropic equations are solved with a smaller time step than that used for the other variables. The model time step and barotropic time step are 10 s and 2 s respectively. 
 
 
 \subsubsection{Tidal forcing} 
@@ -60,14 +62,16 @@ River input provides a significant volume of freshwater to the Salish Sea and ca
 
 Freshwater runoff from each watershed was divided between the rivers in that watershed. The area drained by each river was estimated from Toporama maps by the Atlas of Canada and watershed maps available on the Washington State government website. The watersheds included in our model were Fraser (which represents approximately 44\% of the freshwater input into our domain), Skagit (12\%), East Vancouver Island (North and South) (12\%), Howe (7\%), Bute (7\%), Puget (6\%), Juan de Fuca (5\%), Jervis (4\%) and Toba (3\%). 
 
-The monthly flow from each river was input as a point source in the three grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh and at the temperature of the surface. A total of 150 rivers were parameterised by this method. 
+The monthly flow from each river was input as a point source in the three grid points closest to the surface at the model point closest to the mouth of each river. Incoming water was assumed to be fresh and at surface temperatyre. A total of 150 rivers were parameterised by this method. 
 
 %we could show the location of all the rivers on the overall location map, or on a picture of our domain, since the rivers are on the edges of the domain so they won't block any bathymetry information
 
 \subsection{Atmospheric forcing}
 
 \subsection{Initial conditions}
-Initial conditions for temperature and salinity were taken from a CTD cast in the middle Strait of Georgia taken in Sept 2002 \citep{pawlowiczetal2007}.  Conditions were initially uniform horizontally.  Velocity was initialized at zero.
+Initial conditions for temperature and salinity were taken from a CTD cast in the middle Strait of Georgia taken in Sept 2002 \citep{pawlowiczetal2007}.  Conditions were initially uniform horizontally.  Velocity was initialized at zero. 
+%Merge with below?
+%Perhaps image of spun-up stratifiction along Thalweg? Here or in model evaluation
 
 \subsection{Spin-up}
 The model was spun up for a 15.5 months from the initial conditions above, starting Sep 16, 2002, using atmospheric forcing from 2002-2003, climatological temperature and salinity and sea surface height at the boundaries, with tides and climatological river output.  All storm surge runs were started three days prior to the event of interest with zero initial velocities and sea surface height and a stratification profile from model spin up. The modelled sea surface height adjusted to forcing in less than one day. 
