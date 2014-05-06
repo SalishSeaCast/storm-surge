@@ -49,7 +49,7 @@ The model was forced by tidal elevations and currents at the Juan de Fuca and Jo
 Temperature and salinity at the Juan de Fuca boundary were taken from a weekly climatology which was created from results from a model covering the Salish Sea and the west coast of Vancouver Island \citep{massonfine2012}.  Their results, originally on s-levels were interpolated onto z-levels and then onto the NEMO horizontal grid.  To prepare the climatology all years (1995-2008) were averaged and results, approximately every 15 days, were interpolated to a weekly climatology.
 
 \subsubsection{Sea Surface Height}
-Sea surface height at the mouth of Juan de Fuca was set using values from the Tofino tide gauge.  A monthly climatology was produced using daily averages from 2000-2010, binning them by month, averaging and setting the yearly mean to zero.  For the storm surge simulations, hourly variations in sea surface height were used.  These values are the Tofino tide gauge values, de-tided and with the zero reset as for the climatology.
+Sea surface height at the mouth of Juan de Fuca was set using values from the Tofino tide gauge.  A monthly climatology was produced using daily averages from 2000-2010, binning them by month, averaging and setting the yearly mean to zero.  For the storm surge simulations, hourly variations in sea surface height were used.  These values are the Tofino tide gauge values, de-tided and with the zero reset as for the climatology. The storm surge simulations also used the sea surface height anomaly from Port Hardy, forced at the northern boundary in Johnstone Strait. 
 
 \subsubsection{Open Boundary Conditions}
 
@@ -67,6 +67,7 @@ The monthly flow from each river was input as a point source in the three grid p
 %we could show the location of all the rivers on the overall location map, or on a picture of our domain, since the rivers are on the edges of the domain so they won't block any bathymetry information
 
 \subsection{Atmospheric forcing}
+The ocean surface is forced with momentum and heat fluxes from a 33-km global atmospheric reforcasting model suitable for use in ocean modelling \citep{smith2013new}. Forecasts from the period of 2002-2011 are available. Additionally, the inverse barometric effect of the atmospheric pressure is included, an important consideration in storm surge modelling. 
 
 \subsection{Initial conditions}
 Initial conditions for temperature and salinity were taken from a CTD cast in the middle Strait of Georgia taken in Sept 2002 \citep{pawlowiczetal2007}.  Conditions were initially uniform horizontally.  Velocity was initialized at zero. 
