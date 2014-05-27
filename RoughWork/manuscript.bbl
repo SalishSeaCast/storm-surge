@@ -1,5 +1,25 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{Abeysirigunawardena, Smith, and
+  Taylor}{Abeysirigunawardena et~al.}{2011}]{abeys2011extreme}
+Abeysirigunawardena, D.~S., D.~J. Smith, and B.~Taylor (2011).
+\newblock Extreme sea surge responses to climate variability in coastal
+  {British Columbia, Canada}.
+\newblock {\em Annals of the Association of American Geographers\/}~{\em
+  101\/}(5), 992--1010.
+
+\bibitem[\protect\citeauthoryear{Engedahl}{Engedahl}{1995}]{engedahl1995use}
+Engedahl, H. (1995).
+\newblock Use of the flow relaxation scheme in a three-dimensional baroclinic
+  ocean model with realistic topography.
+\newblock {\em Tellus A\/}~{\em 47\/}(3), 365--382.
+
+\bibitem[\protect\citeauthoryear{Flather}{Flather}{1994}]{flather1994storm}
+Flather, R.~A. (1994).
+\newblock A storm surge prediction model for the northern bay of bengal with
+  application to the cyclone disaster in april 1991.
+\newblock {\em Journal of Physical Oceanography\/}~{\em 24\/}(1), 172--190.
+
 \bibitem[\protect\citeauthoryear{Foreman, Crawford, Cherniawsky, Henry, and
   Tarbotto}{Foreman et~al.}{2000}]{foreman2000webtide}
 Foreman, M., W.~Crawford, J.~Cherniawsky, R.~Henry, and M.~Tarbotto (2000).

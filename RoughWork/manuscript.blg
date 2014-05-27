@@ -8,45 +8,45 @@ Warning--page numbers missing in madec2008nemo
 Warning--page numbers missing in massonfine2012
 Warning--no number and no volume in smith2013new
 Warning--page numbers missing in smith2013new
-You've used 11 entries,
+You've used 14 entries,
             2861 wiz_defined-function locations,
-            686 strings with 7078 characters,
-and the built_in function-call counts, 8317 in all, are:
-= -- 651
-> -- 718
+            705 strings with 7617 characters,
+and the built_in function-call counts, 10239 in all, are:
+= -- 816
+> -- 831
 < -- 0
-+ -- 232
-- -- 244
-* -- 808
-:= -- 1541
-add.period$ -- 33
-call.type$ -- 11
-change.case$ -- 88
-chr.to.int$ -- 11
-cite$ -- 17
-duplicate$ -- 190
-empty$ -- 449
-format.name$ -- 280
-if$ -- 1524
++ -- 264
+- -- 282
+* -- 982
+:= -- 1887
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 108
+chr.to.int$ -- 14
+cite$ -- 20
+duplicate$ -- 244
+empty$ -- 582
+format.name$ -- 322
+if$ -- 1879
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 58
-num.names$ -- 110
-pop$ -- 60
+missing$ -- 15
+newline$ -- 73
+num.names$ -- 140
+pop$ -- 71
 preamble$ -- 1
-purify$ -- 155
+purify$ -- 193
 quote$ -- 0
-skip$ -- 209
+skip$ -- 260
 stack$ -- 0
-substring$ -- 395
-swap$ -- 60
+substring$ -- 531
+swap$ -- 78
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
+type$ -- 270
 warning$ -- 6
-while$ -- 98
+while$ -- 129
 width$ -- 0
-write$ -- 145
+write$ -- 184
 (There were 6 warnings)
