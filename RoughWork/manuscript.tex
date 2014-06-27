@@ -21,17 +21,18 @@ Abstract to be completed
 %some general intro paragraph here
 
 %my attempt at physical oceanopgraphy SoG- Susan feel free to edit.
-The Strait of Georgia is a strongly stratified, semi-enclosed body of water located between Vancouver Island and the mainland of British Columbia. It is part of a larger system of waterways collectively known as the Salish Sea and is connected to the Pacific Ocean via the Strait of Juan de Fuca and Johnstone Strait. Several features related to the physical oceanopgraphy of this region render it difficut to model numerically. The outlfow from the Fraser River in the late spring is the primary source fresh water within the Strait of Georgia, and leads to large density gradients in the summer months. Additionally, strong tidal mixing through the San Juan and Gulf Islands produces horizontal density gradients that separate the saline waters of the Strait of Juan de Fuca and the fresher water of the Strait of Georgia. It is important to accurately represent the vertical mixing in this region as it sets the rate of export of fresh water through estuarine circulation. The strong and fast tidal currents through the narrow channels of the north, such as Discovery Passage and Johnstone Strait, pose a particular challenge for numerical models. Yet, several modelling efforts for this region exist, ranging in choices of grid structure, mixing parametrizations, and domain size and extent. 
+The Strait of Georgia is a strongly stratified, semi-enclosed body of water located between Vancouver Island and the mainland of British Columbia. It is part of a larger system of waterways collectively known as the Salish Sea and is connected to the Pacific Ocean via the Strait of Juan de Fuca and Johnstone Strait. Several features related to the physical oceanopgraphy of this region render it a challenge to model numerically. The outlfow from the Fraser River in the late spring is the primary source fresh water within the Strait of Georgia and leads to large vertical density gradients in the summer months. Additionally, strong tidal mixing through the San Juan and Gulf Islands produces horizontal density gradients that separate the saline waters of the Strait of Juan de Fuca and the fresher water of the Strait of Georgia. It is important to accurately represent the vertical mixing in this region as it sets the rate of export of fresh water through estuarine circulation. The strong and fast tidal currents through the narrow channels of the north, such as Discovery Passage and Johnstone Strait, pose a particular challenge for numerical models. Yet, several modelling efforts for this region exist, ranging in choices of grid structure, mixing parametrizations, and domain size and extent. 
 
 %overview oF SoG/Salish Sea models
 
 
 %intro to storm surges
-Many coastal communities in the Strait of Georgia are at risk to flooding and property damaged caused by storm surges, a natural hazard arising from the combination of a strong storm and high tide. The low atmospheric pressure associated with a storm acts as an inverse barometer elevating the sea level. This effect in combination with strong winds pushing water up against the coast can cause flooding, particularly if the storm occurs during an unusually high tide.  Additionally, there is a small contribution to increased sea level due to the thermal expansion of water during warmer years set by the El Nino Southern Oscillation (ENSO) \citep{abeys2011extreme}. %more on past events, significance
+Many coastal communities in the Strait of Georgia are at risk to flooding and property damaged caused by storm surges, a natural hazard arising from the combination of a strong wind storm and high tide. The low atmospheric pressure associated with a storm acts as an inverse barometer elevating the sea level. This effect in combination with strong winds pushing water up against the coast can cause flooding, particularly if the storm occurs during an unusually high tide.  Additionally, there is a small contribution to increased sea level due to the thermal expansion of water during warmer years set by the El Nino Southern Oscillation (ENSO) \citep{abeys2011extreme}. %more on past events, significance
 
 %storm surge modelling
 
 %overview of paper: model configuration, model evaluation, storm surge hindcasts.
+This paper is organized as follows: an overivew of the model configuration and domain including a description of open and surface boundary conditions is provided in section \ref{sec:config}. This section also describes the ocean model we have employed as well as choices in grid structure and mixing parameterizations. Next, section \ref{sec:model} presents an evaluation of model performance through comparisons of tidal amplitudes and phases with observations. The model's accuracy in producing storm surge hind casts is also asses in section \ref{sec:storm}. Finally, a summary and discussion of future research goals is provided in section \ref{sec:diss}.  
 
 \section{Model Configuration}\label{sec:config}
 %To be included: NEMO overview, tides, rivers, bathymetry, atmospheric forcing, vertical/lateral mixing, boundary conditions, grid. 
@@ -42,7 +43,7 @@ We have used the Nucleus for European Modelling of the Ocean (NEMO) framework in
 \subsection{Model domain}
 The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait as shown in Figure \ref{fig:domain}. Bathymetry from the Cascadia physiography dataset \citep{haugerud1999digital} was smoothed to limit the difference in depth across grid cells. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was imposed to achieve constant depth across the first ten grid cells. As depicted in Figure \ref{fig:domain}, the numerical grid is rotated $29^{\circ}$ counter-clockwise of North in order to maintain computational efficiency since currents within the Strait of Georgia are mainly aligned with this rotated axis. 
 
-The curvilinear orthogonal numerical grid is divided into 398 by 898 by 40 grid cells, which results in an almost uniform horizontal resolution with grid spacing approximately 440 m by 500 m. The 40 vertical $z$-levels are stretched gradually in order to achieve higher resolution in the surface layer, with 1 m vertical grid spacing down to about 10 m in depth. Below 10m the grid is stretched gradually with a maximum grid spacing of 27 m at the lowest layer. At the bottom boundary, partial $z$-levels are utilized in order to limit large changes in bathymetry across grid cells \citep{madec2008nemo}. 
+The curvilinear orthogonal numerical grid is divided into 398 by 898 by 40 grid cells, which results in an almost uniform horizontal resolution with grid spacing approximately 440 m by 500 m. The 40 vertical $z$-levels are stretched gradually in order to achieve higher resolution in the surface layer, with 1 m vertical grid spacing down to about 10 m in depth. Below 10m the grid is stretched gradually to a maximum grid spacing of 27 m at the lowest layer. At the bottom boundary, partial $z$-levels are utilized in order to limit large changes in bathymetry across grid cells \citep{madec2008nemo}. 
 
 
 \begin{figure}[h]
@@ -54,7 +55,7 @@ The curvilinear orthogonal numerical grid is divided into 398 by 898 by 40 grid 
 
 \subsection{Boundary conditions and sub-grid scale processes}
 %lateral and bottom friction, open boundaries, eta surface
-The model includes two open boundaries that connect to the Pacific Ocean, the western boundary of the Strait of Juan de Fuca as well as Johnstone Strait at the north, both of which are forced with eight tidal constituents, temperature and salinity climatologies, and the sea surface height anomaly. The details of these forcing conditions are described below. At coastal boundaries, the partial slip boundary condition, an approximation to no slip, is used. The partial slip boundary condition allows one to include the frictional effects of lateral boundaries without the restrictive resolution required to represent the lateral boundary layer under no slip conditions. A lateral eddy viscosity of 20 m $^2$ s $^{-1}$ parametrizes horizontal friction and the lateral eddy diffusivity is 20.5 m $^2$ s $^{-1}$ . At the ocean surface, meteorological conditions and fresh water input from rivers are included and described in more detail below. Bottom friction is represented by a quadratic law for the bottom momentum flux with drag coefficient $C_D = 5\times 10^{-3}$. Vertical turbulence and mixing is calculated through the $k-\epsilon$ configuration of the generic length scale (GLS) turbulence closure \citep{umlauf2003generic} with background vertical eddy viscosity and diffusivity set to $1\times10^{-4}$ and $1\times10^{-5}$ m$^2$ s$^{-1}$ respectively. Details on the NEMO implementation of the partial slip lateral boundary condition, quadratic bottom friction law, and GLS turbulence closure scheme are provided by \citet{madec2008nemo}.
+The model includes two open boundaries that connect to the Pacific Ocean, the western boundary of the Strait of Juan de Fuca as well as Johnstone Strait at the north, both of which are forced with eight tidal constituents, temperature and salinity climatologies, and the sea surface height anomaly. The details of these forcing conditions are described below. At coastal boundaries, the partial slip boundary condition, an approximation to no slip, is used. The partial slip boundary condition allows one to include the frictional effects of lateral boundaries without the restrictive resolution required to represent the lateral boundary layer under no slip conditions. A lateral eddy viscosity of 20 m $^2$ s $^{-1}$ parametrizes horizontal friction and a lateral eddy diffusivity of 20.5 m $^2$ s $^{-1}$ is used. At the ocean surface, meteorological conditions and fresh water input from rivers are included and described in more detail below. Bottom friction is represented by a quadratic law for the bottom momentum flux with drag coefficient $C_D = 5\times 10^{-3}$. Vertical turbulence and mixing is calculated through the $k-\epsilon$ configuration of the generic length scale (GLS) turbulence closure \citep{umlauf2003generic} with background vertical eddy viscosity and diffusivity set to $1\times10^{-4}$ and $1\times10^{-5}$ m$^2$ s$^{-1}$ respectively. Details on the NEMO implementation of the partial slip lateral boundary condition, quadratic bottom friction law, and GLS turbulence closure scheme are provided by \citet{madec2008nemo}.
 
 In addition to the equations of motion, a prognostic equation for the sea surface height is solved at each time step. The inclusion the sea surface height equation requires a fairly restrictive time step due to the presence of high speed surface gravity waves. As such, the split-explicit time stepping algorithm is employed, where the free surface and barotropic equations are solved with a smaller time step than that used for the other variables. The model time step and barotropic time step are 10 s and 2 s respectively. 
 
@@ -75,7 +76,7 @@ The tidal forcing and sea surface height was used in the barotropic velocity for
 The baroclinic velocities at the boundary were set to be equal to the values inside the boundary (zero-gradient boundary conditions).  This scheme is not part of core NEMO.  Zero gradient conditions were chosen because the baroclinic velocity at the mouth of Juan de Fuca is primarily estuarine and thus set by density variations between inside and outside the domain.
 
 \subsection{River forcing}
-River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterisations were required to represent river flow. \citet{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Monthly runoff volumes for each watershed for each year from 1970 to 2012 were acquired from \citet{morrison2011rivers}, as well as monthly averages. 
+River input provides a significant volume of freshwater to the Salish Sea and can influence stratification, circulation and primary productivity. However, most rivers in the domain are not gauged so parameterizations were required to represent river flow. \citet{morrison2011rivers} provides a method for estimating freshwater runoff in the Salish Sea region based on precipitation. Monthly runoff volumes for each watershed for each year from 1970 to 2012 were acquired from \citet{morrison2011rivers}, as well as monthly averages. 
 
 Freshwater runoff from each watershed was divided between the rivers in that watershed. The area drained by each river was estimated from Toporama maps by the Atlas of Canada and watershed maps available on the Washington State government website. The watersheds included in our model were Fraser (which represents approximately 44\% of the freshwater input into our domain), Skagit (12\%), East Vancouver Island (North and South) (12\%), Howe (7\%), Bute (7\%), Puget (6\%), Juan de Fuca (5\%), Jervis (4\%) and Toba (3\%). 
 
@@ -114,12 +115,27 @@ where $A_0$, $A_m$, $g_0$ and $g_m$ are observed and modelled amplitudes and pha
 Complex differences were less than ??cm at all stations in our domain, which was assumed to be acceptable for our purposes. 
 %if it's favourable, we could compare our complex differences to Foreman et al (1995), who got an average of D=3cm for M2 and D=2.5cm for K1
 
-\subsection{Stratification}
+\subsection{Stratification} 
+%outline: thalweg, plots of winter/summer stratty
 
 \section{Storm Surge Hind casts}\label{sec:storm}
+%outline: 
+%1. factors contributing to storm surge with focus on Feb 2006 event
+%2. Strong wind event but no surge (maybe Dec 2006 or Nov 2009)
+%3. High resolution wind (hopefully Dec 2012)
 
-\section{Conclusions}\label{sec:conclusions}
+\subsection{Factors Contributing to Storm Surges: Feb 4, 2006}
 
+\subsection{Strong wind event: }
+
+\subsection{High Resolution Atmospheric Forcing: Dec 17, 2012}
+
+\section{Discussion}\label{sec:diss}
+%future directions: running real time, biology and chemistry, model improvements?
+
+\section{Acknowledgements}\label{sec:ack}
+We would like to thank Michael Foreman, Diane Masson, and Luc Fillion for providing data used in model set up and evaluation. This project is funded by the Marine Environment Observation Prediction and Response Network (MEOPAR), a Network of Centres of Excellence of Canada.  
+%I'm likely missing a lot more (Keith, Youyu, Vasily, JP, Rich, Mark). Not sure about authorship but something to think about for later....
 
 \bibliographystyle{chicago}
 \bibliography{ref}
