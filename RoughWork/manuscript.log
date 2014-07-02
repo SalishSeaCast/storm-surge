@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  25 JUN 2014 17:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  2 JUL 2014 14:38
 entering extended mode
  %&-line parsing enabled.
 **manuscript.tex
@@ -156,13 +156,13 @@ File: Figures/bathy.png Graphic file (type png)
  <use Figures/bathy.png> [2 <./Figures/bathy.png>] [3] [4] (./manuscript.bbl [5
 ]) [6] (./manuscript.aux) ) 
 Here is how much of TeX's memory you used:
- 1926 strings out of 495061
- 23532 string characters out of 1182622
- 81521 words of memory out of 3000000
- 5117 multiletter control sequences out of 15000+50000
+ 1928 strings out of 495061
+ 23554 string characters out of 1182622
+ 81529 words of memory out of 3000000
+ 5119 multiletter control sequences out of 15000+50000
  9976 words of font info for 36 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,6n,21p,1590b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,21p,1590b,216s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/s
@@ -175,7 +175,7 @@ cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmti10.pfb>
-Output written on manuscript.pdf (6 pages, 707587 bytes).
+Output written on manuscript.pdf (6 pages, 708422 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
