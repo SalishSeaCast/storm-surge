@@ -49,13 +49,6 @@ Haugerud, R.~A. (1999).
 Madec, G. (2008).
 \newblock Nemo ocean engine.
 
-\bibitem[\protect\citeauthoryear{Masson and Cummins}{Masson and
-  Cummins}{2004}]{masson2004modelling}
-Masson, D. and P.~F. Cummins (2004).
-\newblock Observations and modeling of seasonal variability in the {Straits of
-  Georgia and Juan de Fuca}.
-\newblock {\em Journal of Marine Research\/}~{\em 62\/}(4), 491--516.
-
 \bibitem[\protect\citeauthoryear{Masson and Fine}{Masson and
   Fine}{2012}]{massonfine2012}
 Masson, D. and I.~Fine (2012).
@@ -69,6 +62,13 @@ Morrison, J., M.~Foreman, and D.~Masson (2011).
 \newblock A method for estimating monthly freshwater discharge affecting
   {British Columbia} coastal waters.
 \newblock {\em Atmosphere-Ocean\/}~{\em 50\/}(1), 1--8.
+
+\bibitem[\protect\citeauthoryear{Pawlowicz, Beardsley, and Lentz}{Pawlowicz
+  et~al.}{2002}]{pawlowicz2002classical}
+Pawlowicz, R., B.~Beardsley, and S.~Lentz (2002).
+\newblock Classical tidal harmonic analysis including error estimates in matlab
+  using t\_tide.
+\newblock {\em Computers \& Geosciences\/}~{\em 28\/}(8), 929--937.
 
 \bibitem[\protect\citeauthoryear{Pawlowicz, Riche, and Halverson}{Pawlowicz
   et~al.}{2007}]{pawlowiczetal2007}

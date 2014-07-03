@@ -33,7 +33,7 @@ Many coastal communities in the Strait of Georgia are at risk to flooding and pr
 %storm surge modelling
 
 %overview of paper: model configuration, model evaluation, storm surge hindcasts.
-This paper is organized as follows: an overivew of the model configuration and domain including a description of open and surface boundary conditions is provided in section \ref{sec:config}. This section also describes the ocean model we have employed as well as choices in grid structure and mixing parameterizations. Next, section \ref{sec:model} presents an evaluation of model performance through comparisons of tidal amplitudes and phases with observations. The model's accuracy in producing storm surge hind casts is also asses in section \ref{sec:storm}. Finally, a summary and discussion of future research goals is provided in section \ref{sec:diss}.  
+This paper is organized as follows: an overivew of the model configuration and domain including a description of open and surface boundary conditions is provided in section \ref{sec:config}. This section also describes the ocean model we have employed as well as choices in grid structure and mixing parameterizations. Next, section \ref{sec:model} presents an evaluation of model performance through comparisons of tidal amplitudes and phases with observations. The model's accuracy in producing storm surge hindcasts is also assesed in section \ref{sec:storm}. Finally, a summary and discussion of future research goals is provided in section \ref{sec:diss}.  
 
 \section{Model Configuration}\label{sec:config}
 %To be included: NEMO overview, tides, rivers, bathymetry, atmospheric forcing, vertical/lateral mixing, boundary conditions, grid. 
@@ -62,7 +62,7 @@ In addition to the equations of motion, a prognostic equation for the sea surfac
 
 
 \subsubsection{Tidal forcing} 
-The model was forced by eight tidal constituents (K1 ,O1, P1, Q1, M2, K2, N2, S2) at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major M2 and K1 constituents. Additionally, O1 and S2 elevation harmonics from their measurements were employed. The remaining constituents were extrapolated from Webtide. 
+The model was forced by eight tidal constituents ($K_1$ ,$O_1$, $P_1$, $Q_1$, $M_2$, $K_2$, $N_2$, $S_2$) at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major $M_2$ and $K_1$ constituents. Additionally, $O_1$ and $S_2$ elevation harmonics from their measurements were employed. The remaining constituents were extrapolated from Webtide. 
 
 \subsubsection{Temperature and salinity}
 Temperature and salinity at the Juan de Fuca boundary were taken from a weekly climatology which was created from results from a model covering the Salish Sea and the west coast of Vancouver Island \citep{massonfine2012}.  Their results, originally on s-levels were interpolated onto z-levels and then onto the NEMO horizontal grid.  To prepare the climatology all years (1995-2008) were averaged and results, approximately every 15 days, were interpolated to a weekly climatology.
@@ -140,26 +140,42 @@ Complex differences were less than ??cm at all stations in our domain, which was
 \subsection{Stratification} 
 %outline: thalweg, plots of winter/summer stratty
 
-\section{Storm Surge Hind casts}\label{sec:storm}
+\section{Storm Surge Hindcasts}\label{sec:storm}
 %outline: 
 %1. factors contributing to storm surge with focus on Feb 2006 event
 %2. Strong wind event but no surge (maybe Dec 2006 or Nov 2009)
 %3. High resolution wind (hopefully Dec 2012)
 
 
-Forcing the model with only eight tidal constituents leads to an error in sea surface height predictions due to the omission of the next leading order tidal constituents. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can be up to 40 cm (check) during times of high tidal range, and in particular, during the storm surge season. As such, storm surge model predictions were corrected by accounting for this error. 
+Forcing the model with only eight tidal constituents leads to an error in modelled sea surface height predictions due to the omission of the next leading order tidal constituents such as $J_1$, $SA$, and $MM$. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can be up to 40 cm (check) during times of high tidal range, and in particular, during the storm surge season Nov-Feb. As such, storm surge model predictions were corrected by accounting for this error. Additionally, since the sea surface height is calculated about a zero reverence level, the modelled water level is determined by adding a long term average of mean sea level at the desired location to the modelled sea surface height.
+
+Model results have been compared with observations by calculating both the total modelled water level and the modelled residual. . The modelled residual is calculated as the difference in model output between a simulation with all forcing conditions and a simulation forced only with tides and rivers. The observed water level is taken from observations by Fisheries and Oceans Canada (citation) and the observed residual is the observations minus tidal predictions. Tidal predictions are calculated using t\_tide \cite{pawlowicz2002classical}, a MATLAB tool that calculates tidal harmonics from a given time series, in this cae, from the year prior surge event on interest. 
+
+Three significiant surge or wind events have been considered. First, a study of a large surge event on Feb 4, 2006 is presented. This event caused siginificant damage and flooding in Boundary Bay, a community south of Richmond. (citation) and has been chosen as a case study to demonstrate the model's skill in reproducing a storm surge and to quantitatively assess forcing conditions that are important in storm surge hindcasting. 
+%% Trying to decide Dec 15, 2005 or Nov 2009. I think it's more sense to do Nov 2009 - strong winds but no surge. 
+Next, an extreme wind event which resulted in damage to property in Vancouver and surrounding areas is discussed. This event occured on Dec 15, 2006 but did not result in significant flooding such as that which occured on Feb 4, 2006 because the storm did not occur at high tide. This case was choosen to idenitify the model's capability in handling large wind events that do not result in high water levels. Finally, a case with high resolution atmospheric forcing for a recent surge on Dec 17, 2012 is discussed.
+
 
 \subsection{Factors Contributing to Storm Surges: Feb 4, 2006}
+
+
+Simulation was run from Feb1-Feb7. The maximum water level observed at Point Atkinson on this day was 5.49 m, which is 0.8 m higher than the predicted tides, highlighting the significance of this event as it resulted in a large anomaly and also reached water levels close to the highest level ever recorded (5.61 m). 
+
+The model's ability to reproduce this event is demonstrated in Figure \ref{fig:feb2006} which compares observations and corrected model output at Point Atkinson, Victoria, Patricia Bay, and Campbell River. The timing of maximum water level matches well between the observations and the model at all four locations, the most siginificant contribution to high water level being from the tides. There is also agood match in amplitude of the water level maximum at Point Atkinson and Cambell River, with a relative error less than 
+2\%. However, the error at Victoria and Patricia Bay is more siginificant, at 12\% and 8\% respectively, likely due to error in $M_2$ tidal amplitudes as discussed above. The precise location and maginitude of the $M_2$ amphidromic dome around Victoria is very sensitive to model parameters such as bottom friction. 
+
+The error in modelled residuals at Victoria and Campbell River is also apparent in these figures. Most noticebale is underestimate in modelled residual throughout most of the time period. Additionally, there is a delay of about 2-3 hours in the timing of maximum residual at most locations and the  relative errors in maximum residual range from 5\% at Point Atkinson to 29\% at Patricia Bay. 
+%Question: is it better to present relative errors or just difference?
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{Figures/feb2006.pdf}
-\caption{Comparison of observations and model output for the Feb. 4, 2006 storm surge. Left: total water level observation (solid) and corrected model (dashed). Right: observed residuals (solid) and modelled residuals (dashed).}
+\caption{Comparison of observations and model output for the Feb 4, 2006 storm surge. Left: total water level observation (solid) and corrected model (dashed). Right: observed residuals (solid) and modelled residuals (dashed).}
 \label{fig:feb2006}
 \end{figure}
-%Note that colour may be an option here (no extra charge for A-O). But it will be worse for printing. Too much white space around image. Will fix later..
+%Note that colour may be an option here (no extra charge for A-O). But it will be worse for printing.
 
-\subsection{Strong wind event: }
+\subsection{Strong wind event: Dec 15, 2006}
 
 \subsection{High Resolution Atmospheric Forcing: Dec 17, 2012}
 

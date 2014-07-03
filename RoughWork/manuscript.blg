@@ -10,43 +10,43 @@ Warning--no number and no volume in smith2013new
 Warning--page numbers missing in smith2013new
 You've used 14 entries,
             2861 wiz_defined-function locations,
-            705 strings with 7617 characters,
-and the built_in function-call counts, 10239 in all, are:
-= -- 816
-> -- 831
+            708 strings with 7665 characters,
+and the built_in function-call counts, 10266 in all, are:
+= -- 814
+> -- 840
 < -- 0
-+ -- 264
-- -- 282
-* -- 982
-:= -- 1887
++ -- 266
+- -- 280
+* -- 996
+:= -- 1890
 add.period$ -- 42
 call.type$ -- 14
-change.case$ -- 108
+change.case$ -- 109
 chr.to.int$ -- 14
 cite$ -- 20
 duplicate$ -- 244
 empty$ -- 582
-format.name$ -- 322
-if$ -- 1879
+format.name$ -- 320
+if$ -- 1885
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 15
 newline$ -- 73
 num.names$ -- 140
-pop$ -- 71
+pop$ -- 72
 preamble$ -- 1
-purify$ -- 193
+purify$ -- 194
 quote$ -- 0
-skip$ -- 260
+skip$ -- 255
 stack$ -- 0
-substring$ -- 531
+substring$ -- 535
 swap$ -- 78
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 270
 warning$ -- 6
-while$ -- 129
+while$ -- 126
 width$ -- 0
 write$ -- 184
 (There were 6 warnings)
