@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage{natbib}
 \usepackage{amsmath}
+\usepackage{epspdfconversion}
 
 \title{Storm Surges}
 
@@ -129,6 +130,8 @@ RMS Error  &     &                      &          &     &                      
 \caption{Comparisons of modelled and observed amplitudes and phases.}
 \label{tab:comparison} 
 \end{table}
+%May have to include station numbers and locations on a map? Might be too busy with rivers too...
+%Should we use the new method of calculating tides?
 
 
 Complex differences were less than ??cm at all stations in our domain, which was assumed to be acceptable for our purposes. 
@@ -143,7 +146,18 @@ Complex differences were less than ??cm at all stations in our domain, which was
 %2. Strong wind event but no surge (maybe Dec 2006 or Nov 2009)
 %3. High resolution wind (hopefully Dec 2012)
 
+
+Forcing the model with only eight tidal constituents leads to an error in sea surface height predictions due to the omission of the next leading order tidal constituents. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can be up to 40 cm (check) during times of high tidal range, and in particular, during the storm surge season. As such, storm surge model predictions were corrected by accounting for this error. 
+
 \subsection{Factors Contributing to Storm Surges: Feb 4, 2006}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{Figures/feb2006.pdf}
+\caption{Comparison of observations and model output for the Feb. 4, 2006 storm surge. Left: total water level observation (solid) and corrected model (dashed). Right: observed residuals (solid) and modelled residuals (dashed).}
+\label{fig:feb2006}
+\end{figure}
+%Note that colour may be an option here (no extra charge for A-O). But it will be worse for printing. Too much white space around image. Will fix later..
 
 \subsection{Strong wind event: }
 
