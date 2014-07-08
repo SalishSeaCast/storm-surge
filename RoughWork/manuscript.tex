@@ -62,7 +62,7 @@ In addition to the equations of motion, a prognostic equation for the sea surfac
 
 
 \subsubsection{Tidal forcing} 
-The model was forced by eight tidal constituents ($K_1$ ,$O_1$, $P_1$, $Q_1$, $M_2$, $K_2$, $N_2$, $S_2$) at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major $M_2$ and $K_1$ constituents. Additionally, $O_1$ and $S_2$ elevation harmonics from their measurements were employed. The remaining constituents were extrapolated from Webtide. 
+The model was forced by eight tidal constituents (K$_1$ ,O$_1$, P$_1$, Q$_1$, M$_2$, K$_2$, N$_2$, S$_2$) at the Juan de Fuca and Johnstone Strait boundaries. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major M$_2$ and K$_1$ constituents. Additionally, O$_1$ and S$_2$ elevation harmonics from their measurements were employed. The remaining constituents were extrapolated from Webtide. 
 
 \subsubsection{Temperature and salinity}
 Temperature and salinity at the Juan de Fuca boundary were taken from a weekly climatology which was created from results from a model covering the Salish Sea and the west coast of Vancouver Island \citep{massonfine2012}.  Their results, originally on s-levels were interpolated onto z-levels and then onto the NEMO horizontal grid.  To prepare the climatology all years (1995-2008) were averaged and results, approximately every 15 days, were interpolated to a weekly climatology.
@@ -99,11 +99,11 @@ The model was spun up for a 15.5 months from the initial conditions above, start
 \section{Model Evaluation}\label{sec:model}
 
 \subsection{Tidal evaluation}
-The model was initially evaluated qualitatively by comparing patterns of tidal amplitude and phase to results from \citep{foreman1995tidal}. For example, the amphidromic dome around Victoria was produced in the $M_2$ results, as well as the monotonic increase in $K_1$ amplitude moving northwards along the Strait of Georgia. Initially, the Johnstone Strait boundary was closed, but modelled $M_2$ amplitudes were too small compared to measured amplitudes... TBC
+The model was initially evaluated qualitatively by comparing patterns of tidal amplitude and phase to results from \citep{foreman1995tidal}. For example, the amphidromic dome around Victoria was produced in the M$_2$ results, as well as the monotonic increase in $K_1$ amplitude moving northwards along the Strait of Georgia. Initially, the Johnstone Strait boundary was closed, but modelled M$_2$ amplitudes were too small compared to measured amplitudes... TBC
 
 %perhaps a nice contour map of M2 and K1 amps and phases goes here?
 
-Once our model was reproducing observed tidal patterns, model results were quantitatively evaluated by comparing modelled harmonic constituents to measured harmonic constituents at tidal measuring stations throughout the domain. Comparisons were made using the complex difference (D), defined by \citep{foreman1995tidal} as:
+Once our model was reproducing observed tidal patterns, model results were quantitatively evaluated by comparing modelled harmonic constituents to measured harmonic constituents at tidal measuring stations throughout the domain. Comparisons were made using the complex difference ($D$), defined by \citep{foreman1995tidal} as:
 
 \begin{equation}
 D = [(A_0 \cos g_0 - A_m \cos g_m)^2 + (A_0 \sin g_0 - A_m \sin g_m)^2]^{1/2}
@@ -117,7 +117,7 @@ where $A_0$, $A_m$, $g_0$ and $g_m$ are observed and modelled amplitudes and pha
 \centering 
 \begin{tabular}{l c c c c c c} 
 \hline 
-& \multicolumn{3}{c}{$M_2$} & \multicolumn{3}{c}{$K_1$} \\ 
+& \multicolumn{3}{c}{M$_2$} & \multicolumn{3}{c}{K$_1$} \\ 
 \hline 
 Location   & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) \\
 \hline 
@@ -127,7 +127,7 @@ Mean Error &     &                      &          &     &                      
 RMS Error  &     &                      &          &     &                      &          \\
 \hline  
 \end{tabular}
-\caption{Comparisons of modelled and observed amplitudes and phases.}
+\caption{Comparisons of modelled and observed amplitudes and phases. $R$ is the ration of modelled to observed amplitude. $\Delta \phi$ is the difference between modelled and observed phase. $D$ is the complex difference. }
 \label{tab:comparison} 
 \end{table}
 %May have to include station numbers and locations on a map? Might be too busy with rivers too...
@@ -153,18 +153,17 @@ Model results have been compared with observations by calculating both the total
 
 Three significiant surge or wind events have been considered. First, a study of a large surge event on Feb 4, 2006 is presented. This event caused siginificant damage and flooding in Boundary Bay, a community south of Richmond. (citation) and has been chosen as a case study to demonstrate the model's skill in reproducing a storm surge and to quantitatively assess forcing conditions that are important in storm surge hindcasting. 
 %% Trying to decide Dec 15, 2005 or Nov 2009. I think it's more sense to do Nov 2009 - strong winds but no surge. 
-Next, an extreme wind event which resulted in damage to property in Vancouver and surrounding areas is discussed. This event occured on Dec 15, 2006 but did not result in significant flooding such as that which occured on Feb 4, 2006 because the storm did not occur at high tide. This case was choosen to idenitify the model's capability in handling large wind events that do not result in high water levels. Finally, a case with high resolution atmospheric forcing for a recent surge on Dec 17, 2012 is discussed.
+Next, an extreme wind event which resulted in property damage in Vancouver and surrounding areas is discussed. This event occured on Dec 15, 2006 but did not result in significant flooding such as that which occured on Feb 4, 2006 because the storm did not occur at high tide. This case was choosen to identify the model's capability in handling large wind events that do not result in high water levels. Finally, a case with high resolution atmospheric forcing for a recent surge on Dec 17, 2012 is discussed.
 
 
 \subsection{Factors Contributing to Storm Surges: Feb 4, 2006}
-
+%Include spatial extend of surge
 
 Simulation was run from Feb1-Feb7. The maximum water level observed at Point Atkinson on this day was 5.49 m, which is 0.8 m higher than the predicted tides, highlighting the significance of this event as it resulted in a large anomaly and also reached water levels close to the highest level ever recorded (5.61 m). 
 
-The model's ability to reproduce this event is demonstrated in Figure \ref{fig:feb2006} which compares observations and corrected model output at Point Atkinson, Victoria, Patricia Bay, and Campbell River. The timing of maximum water level matches well between the observations and the model at all four locations, the most siginificant contribution to high water level being from the tides. There is also agood match in amplitude of the water level maximum at Point Atkinson and Cambell River, with a relative error less than 
-2\%. However, the error at Victoria and Patricia Bay is more siginificant, at 12\% and 8\% respectively, likely due to error in $M_2$ tidal amplitudes as discussed above. The precise location and maginitude of the $M_2$ amphidromic dome around Victoria is very sensitive to model parameters such as bottom friction. 
+The model's ability to reproduce this event is demonstrated in Figure \ref{fig:feb2006} which compares observations and corrected model output at Point Atkinson, Victoria, Patricia Bay, and Campbell River. The timing of maximum water level matches well between the observations and the model at all four locations, the most siginificant contribution to high water level being from the tides. There is also a good match in amplitude of the water level maximum at Point Atkinson and Cambell River, with a relative error less than 2\%. However, the error at Victoria and Patricia Bay is more siginificant, at 12\% and 8\% respectively, likely due to error in M$_2$ tidal amplitudes as discussed above. The precise location and magnitude of the M$_2$ amphidrome around Victoria is very sensitive to model parameters such as bottom friction. 
 
-The error in modelled residuals at Victoria and Campbell River is also apparent in these figures. Most noticebale is underestimate in modelled residual throughout most of the time period. Additionally, there is a delay of about 2-3 hours in the timing of maximum residual at most locations and the  relative errors in maximum residual range from 5\% at Point Atkinson to 29\% at Patricia Bay. 
+The error in modelled residuals at Victoria and Campbell River is also apparent in these figures. Most noticebale is underestimate in modelled residual throughout most of the time period. Additionally, there is a delay of about 2-3 hours in the timing of maximum residual and the relative errors in maximum residual range from 5\% at Point Atkinson to 29\% at Patricia Bay. 
 %Question: is it better to present relative errors or just difference?
 %I think Hal Ritchie's talk with the storm surges had some stats presented. Look this up...
 
@@ -176,7 +175,7 @@ The error in modelled residuals at Victoria and Campbell River is also apparent 
 \end{figure}
 %Note that colour may be an option here (no extra charge for A-O). But it will be worse for printing.
 
-\subsection{Strong wind event: Dec 15, 2006}
+\subsection{Strong wind event: Dec 15, 2006}% or Nov 2009
 
 \subsection{High Resolution Atmospheric Forcing: Dec 17, 2012}
 
@@ -184,7 +183,7 @@ The error in modelled residuals at Victoria and Campbell River is also apparent 
 %future directions: running real time, biology and chemistry, model improvements?
 
 \section{Acknowledgements}\label{sec:ack}
-We would like to thank Michael Foreman, Diane Masson, and Luc Fillion for providing data used in model set up and evaluation. This project is funded by the Marine Environment Observation Prediction and Response Network (MEOPAR), a Network of Centres of Excellence of Canada.  
+We would like to thank Michael Foreman, Diane Masson, and Luc Fillion for providing data used in model set up and evaluation. This project is funded by the Marine Environmental Observation Prediction and Response Network (MEOPAR), a Network of Centres of Excellence of Canada.  
 %I'm likely missing a lot more (Keith, Youyu, Vasily, JP, Rich, Mark). Not sure about authorship but something to think about for later....
 
 \bibliographystyle{chicago}
