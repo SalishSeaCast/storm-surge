@@ -22,7 +22,7 @@ Abstract to be completed
 %some general intro paragraph here
 
 %my attempt at physical oceanopgraphy SoG- Susan feel free to edit.
-The Strait of Georgia is a strongly stratified, semi-enclosed body of water located between Vancouver Island and the mainland of British Columbia. It is part of a larger system of waterways collectively known as the Salish Sea and is connected to the Pacific Ocean via the Strait of Juan de Fuca and Johnstone Strait. Several features related to the physical oceanopgraphy of this region render it a challenge to model numerically. The outlfow from the Fraser River in the late spring is the primary source fresh water within the Strait of Georgia and leads to large vertical density gradients in the summer months. Additionally, strong tidal mixing through the San Juan and Gulf Islands produces horizontal density gradients that separate the saline waters of the Strait of Juan de Fuca and the fresher water of the Strait of Georgia. It is important to accurately represent the vertical mixing in this region as it sets the rate of export of fresh water through estuarine circulation. The strong and fast tidal currents through the narrow channels of the north, such as Discovery Passage and Johnstone Strait, pose a particular challenge for numerical models. Yet, several modelling efforts for this region exist, ranging in choices of grid structure, mixing parametrizations, and domain size and extent. 
+The Strait of Georgia is a strongly stratified, semi-enclosed body of water located between Vancouver Island and the mainland of British Columbia. It is part of a larger system of waterways collectively known as the Salish Sea and is connected to the Pacific Ocean via the Strait of Juan de Fuca and Johnstone Strait. Several features related to the physical oceanopgraphy of this region render it a challenge to model numerically. The outflow from the Fraser River in the late spring is the primary source fresh water within the Strait of Georgia and leads to large vertical density gradients in the summer months. Additionally, strong tidal mixing through the San Juan and Gulf Islands produces horizontal density gradients that separate the saline waters of the Strait of Juan de Fuca and the fresher water of the Strait of Georgia. It is important to accurately represent the vertical mixing in this region as it sets the rate of export of fresh water through estuarine circulation. The strong and fast tidal currents through the narrow channels of the north, such as Discovery Passage and Johnstone Strait, pose a particular challenge for numerical models. Yet, several modelling efforts for this region exist, ranging in choices of grid structure, mixing parametrizations, and domain size and extent. 
 
 %overview oF SoG/Salish Sea models
 
@@ -115,16 +115,16 @@ where $A_0$, $A_m$, $g_0$ and $g_m$ are observed and modelled amplitudes and pha
 
 \begin{table}[h]
 \centering 
-\begin{tabular}{l c c c c c c} 
+\begin{tabular}{l l c c c c c c} 
 \hline 
-& \multicolumn{3}{c}{M$_2$} & \multicolumn{3}{c}{K$_1$} \\ 
+& & \multicolumn{3}{c}{M$_2$} & \multicolumn{3}{c}{K$_1$} \\ 
 \hline 
-Location   & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) \\
+Station number & Station name & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) \\
 \hline 
-           &     &                      &          &     &                      &          \\
+               &              &     &                      &          &     &                      &          \\
 \hline   
-Mean Error &     &                      &          &     &                      &          \\
-RMS Error  &     &                      &          &     &                      &          \\
+Mean Error     &              &     &                      &          &     &                      &          \\
+RMS Error      &              &     &                      &          &     &                      &          \\
 \hline  
 \end{tabular}
 \caption{Comparisons of modelled and observed amplitudes and phases. $R$ is the ration of modelled to observed amplitude. $\Delta \phi$ is the difference between modelled and observed phase. $D$ is the complex difference. }
@@ -139,17 +139,16 @@ Complex differences were less than ??cm at all stations in our domain, which was
 
 \subsection{Stratification} 
 %outline: thalweg, plots of winter/summer stratty
+%Maybe note this
 
 \section{Storm Surge Hindcasts}\label{sec:storm}
 %outline: 
 %1. factors contributing to storm surge with focus on Feb 2006 event
 %2. Strong wind event but no surge (maybe Dec 2006 or Nov 2009)
 %3. High resolution wind (hopefully Dec 2012)
+A series of storm surge hindcasts is presented next. Storm surge simulations were started from rest at least three days prior to the event of interest to allow for adjustment of model currents. Stratification conditions from model spin-up at a time close the the event (within 5 days) were chosen to initialize the temperature and salinity fields. Boundary conditions include atmospheric forcing and fresh water input from rivers at the surface, sea surface height anomaly from observations at the open boundary, and tidal forcing with eight tidal constituents. Forcing the model with only eight tidal constituents leads to an error in modelled sea surface height predictions due to the omission of the next leading order tidal constituents such as J$_1$. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can be up to 40 cm (check) during times of high tidal range, and in particular, during the storm surge season Nov-Feb. As such, storm surge model predictions were corrected by accounting for this error. Additionally, since the sea surface height is calculated about a zero reverence level, the modelled water level is determined by adding a long term average of mean sea level at the specified location to the modelled sea surface height.
 
-
-Forcing the model with only eight tidal constituents leads to an error in modelled sea surface height predictions due to the omission of the next leading order tidal constituents such as $J_1$, $SA$, and $MM$. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can be up to 40 cm (check) during times of high tidal range, and in particular, during the storm surge season Nov-Feb. As such, storm surge model predictions were corrected by accounting for this error. Additionally, since the sea surface height is calculated about a zero reverence level, the modelled water level is determined by adding a long term average of mean sea level at the desired location to the modelled sea surface height.
-
-Model results have been compared with observations by calculating both the total modelled water level and the modelled residual. . The modelled residual is calculated as the difference in model output between a simulation with all forcing conditions and a simulation forced only with tides and rivers. The observed water level is taken from observations by Fisheries and Oceans Canada (citation) and the observed residual is the observations minus tidal predictions. Tidal predictions are calculated using t\_tide \citep{pawlowicz2002classical}, a MATLAB tool that calculates tidal harmonics from a given time series, in this cae, from the year prior surge event on interest. 
+Model results have been compared with observations by calculating both the total modelled water level and the modelled residual. The modelled residual is calculated as the difference in model output between a simulation with all forcing conditions and a simulation forced only with tides and rivers. The observed water level is taken from observations by Fisheries and Oceans Canada (citation) and the observed residual is the observations minus tidal predictions. Tidal predictions are calculated using t\_tide \citep{pawlowicz2002classical}, a MATLAB tool that calculates tidal harmonics from a given time series, in this cae, from the year prior surge event on interest. Additionally, several simulations with varying forcing conditions such as removing atmospsheric forcing or removing the sea surface height anomaly at the open boundaries have been completed. 
 
 Three significiant surge or wind events have been considered. First, a study of a large surge event on Feb 4, 2006 is presented. This event caused siginificant damage and flooding in Boundary Bay, a community south of Richmond. (citation) and has been chosen as a case study to demonstrate the model's skill in reproducing a storm surge and to quantitatively assess forcing conditions that are important in storm surge hindcasting. 
 %% Trying to decide Dec 15, 2005 or Nov 2009. I think it's more sense to do Nov 2009 - strong winds but no surge. 
@@ -159,13 +158,13 @@ Next, an extreme wind event which resulted in property damage in Vancouver and s
 \subsection{Factors Contributing to Storm Surges: Feb 4, 2006}
 %Include spatial extend of surge
 
-On Feb 4, 2006, a strong storm system with winds over 75 km/hr coinciding with high tide led to siginificant flooding in coastal comminuties of the Strait of Georgia \citep{romanowski2010storm}.    The maximum water level observed at Point Atkinson on this day was 5.49 m, which is 0.8 m higher than the predicted tides, highlighting the significance of this event as it resulted in a large anomaly and also reached water levels close to the highest level ever recorded (5.61 m). The model was run from Feb 1 to 8, 2006 under varying forcing conditions in order to determine the siginicance of each factor contributing to the surge.
+On Feb 4, 2006, a strong storm system with winds over 75 km/hr coinciding with an unsually high tide led to siginificant flooding in coastal comminuties of the Strait of Georgia \citep{romanowski2010storm}. The maximum water level observed at Point Atkinson on this day was 5.49 m, which is 0.8 m higher than the predicted tides, highlighting the significance of this event as it resulted in a large anomaly and also reached water levels close to the highest level ever recorded (5.61 m). A set of simulations from Feb 1 to 8, 2006 under varying forcing conditions has been completed in order to determine the siginicance of each factor contributing to the surge.
 
-The model's ability to reproduce this event is demonstrated in Figure \ref{fig:feb2006} which compares observations and corrected model output at Point Atkinson, Victoria, Patricia Bay, and Campbell River. The timing of maximum water level matches well between the observations and the model at all four locations, the most siginificant contribution to high water level being from the tides. There is also a good match in amplitude of the water level maximum at Point Atkinson and Cambell River, with a relative error less than 2\%. However, the error at Victoria and Patricia Bay is more siginificant, at 12\% and 8\% respectively, likely due to error in M$_2$ tidal amplitudes as discussed above. The precise location and magnitude of the M$_2$ amphidrome around Victoria is very sensitive to model parameters such as bottom friction. 
+The model's ability to reproduce this event is demonstrated in Figure \ref{fig:feb2006} which compares observations and corrected model output at Point Atkinson, Victoria, Patricia Bay, and Campbell River. The timing of maximum water level matches well between the observations and the model at all four locations, the most siginificant contribution to high water level being from the tides. There is also a good match in amplitude of the water level maximum at Point Atkinson and Campbell River, with a relative error less than 2\%. Indeed, there is only a 1.2 cm difference between observed and modelled water level elevation at Point Atkinson and a 9 cm difference at Campbell River. However, the error at Victoria and Patricia Bay is more siginificant, reaching 12\% and 8\% respectively (close to 40 cm in each case), partly due to error in tidal amplitudes as discussed above. The precise location and magnitude of the M$_2$ amphidrome around Victoria is very sensitive to model parameters such as bottom friction. 
 
-The error in modelled residuals at Victoria and Patricia is also apparent in the panels on the right, most noticebale is an underestimate in modelled residual throughout most of the time period. Additionally, there is a delay of about 2-3 hours in the timing of maximum residual at all four locations. The relative errors in maximum residual range from 5\% at Point Atkinson to 29\% at Patricia Bay. 
+The error in modelled residuals at Victoria and Patricia Bay is also apparent in the panels on the right, most noticeable is an underestimate in modelled residual throughout most of the time period. Additionally, there is a delay of about 2-3 hours in the timing of maximum residual at all four locations. The errors in maximum residual range from 3.9 cm at Point Atkinson to 21 cm at Patricia Bay. 
 %Question: is it better to present relative errors or just difference?
-%I think Hal Ritchie's talk with the storm surges had some stats presented. Look this up...
+
 
 \begin{figure}
 \centering
@@ -173,11 +172,31 @@ The error in modelled residuals at Victoria and Patricia is also apparent in the
 \caption{Comparison of observations and model output for the Feb 4, 2006 storm surge. Left: total water level observation (solid) and corrected model (dashed). Right: observed residuals (solid) and modelled residuals (dashed).}
 \label{fig:feb2006}
 \end{figure}
-%Note that colour may be an option here (no extra charge for A-O). But it will be worse for printing.
+
+Next, an assessment of the factors that are most important in scenarios leading up to storm surges is presented in Figure \ref{fig:factors}. The modelled residual from three simulations have been plotted. First, a simulation with all the forcing conditions, including tides, atmospheric forcing, rivers, and sea surface height anomaly, is shown in blue. The modelled sea surface height has not been corrected as in the previous plot. Additionally, a simulation with all forcing except the atmospheric forcing is presented in green and a simulation with all forcing except the sea surface height anomaly is shown in red. It is clear that the sea surface height anomaly contributes most significantly to the surge at each of these locations. When the sea surface height anomaly is not included as a forcing condition, the surge drops from 78 cm to 28 cm at Point Atkinson. Additionally, the timing of the maximum surge occurs much later. A similar drop in the maximum surge and delay in the timing of the maximum surge is observed at the other locations. 
+
+The contribution to the surge due to atmospheric forcing appears to be geographically dependent, its removal leading to a drop (about 15 cm) in the maximum surge at Point Atkinson and Campbell River but a slight increase (about 6 cm) at Victoria and Patricia Bay. Additionally, at Point Atkinson the timing of the maximum surge is earlier by about two hours when atmospheric effects are neglected. 
+%Worried that this might be due to pressure/mountains at PA and CR
+%maybe look at winds to see why Vic/Pat Bay increased. Plan: map of wind vectors from CGRF (not for paper, just for me in aiding with explanation)
+
+Finally, an assessment of the importance in including tide-surge interactions is presented next. 
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{Figures/feb2006_factors.pdf}
+\caption{Comparison of the modelled residual for three simulations: A simulation with all forcing (blue), a simulation without atmospheric forcing (green), and a simulation without the sea surface height anomaly. }
+\label{fig:factors}
+\end{figure}
+%not sure about the colours, but different line styles is really hard to make out. 
+%Maybe only need the surge plot?
+
 
 \subsection{Strong wind event: Dec 15, 2006}% or Nov 2009
 
 \subsection{High Resolution Atmospheric Forcing: Dec 17, 2012}
+
+\subsection{Statisitics}
+%I think Hal Ritchie's talk with the storm surges had some stats presented. Look this up...
 
 \section{Discussion}\label{sec:diss}
 %future directions: running real time, biology and chemistry, model improvements?
