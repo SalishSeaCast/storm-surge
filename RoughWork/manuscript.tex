@@ -30,6 +30,9 @@ The Strait of Georgia is a strongly stratified, semi-enclosed body of water loca
 %intro to storm surges
 Many coastal communities in the Strait of Georgia are at risk to flooding and property damaged caused by storm surges, a natural hazard arising from the combination of a strong wind storm and high tide. The low atmospheric pressure associated with a storm acts as an inverse barometer elevating the sea level. This effect in combination with strong winds pushing water up against the coast can cause flooding, particularly if the storm occurs during an unusually high tide.  Additionally, there is a small contribution to increased sea level due to the thermal expansion of water during warmer years set by the El Nino Southern Oscillation (ENSO) \citep{abeys2011extreme}. %more on past events, significance
 
+Communities in the Strait of Georgia are partiuclarly susceptible to storm surges in the winter months when there is an increased propensity for storms and south easterly winds and geostrophic adjustment lead to higher coastal waters \citep{danard2003storm}. In the summer months, the wind direction changes to north westerly and mean sea level is lower. 
+%work on this
+
 %storm surge modelling
 
 %overview of paper: model configuration, model evaluation, storm surge hindcasts.
@@ -179,7 +182,7 @@ The contribution to the surge due to atmospheric forcing appears to be geographi
 %Worried that this might be due to pressure/mountains at PA and CR
 %maybe look at winds to see why Vic/Pat Bay increased. Plan: map of wind vectors from CGRF (not for paper, just for me in aiding with explanation)
 
-Finally, an assessment of the importance in including tide-surge interactions is presented next. 
+These comparisons point to the importance of including, as a forcing condition at the open bounday, the surge entering the domain from the Pacific Ocean. Storms travelling over the Pacific Ocean torwads the west coast of the northern United States and Canada can induce surges along the coastline which then enter the Salish Sea sytem through the Strait of Juan de Fuca. In a model domain that does not inlcude the Pacific Ocean, this effect must be inlcuded as a boundary condition. Previous simulations by \citet{murty1995storm} suggest that the inverese barometer effect and the surge entering the system through the Strait of Juan de Fuca contribute most significantly to storm surges in this domain.  A detailed assessment of the effect of the local atmospheric condtions and winds is included later where simulations have been performed with high resolution atmospheric forcing data.  
 
 \begin{figure}
 \centering
@@ -188,8 +191,15 @@ Finally, an assessment of the importance in including tide-surge interactions is
 \label{fig:factors}
 \end{figure}
 %not sure about the colours, but different line styles is really hard to make out. 
-%Maybe only need the surge plot?
 
+Finally, an assessment of the importance of including tide-surge interactions is presented next. A simulation of the surge propagation without including any tidal forcing is compared with the modelled residual in Figure \ref{fig:tidesurge}. Recall, the modelled residual is defined as the difference between the sea surface height in a simulation with all forcing and a simulaltion with tides amd rivers only. A comparison between the modelled residual and a surge only run can determine the significance of the tide-surge interaction. The most significant differences occur at Point Atkinson where the maximum modelled residual is 7 cm higher than the maximum of the surge only case.  In contrast, the tide-surge interaction at Victoria is hardly noticeable. Indeed, a spatial map of the modelled residual and surge only differences (not shown here) indicate that the tide-surge interaction is more pronounced after the San Juan and Gulf Islands. The passages between these islands are known for vigorous tidal mixing, which may have an effect on the surge propagation. However, the effect is a relatively small underestimate of the surge elevation and no changes to the timing of the surge. So, in operational settings, running a surge only simulation and adding the predicted tides a posteriori could be more computationally efficient with only a small decrease in the accuracy of the prediction. 
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{Figures/feb2006_tidesurge.pdf}
+\caption{Modelled residuals (solid) compared a simulation of the surge propagation without tidal forcing (dashed).}
+\label{fig:tidesurge}
+\end{figure}
 
 \subsection{Strong wind event: Dec 15, 2006}% or Nov 2009
 
@@ -200,6 +210,7 @@ Finally, an assessment of the importance in including tide-surge interactions is
 
 \section{Discussion}\label{sec:diss}
 %future directions: running real time, biology and chemistry, model improvements?
+%comments on wetting and drying (maybe most imporant in shallow regions)
 
 \section{Acknowledgements}\label{sec:ack}
 We would like to thank Michael Foreman, Diane Masson, and Luc Fillion for providing data used in model set up and evaluation. This project is funded by the Marine Environmental Observation Prediction and Response Network (MEOPAR), a Network of Centres of Excellence of Canada.  
