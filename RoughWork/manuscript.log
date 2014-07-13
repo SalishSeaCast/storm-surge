@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  10 JUL 2014 17:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  13 JUL 2014 13:57
 entering extended mode
  %&-line parsing enabled.
 **manuscript.tex
@@ -116,97 +116,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks19
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-)
-(/usr/share/texmf-texlive/tex/latex/epspdfconversion/epspdfconversion.sty
-Package: epspdfconversion 2009/09/01 v0.5 Conversion eps->pdf with epspdf-tools
- on the fly
-
-(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
-Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
-t (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
- (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
-)
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-)
-
-Package epstopdf Warning: Shell escape feature is not enabled.
-
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 433.
-(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
-))
-
-epspdfconversion info: 
-epspdfconversion.sty is using epstopdf.sty with the following setup:
-    update=true,
-    verbose=true,
-    prefersuffix=true,
-    suffix=-epspdf-to,
-    outdir=,
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 310.
-    append,
-    enable
-epspdf is used like this:
-    epspdf <file> 
-
-Package epspdfconversion Info: 
-(epspdfconversion)             epspdf <file> is used to convert eps->pdf 
-(epspdfconversion)             (not epstopdf (script))
-(epspdfconversion)              on input line 330.
 ) (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen114
@@ -225,31 +151,32 @@ LaTeX Warning: No \author given.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Figures/bathy.png, id=11, 722.7pt x 505.89pt>
-File: Figures/bathy.png Graphic file (type png)
- <use Figures/bathy.png> [2 <./Figures/bathy.png>] [3] [4] [5]
-<Figures/feb2006.pdf, id=32, 724.45656pt x 481.10521pt>
+<Figures/bathy.pdf, id=11, 686.565pt x 556.0775pt>
+File: Figures/bathy.pdf Graphic file (type pdf)
+ <use Figures/bathy.pdf>
+[2 <./Figures/bathy.pdf>] [3] [4] [5]
+<Figures/feb2006.pdf, id=33, 724.45656pt x 481.10521pt>
 File: Figures/feb2006.pdf Graphic file (type pdf)
 
 <use Figures/feb2006.pdf>
-<Figures/feb2006_factors.pdf, id=34, 741.77126pt x 354.39133pt>
+<Figures/feb2006_factors.pdf, id=35, 741.77126pt x 354.39133pt>
 File: Figures/feb2006_factors.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_factors.pdf> [6] [7 <./Figures/feb2006.pdf> <./Figures/feb
 2006_factors.pdf>]
-<Figures/feb2006_tidesurge.pdf, id=134, 741.77126pt x 285.07285pt>
+<Figures/feb2006_tidesurge.pdf, id=135, 741.77126pt x 285.07285pt>
 File: Figures/feb2006_tidesurge.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_tidesurge.pdf> (./manuscript.bbl [8 <./Figures/feb2006_tid
 esurge.pdf>]) [9] (./manuscript.aux) ) 
 Here is how much of TeX's memory you used:
- 2399 strings out of 495061
- 32007 string characters out of 1182622
- 94158 words of memory out of 3000000
- 5550 multiletter control sequences out of 15000+50000
+ 1955 strings out of 495061
+ 24242 string characters out of 1182622
+ 84730 words of memory out of 3000000
+ 5144 multiletter control sequences out of 15000+50000
  9976 words of font info for 36 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 41i,8n,27p,1590b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,21p,1590b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.
@@ -262,9 +189,9 @@ m/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></
 usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on manuscript.pdf (9 pages, 801403 bytes).
+Output written on manuscript.pdf (9 pages, 1122873 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 231 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
