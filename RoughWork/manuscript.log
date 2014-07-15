@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  14 JUL 2014 14:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  15 JUL 2014 14:09
 entering extended mode
  %&-line parsing enabled.
 **manuscript.tex
@@ -155,43 +155,43 @@ LaTeX Warning: No \author given.
 File: Figures/bathy.pdf Graphic file (type pdf)
  <use Figures/bathy.pdf>
 [2 <./Figures/bathy.pdf>] [3] [4] [5]
-<Figures/feb2006.pdf, id=33, 724.45656pt x 481.10521pt>
-File: Figures/feb2006.pdf Graphic file (type pdf)
+<Figures/feb2006_bg.pdf, id=33, 724.45656pt x 481.10521pt>
+File: Figures/feb2006_bg.pdf Graphic file (type pdf)
 
-<use Figures/feb2006.pdf>
-<Figures/feb2006_factors.pdf, id=35, 741.77126pt x 354.39133pt>
+<use Figures/feb2006_bg.pdf> [6] [7 <./Figures/feb2006_bg.pdf>]
+<Figures/feb2006_factors.pdf, id=87, 741.77126pt x 354.39133pt>
 File: Figures/feb2006_factors.pdf Graphic file (type pdf)
 
-<use Figures/feb2006_factors.pdf> [6] [7 <./Figures/feb2006.pdf> <./Figures/feb
-2006_factors.pdf>]
-<Figures/feb2006_tidesurge.pdf, id=135, 741.77126pt x 285.07285pt>
+<use Figures/feb2006_factors.pdf>
+<Figures/feb2006_tidesurge.pdf, id=89, 741.77126pt x 285.07285pt>
 File: Figures/feb2006_tidesurge.pdf Graphic file (type pdf)
 
-<use Figures/feb2006_tidesurge.pdf> (./manuscript.bbl [8 <./Figures/feb2006_tid
-esurge.pdf>]) [9] (./manuscript.aux) ) 
+<use Figures/feb2006_tidesurge.pdf> [8 <./Figures/feb2006_factors.pdf>]
+(./manuscript.bbl [9 <./Figures/feb2006_tidesurge.pdf>]) [10] (./manuscript.aux
+) ) 
 Here is how much of TeX's memory you used:
  1955 strings out of 495061
- 24242 string characters out of 1182622
- 84730 words of memory out of 3000000
+ 24257 string characters out of 1182622
+ 83730 words of memory out of 3000000
  5144 multiletter control sequences out of 15000+50000
  9976 words of font info for 36 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,8n,21p,1590b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on manuscript.pdf (9 pages, 1121311 bytes).
+ 27i,8n,21p,1590b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb>
+Output written on manuscript.pdf (10 pages, 1122928 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
+ 234 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
