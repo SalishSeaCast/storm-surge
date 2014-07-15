@@ -1,0 +1,13 @@
+Anomaly
+PointAtkinson
+Max anomaly tide-surge:  0.783884 2006-02-04 20:30:00+00:00
+Max anomaly surgeonly:  0.850434 2006-02-04 20:30:00+00:00
+Victoria
+Max anomaly tide-surge:  0.50802 2006-02-04 16:30:00+00:00
+Max anomaly surgeonly:  0.503963 2006-02-04 15:30:00+00:00
+PatriciaBay
+Max anomaly tide-surge:  0.530725 2006-02-04 17:30:00+00:00
+Max anomaly surgeonly:  0.554228 2006-02-04 17:30:00+00:00
+CampbellRiver
+Max anomaly tide-surge:  0.799374 2006-02-04 15:30:00+00:00
+Max anomaly surgeonly:  0.812987 2006-02-04 18:30:00+00:00
