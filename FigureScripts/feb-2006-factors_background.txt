@@ -1,0 +1,75 @@
+Water level
+PointAtkinson
+all_forcing
+Max water level:  2.12849 2006-02-04 17:30:00+00:00
+ssh_only
+Max water level:  2.07662 2006-02-04 17:30:00+00:00
+weather_only
+Max water level:  1.6683 2006-02-01 16:30:00+00:00
+no_pressure
+Max water level:  1.62259 2006-02-01 16:30:00+00:00
+Victoria
+all_forcing
+Max water level:  1.10147 2006-02-04 15:30:00+00:00
+ssh_only
+Max water level:  1.12945 2006-02-04 15:30:00+00:00
+weather_only
+Max water level:  0.901244 2006-02-07 15:30:00+00:00
+no_pressure
+Max water level:  0.895141 2006-02-07 15:30:00+00:00
+PatriciaBay
+all_forcing
+Max water level:  1.53869 2006-02-04 17:30:00+00:00
+ssh_only
+Max water level:  1.53865 2006-02-04 17:30:00+00:00
+weather_only
+Max water level:  1.0942 2006-02-01 15:30:00+00:00
+no_pressure
+Max water level:  1.04682 2006-02-01 15:30:00+00:00
+CampbellRiver
+all_forcing
+Max water level:  1.82102 2006-02-04 17:30:00+00:00
+ssh_only
+Max water level:  1.77885 2006-02-04 17:30:00+00:00
+weather_only
+Max water level:  1.30822 2006-02-01 15:30:00+00:00
+no_pressure
+Max water level:  1.25438 2006-02-03 16:30:00+00:00
+
+Anomaly
+PointAtkinson
+all_forcing
+Max anomaly:  0.699359 2006-02-04 20:30:00+00:00
+ssh_only
+Max anomaly:  0.644252 2006-02-04 18:30:00+00:00
+weather_only
+Max anomaly:  0.15611 2006-02-05 04:30:00+00:00
+no_pressure
+Max anomaly:  0.0898331 2006-02-05 02:30:00+00:00
+Victoria
+all_forcing
+Max anomaly:  0.586317 2006-02-04 16:30:00+00:00
+ssh_only
+Max anomaly:  0.609134 2006-02-04 15:30:00+00:00
+weather_only
+Max anomaly:  0.0510185 2006-02-05 05:30:00+00:00
+no_pressure
+Max anomaly:  0.0168937 2006-02-04 21:30:00+00:00
+PatriciaBay
+all_forcing
+Max anomaly:  0.635366 2006-02-04 17:30:00+00:00
+ssh_only
+Max anomaly:  0.635324 2006-02-04 17:30:00+00:00
+weather_only
+Max anomaly:  0.129912 2006-02-01 04:30:00+00:00
+no_pressure
+Max anomaly:  0.027408 2006-02-01 12:30:00+00:00
+CampbellRiver
+all_forcing
+Max anomaly:  0.670828 2006-02-04 15:30:00+00:00
+ssh_only
+Max anomaly:  0.576775 2006-02-04 17:30:00+00:00
+weather_only
+Max anomaly:  0.178867 2006-02-01 22:30:00+00:00
+no_pressure
+Max anomaly:  0.0480633 2006-02-01 10:30:00+00:00
