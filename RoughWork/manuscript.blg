@@ -11,23 +11,23 @@ Warning--page numbers missing in smith2013new
 You've used 17 entries,
             2861 wiz_defined-function locations,
             726 strings with 8087 characters,
-and the built_in function-call counts, 12355 in all, are:
+and the built_in function-call counts, 12350 in all, are:
 = -- 985
 > -- 1005
 < -- 0
 + -- 314
 - -- 332
-* -- 1199
+* -- 1197
 := -- 2275
 add.period$ -- 51
 call.type$ -- 17
-change.case$ -- 131
+change.case$ -- 132
 chr.to.int$ -- 17
 cite$ -- 23
-duplicate$ -- 297
-empty$ -- 702
+duplicate$ -- 296
+empty$ -- 701
 format.name$ -- 380
-if$ -- 2269
+if$ -- 2268
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 17
@@ -40,7 +40,7 @@ quote$ -- 0
 skip$ -- 307
 stack$ -- 0
 substring$ -- 645
-swap$ -- 95
+swap$ -- 94
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
