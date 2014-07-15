@@ -1,0 +1,43 @@
+PointAtkinson
+Observed max surge:  0.823034 2006-02-04 15:00:00+00:00
+Modelled max surge:  0.699359 2006-02-04 20:30:00+00:00
+Difference: 0.123674702248
+Relative Error: 0.150266820384
+Victoria
+Observed max surge:  0.665828 2006-02-04 17:00:00+00:00
+Modelled max surge:  0.586317 2006-02-04 16:30:00+00:00
+Difference: 0.0795106395988
+Relative Error: 0.119416184959
+PatriciaBay
+Observed max surge:  0.745386 2006-02-04 15:00:00+00:00
+Modelled max surge:  0.635366 2006-02-04 17:30:00+00:00
+Difference: 0.110020156227
+Relative Error: 0.147601586597
+CampbellRiver
+Observed max surge:  0.954792 2006-02-04 13:00:00+00:00
+Modelled max surge:  0.670828 2006-02-04 15:30:00+00:00
+Difference: 0.283964313213
+Relative Error: 0.297409606714
+
+
+PointAtkinson
+Observed max water level:  5.49 2006-02-04 17:00:00+00:00
+Modelled max water level:  5.41791632894 2006-02-04 17:30:00+00:00
+Difference: 0.0720836710606
+Relative Error: 0.0131299947287
+Victoria
+Observed max water level:  3.47 2006-02-04 15:00:00+00:00
+Modelled max water level:  3.13448890743 2006-02-04 15:30:00+00:00
+Difference: 0.335511092571
+Relative Error: 0.096689075669
+PatriciaBay
+Observed max water level:  4.29 2006-02-04 17:00:00+00:00
+Modelled max water level:  4.01897938835 2006-02-04 17:30:00+00:00
+Difference: 0.271020611647
+Relative Error: 0.0631749677498
+CampbellRiver
+Observed max water level:  5.17 2006-02-04 17:00:00+00:00
+Modelled max water level:  4.96064073906 2006-02-04 17:30:00+00:00
+Difference: 0.209359260937
+Relative Error: 0.0404950214578
+
