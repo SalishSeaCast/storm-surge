@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  15 JUL 2014 14:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  15 JUL 2014 15:32
 entering extended mode
  %&-line parsing enabled.
 **manuscript.tex
@@ -159,19 +159,19 @@ File: Figures/bathy.pdf Graphic file (type pdf)
 File: Figures/feb2006_bg.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_bg.pdf> [6] [7 <./Figures/feb2006_bg.pdf>]
-<Figures/feb2006_factors.pdf, id=87, 741.77126pt x 354.39133pt>
-File: Figures/feb2006_factors.pdf Graphic file (type pdf)
+<Figures/feb2006_factors_bg.pdf, id=87, 741.77126pt x 354.39133pt>
+File: Figures/feb2006_factors_bg.pdf Graphic file (type pdf)
 
-<use Figures/feb2006_factors.pdf>
+<use Figures/feb2006_factors_bg.pdf>
 <Figures/feb2006_tidesurge.pdf, id=89, 741.77126pt x 285.07285pt>
 File: Figures/feb2006_tidesurge.pdf Graphic file (type pdf)
 
-<use Figures/feb2006_tidesurge.pdf> [8 <./Figures/feb2006_factors.pdf>]
+<use Figures/feb2006_tidesurge.pdf> [8 <./Figures/feb2006_factors_bg.pdf>]
 (./manuscript.bbl [9 <./Figures/feb2006_tidesurge.pdf>]) [10] (./manuscript.aux
 ) ) 
 Here is how much of TeX's memory you used:
  1955 strings out of 495061
- 24257 string characters out of 1182622
+ 24272 string characters out of 1182622
  83730 words of memory out of 3000000
  5144 multiletter control sequences out of 15000+50000
  9976 words of font info for 36 fonts, out of 3000000 for 9000
@@ -189,7 +189,7 @@ e/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
 fonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb>
-Output written on manuscript.pdf (10 pages, 1122928 bytes).
+Output written on manuscript.pdf (10 pages, 1123244 bytes).
 PDF statistics:
  234 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
