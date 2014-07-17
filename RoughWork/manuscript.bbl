@@ -43,6 +43,14 @@ Foreman, M. G.~G., R.~A. Walters, R.~F. Henry, C.~P. Keller, and A.~G. Dolling
 \newblock {\em Journal of Geophysical Research-Oceans\/}~{\em 100\/}(C1),
   721--740.
 
+\bibitem[\protect\citeauthoryear{Forseth}{Forseth}{2012}]{forseth2006adaptatio%
+n}
+Forseth, P. (2012).
+\newblock Adaptation to sea level rise in metro vancouver: A review of
+  literature for historical sea level flooding and projected sea level rise in
+  metro vancouver.
+\newblock Technical report, Simon Fraser University.
+
 \bibitem[\protect\citeauthoryear{Haugerud}{Haugerud}{1999}]{haugerud1999digita%
 l}
 Haugerud, R.~A. (1999).
@@ -51,9 +59,12 @@ Haugerud, R.~A. (1999).
 \newblock U. S. Geological Survey Open-File Report 99-369.
 \newblock http://pubs.usgs.gov/of/1999/0369/.
 
-\bibitem[\protect\citeauthoryear{Madec}{Madec}{2008}]{madec2008nemo}
-Madec, G. (2008).
-\newblock Nemo ocean engine.
+\bibitem[\protect\citeauthoryear{Madec et~al.}{Madec
+  et~al.}{2012}]{madec2012nemo}
+Madec, G. et~al. (2012).
+\newblock {NEMO ocean engine, Note du Pole de mod\`elisation}.
+\newblock France.
+\newblock Ver 3.4, ISSN No 1288-1619.
 
 \bibitem[\protect\citeauthoryear{Masson and Fine}{Masson and
   Fine}{2012}]{massonfine2012}

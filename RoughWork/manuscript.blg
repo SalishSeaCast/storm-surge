@@ -2,51 +2,48 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: manuscript.aux
 The style file: chicago.bst
 Database file #1: ref.bib
-Warning--no journal in madec2008nemo
-Warning--no number and no volume in madec2008nemo
-Warning--page numbers missing in madec2008nemo
 Warning--page numbers missing in massonfine2012
 Warning--no number and no volume in smith2013new
 Warning--page numbers missing in smith2013new
-You've used 17 entries,
+You've used 18 entries,
             2861 wiz_defined-function locations,
-            726 strings with 8087 characters,
-and the built_in function-call counts, 12350 in all, are:
-= -- 985
-> -- 1005
+            731 strings with 8372 characters,
+and the built_in function-call counts, 12980 in all, are:
+= -- 1047
+> -- 1057
 < -- 0
-+ -- 314
-- -- 332
-* -- 1197
-:= -- 2275
-add.period$ -- 51
-call.type$ -- 17
-change.case$ -- 132
-chr.to.int$ -- 17
-cite$ -- 23
-duplicate$ -- 296
-empty$ -- 701
-format.name$ -- 380
-if$ -- 2268
++ -- 330
+- -- 352
+* -- 1232
+:= -- 2403
+add.period$ -- 56
+call.type$ -- 18
+change.case$ -- 139
+chr.to.int$ -- 18
+cite$ -- 21
+duplicate$ -- 313
+empty$ -- 730
+format.name$ -- 400
+if$ -- 2384
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 88
-num.names$ -- 170
-pop$ -- 87
+missing$ -- 16
+newline$ -- 95
+num.names$ -- 180
+pop$ -- 90
 preamble$ -- 1
-purify$ -- 235
+purify$ -- 247
 quote$ -- 0
-skip$ -- 307
+skip$ -- 330
 stack$ -- 0
-substring$ -- 645
-swap$ -- 94
+substring$ -- 665
+swap$ -- 98
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 330
-warning$ -- 6
-while$ -- 152
+type$ -- 350
+warning$ -- 3
+while$ -- 162
 width$ -- 0
-write$ -- 224
-(There were 6 warnings)
+write$ -- 242
+(There were 3 warnings)
