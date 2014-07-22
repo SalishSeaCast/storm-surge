@@ -8,6 +8,13 @@ Abeysirigunawardena, D.~S., D.~J. Smith, and B.~Taylor (2011).
 \newblock {\em Annals of the Association of American Geographers\/}~{\em
   101\/}(5), 992--1010.
 
+\bibitem[\protect\citeauthoryear{Crean, Murty, and Stronach}{Crean
+  et~al.}{1988}]{crean1988numerical}
+Crean, P.~B., T.~S. Murty, and J.~A. Stronach (1988).
+\newblock Numerical-simulation of oceanographic processes in the waters between
+  {Vancouver Island} and the mainland.
+\newblock {\em Oceanography and Marine Biology\/}~{\em 26}, 11--142.
+
 \bibitem[\protect\citeauthoryear{Danard, Munro, and Murty}{Danard
   et~al.}{2003}]{danard2003storm}
 Danard, M., A.~Munro, and T.~Murty (2003).
@@ -114,6 +121,14 @@ Smith, G.~C., F.~Roy, P.~Mann, F.~Dupont, B.~Brasnett, J.-F. Lemieux,
 \newblock A new atmospheric dataset for forcing ice--ocean models: Evaluation
   of reforecasts using the canadian global deterministic prediction system.
 \newblock {\em Quarterly Journal of the Royal Meteorological Society\/}.
+
+\bibitem[\protect\citeauthoryear{Stronach, Backhaus, Murty, et~al.}{Stronach
+  et~al.}{1993}]{stronach1993update}
+Stronach, J., J.~Backhaus, T.~Murty, et~al. (1993).
+\newblock An update on the numerical simulation of oceanographic processes in
+  the waters between vancouver island and the mainland: the gf8 model.
+\newblock {\em Oceanography and Marine Biology: An annual review\/}~{\em 31},
+  1--86.
 
 \bibitem[\protect\citeauthoryear{Thomson and Huggett}{Thomson and
   Huggett}{1980}]{thomson1980johnstone}
