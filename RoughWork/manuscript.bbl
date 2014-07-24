@@ -48,6 +48,20 @@ Foreman, M., W.~Crawford, J.~Cherniawsky, R.~Henry, and M.~Tarbotto (2000).
 \newblock {\em Journal of Geophysical Research\/}~{\em 105\/}(C1),
   28,629--28,652.
 
+\bibitem[\protect\citeauthoryear{Foreman, Stucchi, Garver, Tuele, Isaac, Grime,
+  Guo, and Morrison}{Foreman et~al.}{2012}]{foreman2012circulation}
+Foreman, M., D.~Stucchi, K.~Garver, D.~Tuele, J.~Isaac, T.~Grime, M.~Guo, and
+  J.~Morrison (2012).
+\newblock A circulation model for the discovery islands, british columbia.
+\newblock {\em Atmosphere-Ocean\/}~{\em 50\/}(3), 301--316.
+
+\bibitem[\protect\citeauthoryear{Foreman, Sutherland, and Cummins}{Foreman
+  et~al.}{2004}]{foreman2004m}
+Foreman, M., G.~Sutherland, and P.~Cummins (2004).
+\newblock M< sub> 2</sub> tidal dissipation around vancouver island: an inverse
+  approach.
+\newblock {\em Continental shelf research\/}~{\em 24\/}(18), 2167--2185.
+
 \bibitem[\protect\citeauthoryear{Foreman, Walters, Henry, Keller, and
   Dolling}{Foreman et~al.}{1995}]{foreman1995tidal}
 Foreman, M. G.~G., R.~A. Walters, R.~F. Henry, C.~P. Keller, and A.~G. Dolling
@@ -79,6 +93,13 @@ Madec, G. et~al. (2012).
 \newblock {NEMO ocean engine, Note du Pole de mod\`elisation}.
 \newblock France.
 \newblock Ver 3.4, ISSN No 1288-1619.
+
+\bibitem[\protect\citeauthoryear{Marinone, Pond, and Fyfe}{Marinone
+  et~al.}{1996}]{marinone1996model}
+Marinone, S.~G., S.~Pond, and J.~Fyfe (1996).
+\newblock A three-dimensional model of tide and wind-induced residual currents
+  in the central {Strait of Georgia, Canada}.
+\newblock {\em Estuarine Coastal and Shelf Science\/}~{\em 43\/}(2), 157--182.
 
 \bibitem[\protect\citeauthoryear{Masson and Cummins}{Masson and
   Cummins}{2004}]{masson2004modelling}
@@ -144,6 +165,12 @@ Stronach, J., J.~Backhaus, T.~Murty, et~al. (1993).
 \newblock {\em Oceanography and Marine Biology: An annual review\/}~{\em 31},
   1--86.
 
+\bibitem[\protect\citeauthoryear{Sutherland, MacCready, Banas, and
+  Smedstad}{Sutherland et~al.}{2011}]{sutherland2011model}
+Sutherland, D.~A., P.~MacCready, N.~S. Banas, and L.~F. Smedstad (2011).
+\newblock A model study of the {Salish Sea} estuarine circulation.
+\newblock {\em Journal of Physical Oceanography\/}~{\em 41\/}(6), 1125--1143.
+
 \bibitem[\protect\citeauthoryear{Thomson and Huggett}{Thomson and
   Huggett}{1980}]{thomson1980johnstone}
 Thomson, R.~E. and W.~S. Huggett (1980).
@@ -155,5 +182,12 @@ Thomson, R.~E. and W.~S. Huggett (1980).
 Umlauf, L. and H.~Burchard (2003).
 \newblock A generic length-scale equation for geophysical turbulence models.
 \newblock {\em Journal of Marine Research\/}~{\em 61\/}(2), 235--265.
+
+\bibitem[\protect\citeauthoryear{Yang and Khangaonkar}{Yang and
+  Khangaonkar}{2010}]{yang2010multi}
+Yang, Z. and T.~Khangaonkar (2010).
+\newblock Multi-scale modeling of {Puget Sound} using an unstructured-grid
+  coastal ocean model: from tide flats to estuaries and coastal waters.
+\newblock {\em Ocean Dynamics\/}~{\em 60\/}(6), 1621--1637.
 
 \end{thebibliography}
