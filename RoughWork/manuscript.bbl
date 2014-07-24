@@ -9,8 +9,15 @@ Abeysirigunawardena, D.~S., D.~J. Smith, and B.~Taylor (2011).
   101\/}(5), 992--1010.
 
 \bibitem[\protect\citeauthoryear{Crean, Murty, and Stronach}{Crean
-  et~al.}{1988}]{crean1988numerical}
-Crean, P.~B., T.~S. Murty, and J.~A. Stronach (1988).
+  et~al.}{1988a}]{crean1988mathematical}
+Crean, P., T.~S. Murty, and J.~Stronach (1988a).
+\newblock {\em Mathematical modelling of tides and estuarine circulation: The
+  coastal seas of southern British Columbia and Washington state}, Volume~30.
+\newblock American Geophysical Union.
+
+\bibitem[\protect\citeauthoryear{Crean, Murty, and Stronach}{Crean
+  et~al.}{1988b}]{crean1988numerical}
+Crean, P.~B., T.~S. Murty, and J.~A. Stronach (1988b).
 \newblock Numerical-simulation of oceanographic processes in the waters between
   {Vancouver Island} and the mainland.
 \newblock {\em Oceanography and Marine Biology\/}~{\em 26}, 11--142.
@@ -72,6 +79,13 @@ Madec, G. et~al. (2012).
 \newblock {NEMO ocean engine, Note du Pole de mod\`elisation}.
 \newblock France.
 \newblock Ver 3.4, ISSN No 1288-1619.
+
+\bibitem[\protect\citeauthoryear{Masson and Cummins}{Masson and
+  Cummins}{2004}]{masson2004modelling}
+Masson, D. and P.~F. Cummins (2004).
+\newblock Observations and modeling of seasonal variability in the {Straits of
+  Georgia and Juan de Fuca}.
+\newblock {\em Journal of Marine Research\/}~{\em 62\/}(4), 491--516.
 
 \bibitem[\protect\citeauthoryear{Masson and Fine}{Masson and
   Fine}{2012}]{massonfine2012}

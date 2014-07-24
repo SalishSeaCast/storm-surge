@@ -5,14 +5,14 @@
 \usepackage{amsmath}
 
 \title{Storm surge modelling in the Strait of Georgia}
-\author{Nancy Soontiens, Susan Allen, Doug Latornell, Kate Le Sou\"{e}f}
+\author{Nancy Soontiens, Susan Allen, Doug Latornell, Kate Le Sou\"{e}f, Idalia Machuca}
 \date{\today}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-The Strait of Georgia is a large, semi-enclosed body of water between Vancouver Island and the mainland of British Columbia connected to the Pacific Ocean via the Strait of Juan de Fuca at the south and Johnstone Strait at the north. During the winter months, coastal communities in the Strait of Georgia are particularly susceptible to flooding caused by storm surges, a natural hazard that can occur when a strong storm coincides with high tide. This investigation produces storm surge hindcasts using a three-dimensional numerical ocean model for the Strait of Georgia and the surrounding bodies of water (Strait of Juan de Fuca, Puget Sound, and Johnstone Strait) collectively known as the Salish Sea. The numerical model employs the Nucleus for European Modelling of the Ocean (NEMO) in a regional configuration. The model is evaluated through comparisons of tidal elevation harmonics, tidal current ellipses, and storm surge water levels with observations. Important forcing factors contributing to storm surges have been assessed, finding that the surge entering the domain from the Pacific Ocean contributes most significantly.
+The Strait of Georgia is a large, semi-enclosed body of water between Vancouver Island and the mainland of British Columbia connected to the Pacific Ocean via the Strait of Juan de Fuca at the south and Johnstone Strait at the north. During the winter months, coastal communities in the Strait of Georgia are particularly susceptible to flooding caused by storm surges, a natural hazard that can occur when a strong storm coincides with high tide. This investigation produces storm surge hindcasts using a three-dimensional numerical ocean model for the Strait of Georgia and the surrounding bodies of water (Strait of Juan de Fuca, Puget Sound, and Johnstone Strait) collectively known as the Salish Sea. The numerical model employs the Nucleus for European Modelling of the Ocean (NEMO) architecture in a regional configuration. The model is evaluated through comparisons of tidal elevation harmonics, tidal current ellipses, and storm surge water levels with observations. Important forcing factors contributing to storm surges have been assessed, finding that the surge entering the domain from the Pacific Ocean contributes most significantly. In addition, local wind patterns cause a slight increase in surge amplitude on the mainland side of the Strait of Georgia when compared to the Vancouver Island coastal areas. Surge amplitudes are found to be greater within the Strait of Georgia when compared to amplitudes in the Strait of Juan de Fuca. 
 %needs a little more work.
 \end{abstract}
 
@@ -20,12 +20,14 @@ The Strait of Georgia is a large, semi-enclosed body of water between Vancouver 
 
 
 %some general intro paragraph here
+%Need something about SoG size, geography, islands, sills, rivers....
 
 %my attempt at physical oceanopgraphy in SoG- Susan feel free to edit.
 The Strait of Georgia is a strongly stratified, semi-enclosed body of water located between Vancouver Island and the mainland of British Columbia. It is part of a larger system of waterways collectively known as the Salish Sea and is connected to the Pacific Ocean via the Strait of Juan de Fuca and Johnstone Strait. Several features related to the physical oceanopgraphy of this region render it a challenge to model numerically. The outflow from the Fraser River in the late spring is the primary source fresh water within the Strait of Georgia and leads to large vertical density gradients in the summer months. Additionally, strong tidal mixing through the San Juan and Gulf Islands produces horizontal density gradients that separate the saline waters of the Strait of Juan de Fuca and the fresher water of the Strait of Georgia. It is important to accurately represent the vertical mixing in this region as it sets the rate of export of fresh water through estuarine circulation. The strong and fast tidal currents through the narrow channels of the north, such as Discovery Passage and Johnstone Strait, pose a particular challenge for numerical models. Yet, several modelling efforts for this region exist, ranging in choices of grid structure, mixing parametrizations, and domain size and extent. 
 
 %overview oF SoG/Salish Sea models
-Early efforts by \citet{crean1988numerical, stronach1993update} implemented a series of models covering the Strait of Juan de Fuca, the Strait of Georgia and Puget Sound using a finite difference discretization of the equations of motion. 
+Early work by \citet{crean1988numerical, crean1988mathematical, stronach1993update} resulted in a series of models covering the Strait of Juan de Fuca, the Strait of Georgia and Puget Sound using a finite difference discretization of the equations of motion. A barotropic version of their model was used to reproduce storm surge water level elevations with reasonable accuracy, however, this barotropic version did not include the effects of fresh water entering the system from rivers. Later, a baroclinc version of their model examined residual currents and more. %elaborate!
+ The baroclinic model of \citet{masson2004modelling} examined seasonal variability of deep water properties in the Strait of Georgia noting a strong sensitivity to vertical mixing over the sills. This model employed a sigma vertical coordinate system leading to errors in diapycnal mixing due to steep topographics slopes. %fix this up still.
 %tide models (Foreman), baroclinic (Masson, PNWL, Sutherland and MacCready)
 
 %intro to storm surges
