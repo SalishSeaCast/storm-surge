@@ -1,3 +1,5 @@
+Background state from t=41
+
 PointAtkinson
 Observed max surge:  0.823034 2006-02-04 15:00:00+00:00
 Modelled max surge:  0.699359 2006-02-04 20:30:00+00:00
