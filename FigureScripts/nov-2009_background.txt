@@ -1,0 +1,56 @@
+Background state from t=16
+
+PointAtkinson
+Observed max surge:  0.625867 2009-11-20 10:00:00+00:00
+Observed wlev at max surge: 1.62 2009-11-20 10:00:00+00:00
+Modelled wlev at max surge: [ 1.72437623] 2009-11-20 10:30:00+00:00
+Modelled max surge:  0.388364 2009-11-20 15:30:00+00:00
+Difference: 0.237502565758
+Relative Error: 0.379477693756
+Victoria
+Observed max surge:  0.65265 2009-11-20 07:00:00+00:00
+Observed wlev at max surge: 1.08 2009-11-20 07:00:00+00:00
+Modelled wlev at max surge: [ 1.00726272] 2009-11-20 07:30:00+00:00
+Modelled max surge:  0.353193 2009-11-20 14:30:00+00:00
+Difference: 0.299457312965
+Relative Error: 0.45883293184
+PatriciaBay
+Observed max surge:  0.565081 2009-11-20 08:00:00+00:00
+Observed wlev at max surge: 1.03 2009-11-20 08:00:00+00:00
+Modelled wlev at max surge: [ 1.07279974] 2009-11-20 08:30:00+00:00
+Modelled max surge:  0.371536 2009-11-20 15:30:00+00:00
+Difference: 0.193545400768
+Relative Error: 0.34250912837
+CampbellRiver
+Observed max surge:  0.634005 2009-11-19 09:00:00+00:00
+Observed wlev at max surge: 1.48 2009-11-19 09:00:00+00:00
+Modelled wlev at max surge: [ 1.21401144] 2009-11-19 09:30:00+00:00
+Modelled max surge:  0.489644 2009-11-20 10:30:00+00:00
+Difference: 0.144360651379
+Relative Error: 0.227696392581
+
+PointAtkinson
+Observed max water level:  5.2 2009-11-17 15:00:00+00:00
+Modelled water level:  [ 5.02984926] 2009-11-17 15:30:00+00:00
+Modelled max water level:  5.06892996195 2009-11-20 16:30:00+00:00
+Difference: 0.131070038048
+Relative Error: 0.0252057765477
+Victoria
+Observed max water level:  3.21 2009-11-20 17:00:00+00:00
+Modelled water level:  [ 3.04528881] 2009-11-20 17:30:00+00:00
+Modelled max water level:  3.08209091823 2009-11-20 20:30:00+00:00
+Difference: 0.127909081768
+Relative Error: 0.0398470659714
+PatriciaBay
+Observed max water level:  3.99 2009-11-20 17:00:00+00:00
+Modelled water level:  [ 3.77272122] 2009-11-20 17:30:00+00:00
+Modelled max water level:  3.77272122295 2009-11-20 17:30:00+00:00
+Difference: 0.217278777046
+Relative Error: 0.0544558338462
+CampbellRiver
+Observed max water level:  4.74 2009-11-17 14:00:00+00:00
+Modelled water level:  [ 4.50637038] 2009-11-17 14:30:00+00:00
+Modelled max water level:  4.65044509318 2009-11-20 15:30:00+00:00
+Difference: 0.0895549068184
+Relative Error: 0.018893440257
+
