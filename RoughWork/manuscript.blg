@@ -5,45 +5,45 @@ Database file #1: ref.bib
 Warning--page numbers missing in massonfine2012
 Warning--no number and no volume in smith2013new
 Warning--page numbers missing in smith2013new
-You've used 28 entries,
+You've used 35 entries,
             2861 wiz_defined-function locations,
-            791 strings with 10349 characters,
-and the built_in function-call counts, 20621 in all, are:
-= -- 1641
-> -- 1722
+            834 strings with 11692 characters,
+and the built_in function-call counts, 26372 in all, are:
+= -- 2117
+> -- 2215
 < -- 2
-+ -- 542
-- -- 567
-* -- 2003
-:= -- 3802
-add.period$ -- 86
-call.type$ -- 28
-change.case$ -- 219
-chr.to.int$ -- 27
-cite$ -- 31
-duplicate$ -- 489
-empty$ -- 1150
-format.name$ -- 650
-if$ -- 3802
++ -- 700
+- -- 737
+* -- 2579
+:= -- 4840
+add.period$ -- 107
+call.type$ -- 35
+change.case$ -- 277
+chr.to.int$ -- 34
+cite$ -- 38
+duplicate$ -- 614
+empty$ -- 1458
+format.name$ -- 848
+if$ -- 4862
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 145
-num.names$ -- 278
-pop$ -- 148
+missing$ -- 35
+newline$ -- 180
+num.names$ -- 348
+pop$ -- 185
 preamble$ -- 1
-purify$ -- 387
+purify$ -- 487
 quote$ -- 0
-skip$ -- 511
+skip$ -- 650
 stack$ -- 0
-substring$ -- 1056
-swap$ -- 155
+substring$ -- 1374
+swap$ -- 196
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 526
+type$ -- 666
 warning$ -- 3
-while$ -- 244
+while$ -- 315
 width$ -- 0
-write$ -- 374
+write$ -- 465
 (There were 3 warnings)

@@ -8,6 +8,21 @@ Abeysirigunawardena, D.~S., D.~J. Smith, and B.~Taylor (2011).
 \newblock {\em Annals of the Association of American Geographers\/}~{\em
   101\/}(5), 992--1010.
 
+\bibitem[\protect\citeauthoryear{Bernier and Thompson}{Bernier and
+  Thompson}{2006}]{bernier2006predicting}
+Bernier, N. and K.~Thompson (2006).
+\newblock Predicting the frequency of storm surges and extreme sea levels in
+  the northwest atlantic.
+\newblock {\em Journal of Geophysical Research: Oceans (1978--2012)\/}~{\em
+  111}, C10009.
+
+\bibitem[\protect\citeauthoryear{Bobanovi{\'c}, Thompson, Desjardins, and
+  Ritchie}{Bobanovi{\'c} et~al.}{2006}]{bobanovic2006forecasting}
+Bobanovi{\'c}, J., K.~R. Thompson, S.~Desjardins, and H.~Ritchie (2006).
+\newblock Forecasting storm surges along the east coast of canada and the
+  north-eastern united states: The storm of 21 january 2000.
+\newblock {\em Atmosphere-Ocean\/}~{\em 44\/}(2), 151--161.
+
 \bibitem[\protect\citeauthoryear{Crean, Murty, and Stronach}{Crean
   et~al.}{1988a}]{crean1988mathematical}
 Crean, P., T.~S. Murty, and J.~Stronach (1988a).
@@ -25,7 +40,7 @@ Crean, P.~B., T.~S. Murty, and J.~A. Stronach (1988b).
 \bibitem[\protect\citeauthoryear{Danard, Munro, and Murty}{Danard
   et~al.}{2003}]{danard2003storm}
 Danard, M., A.~Munro, and T.~Murty (2003).
-\newblock Storm surge hazard in canada.
+\newblock Storm surge hazard in {Canada}.
 \newblock {\em Natural Hazards\/}~{\em 28\/}(2-3), 407--434.
 
 \bibitem[\protect\citeauthoryear{Engedahl}{Engedahl}{1995}]{engedahl1995use}
@@ -79,6 +94,14 @@ Forseth, P. (2012).
   metro vancouver.
 \newblock Technical report, Simon Fraser University.
 
+\bibitem[\protect\citeauthoryear{Gray, Danard, Flather, Henry, Murty,
+  Venkatesh, and Jarvis}{Gray et~al.}{1984}]{gray1984preliminary}
+Gray, M., M.~Danard, R.~Flather, F.~Henry, T.~Murty, S.~Venkatesh, and
+  C.~Jarvis (1984).
+\newblock A preliminary investigation using a nova scotia storm surge
+  prediction model.
+\newblock {\em Atmosphere-Ocean\/}~{\em 22\/}(2), 207--225.
+
 \bibitem[\protect\citeauthoryear{Haugerud}{Haugerud}{1999}]{haugerud1999digita%
 l}
 Haugerud, R.~A. (1999).
@@ -86,6 +109,19 @@ Haugerud, R.~A. (1999).
   longitude 116W-133W}.
 \newblock U. S. Geological Survey Open-File Report 99-369.
 \newblock http://pubs.usgs.gov/of/1999/0369/.
+
+\bibitem[\protect\citeauthoryear{Hubbert and McInnes}{Hubbert and
+  McInnes}{1999}]{hubbert1999storm}
+Hubbert, G.~D. and K.~L. McInnes (1999).
+\newblock A storm surge inundation model for coastal planning and impact
+  studies.
+\newblock {\em Journal of Coastal Research\/}~{\em 15\/}(1), 168--185.
+
+\bibitem[\protect\citeauthoryear{Lane and Walters}{Lane and
+  Walters}{2009}]{lane2009verification}
+Lane, E.~M. and R.~A. Walters (2009).
+\newblock Verification of ricom for storm surge forecasting.
+\newblock {\em Marine Geodesy\/}~{\em 32\/}(2), 118--132.
 
 \bibitem[\protect\citeauthoryear{Madec et~al.}{Madec
   et~al.}{2012}]{madec2012nemo}
@@ -188,6 +224,19 @@ Thomson, R.~E. and W.~S. Huggett (1980).
 Umlauf, L. and H.~Burchard (2003).
 \newblock A generic length-scale equation for geophysical turbulence models.
 \newblock {\em Journal of Marine Research\/}~{\em 61\/}(2), 235--265.
+
+\bibitem[\protect\citeauthoryear{Weisberg and Zheng}{Weisberg and
+  Zheng}{2006}]{weisberg2006hurricane}
+Weisberg, R.~H. and L.~Zheng (2006).
+\newblock Hurricane storm surge simulations for tampa bay.
+\newblock {\em Estuaries and Coasts\/}~{\em 29\/}(6), 899--913.
+
+\bibitem[\protect\citeauthoryear{Xu, Zhang, Shen, and Li}{Xu
+  et~al.}{2010}]{xu2010storm}
+Xu, H., K.~Zhang, J.~Shen, and Y.~Li (2010).
+\newblock Storm surge simulation along the us east and gulf coasts using a
+  multi-scale numerical model approach.
+\newblock {\em Ocean dynamics\/}~{\em 60\/}(6), 1597--1619.
 
 \bibitem[\protect\citeauthoryear{Yang and Khangaonkar}{Yang and
   Khangaonkar}{2010}]{yang2010multi}
