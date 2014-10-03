@@ -100,25 +100,7 @@ where $A_0$, $A_m$, $g_0$ and $g_m$ are observed and modelled amplitudes and pha
 %perhaps a table of complex differences at tidal stations similar to Table 1 of Foreman et al (1995)  (such as the one produced by tidetools.calc_diffs_meas_mod) here?
 %(would be cool to include the complex differences calculated at the VENUS nodes too)
 
-\begin{table}[h]
-\centering 
-\begin{tabular}{l l c c c c c c} 
-\hline 
-& & \multicolumn{3}{c}{M$_2$} & \multicolumn{3}{c}{K$_1$} \\ 
-\hline 
-Station number & Station name & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) \\
-\hline 
-               &              &     &                      &          &     &                      &          \\
-\hline   
-Mean Error     &              &     &                      &          &     &                      &          \\
-RMS Error      &              &     &                      &          &     &                      &          \\
-\hline  
-\end{tabular}
-\caption{Comparisons of modelled and observed amplitudes and phases. $R$ is the ratio of modelled to observed amplitude. $\Delta \phi$ is the difference between modelled and observed phase. $D$ is the complex difference. }
-\label{tab:comparison} 
-\end{table}
-%May have to include station numbers and locations on a map? Maybe on the contour map, overlay with stations and green/red dots (hopefully mostly green)
-%Should we use the new method of calculating tides?
+
 
 Complex differences were less than ??cm at all stations in our domain, which was assumed to be acceptable for our purposes. 
 %if it's favourable, we could compare our complex differences to Foreman et al (1995), who got an average of D=3cm for M2 and D=2.5cm for K1
@@ -238,6 +220,27 @@ Next, a relatively strong wind event recorded at Point Atkinson on Nov 19, 2009 
 \section{Discussion}\label{sec:diss}
 %future directions: running real time, biology and chemistry, model improvements?
 %comments on wetting and drying (maybe most important in shallow regions)
+
+\section{Appendix}
+\begin{table}[h]
+\centering 
+\begin{tabular}{l l c c c c c c} 
+\hline 
+& & \multicolumn{3}{c}{M$_2$} & \multicolumn{3}{c}{K$_1$} \\ 
+\hline 
+Station number & Station name & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) \\
+\hline 
+               &              &     &                      &          &     &                      &          \\
+\hline   
+Mean Error     &              &     &                      &          &     &                      &          \\
+RMS Error      &              &     &                      &          &     &                      &          \\
+\hline  
+\end{tabular}
+\caption{Comparisons of modelled and observed amplitudes and phases. $R$ is the ratio of modelled to observed amplitude. $\Delta \phi$ is the difference between modelled and observed phase. $D$ is the complex difference. }
+\label{tab:comparison} 
+\end{table}
+%May have to include station numbers and locations on a map? Maybe on the contour map, overlay with stations and green/red dots (hopefully mostly green)
+%Should we use the new method of calculating tides?
 
 \section{Acknowledgements}\label{sec:ack}
 We would like to thank Michael Foreman, Diane Masson, and Luc Fillion for providing data used in model set up and evaluation. This project is funded by the Marine Environmental Observation Prediction and Response Network (MEOPAR), a Network of Centres of Excellence of Canada.  
