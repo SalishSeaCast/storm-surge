@@ -125,9 +125,9 @@ Model results have been compared with observations by calculating both the total
 
 Several significant surge or wind events have been considered in detail, as well as an array of hindcasts to asses model ability in a statistical measure. These cases have been used to asses the model's skill in reproducing water level height and surge amplitude and timing during storm events. In addition, the contribution to the surge due to several forcing conditions, such as atmospheric forcing and open boundary forcing, has been assessed. We have also examined the spatial variability of the surge as it propagates through the domain and have considered a case with high-resolution atmospheric forcing. 
 
-The model's skill is reported through a few statistical measures of the the total water level $\eta$ and the residual $\delta$. First, the mean absolute error ($MAE$), defined as
+The model's skill is reported through a few statistical measures of the the total water level $\eta$ and the residual $\delta$. First, the mean absolute error ($\bar{e}$), defined as
 \begin{equation}
-MAE = \text{mean}\left(\left| M - O \right|\right),
+\bar{e} = \text{mean}\left(\left| M - O \right|\right),
 \end{equation}
 where $M$ and $O$ are the modelled and observed quantities of interest, is a common measure that estimates the average error in the model. Next, a measure comparing the variance of the error to the variance of the observations defined as \citep{thompson2003prediction},
 \begin{equation}
@@ -158,39 +158,37 @@ A comparison between observed and modelled residuals is also displayed in the pa
 \label{fig:feb2006}
 \end{figure}
 
-The maximum water level and maximum residuals are important factors in storm surge hindcasts but a better indicator of overall model performance is provided by a group of statistical measures in Table \ref{tab:feb2006stat}. In general, $\gamma^2$ and $WS$ suggest good model agreement for the predicted water levels, most likely because the tidal signal dominates. The skill scores degrade slightly for the residuals but are still reasonable and indicate very good agreement. Note that the mean absolute error ($MAE$) is lower for the residuals, but this measure does not account for the larger variablity in water levels as opposed to residuals.
+The maximum water level and maximum residuals are important factors in storm surge hindcasts but a better indicator of overall model performance is provided by a group of statistical measures in Table \ref{tab:feb2006stat}. In general, $\gamma^2$ and $WS$ suggest good model agreement for the predicted water levels, most likely because the tidal signal dominates. The skill scores degrade slightly for the residuals but are still reasonable and indicate very good agreement. Note that the mean absolute error ($\bar{e}$) is lower for the residuals, but this measure does not account for the larger variablity in water levels as opposed to residuals.
 
 \begin{table}[h]
 \centering 
-\begin{tabular}{l c c c c c c} 
+\begin{tabular}{|l |c c c | c c c|} 
 \hline 
-& \multicolumn{3}{c}{Water Level ($\eta$)}        & \multicolumn{3}{c}{Residual ($\delta$)} \\ 
+& \multicolumn{3}{|c|}{Water Level ($\eta$)}        & \multicolumn{3}{|c|}{Residual ($\delta$)} \\ 
 \hline 
-Location       & $MAE$ (cm) & $\gamma^2$ & $WS$   & $MAE$ (cm) & $\gamma^2$ & $WS$          \\
+Location       & $\bar{e}$ (cm) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\gamma^2$ & $WS$      \\
 \hline 
-Point Atkinson & 10.5       &   0.012    & 0.994  & 6.2        &  0.0646    & 0.979         \\
-Victoria       &  8.6       &   0.032    & 0.992  & 6.1        &  0.0851    & 0.970         \\
-Patricia Bay   &  9.1       &   0.024    & 0.992  & 6.9        &  0.0704    & 0.969         \\
-Campbell River & 13.1       &   0.041    & 0.990  & 5.8        &  0.0790    & 0.961         \\
+Point Atkinson & 10.5           &   0.012    & 0.994  & 6.2            &  0.0646    & 0.979     \\
+Victoria       &  8.6           &   0.032    & 0.992  & 6.1            &  0.0851    & 0.970     \\
+Patricia Bay   &  9.1           &   0.024    & 0.992  & 6.9            &  0.0704    & 0.969     \\
+Campbell River & 13.1           &   0.041    & 0.990  & 5.8            &  0.0790    & 0.961     \\
 \hline 
 \end{tabular}
-\caption{Evaluation of model performance for the Feb 2006 simulation. Mean absoulte error (MAE), $\gamma^2$, and the Willmott skill score ($WS$) are provided for water level predictions ($\eta$) and resdiuals ($\delta$) during the period displayed in Figure \ref{fig:feb2006}.}
+\caption{Evaluation of model performance for the Feb 2006 simulation. Mean absoulte error ($\bar{e}$), $\gamma^2$, and the Willmott skill score ($WS$) are provided for water level predictions ($\eta$) and resdiuals ($\delta$) during the period displayed in Figure \ref{fig:feb2006}.}
 \label{tab:feb2006stat} 
 \end{table} 
 %anything else to include? statistics calculated in Feb 2006 -paper prodcution.ipynb and saved in statisitcs_feb2006.csv 
 
-Next, an assessment of the factors that are most important in scenarios leading up to storm surges is presented in Figure \ref{fig:factors}. The modelled residual from three simulations have been plotted. First, a simulation with all the forcing conditions, including tides, atmospheric forcing, rivers, and sea surface height anomaly, is shown in blue. Additionally, a simulation with all forcing except the atmospheric forcing is presented in green and a simulation with all forcing except the sea surface height anomaly is shown in red. It is clear that the sea surface height anomaly contributes most significantly to the surge at each of these locations. When the sea surface height anomaly is not included as a forcing condition, the surge drops from 70 cm to 15.6 cm at Point Atkinson and its maximum occurs eight hours later.  A similar drop in the maximum surge and delay in timing of the maximum surge is observed at the other locations. The atmospheric model indicates southeasterly winds during the onset of the surge but after the peak surge has passed, the winds shift to westerly. A strong westerly wind would cause an elevated sea surface height at Point Atkinson as water piles against the coast, explaining the delay in peak surge when only atmospheric forcing is used since the winds to shift westerly after the peak surge has passed. A simulation with only wind forcing (no inverse barometer effect or anomaly at open boundary) produces a surge of 9.0 cm at Point Atkinson, a small fraction of the total observed surge. However, this wind-induced surge occurs well after the peak surge from observations and simulations with full forcing.
+Next, an assessment of the factors that are most important in scenarios leading up to storm surges is presented in Figure \ref{fig:factors}. The modelled residual from four simulations have been plotted. First, a simulation with all the forcing conditions, including tides, atmospheric forcing, rivers, and sea surface height anomaly, is shown in the dashed black curve. Additionally, a simulation with all forcing except the atmospheric forcing is presented in solid grey and a simulation with all forcing except the sea surface height anomaly is shown solid black. Finally, a simulation with only wind forcing, that is no anomaly and no inverse barometer effect due to pressure, is shown in the dashed grey curve. It is clear that the sea surface height anomaly contributes most significantly to the surge at each of these locations. When the sea surface height anomaly is not included as a forcing condition, the surge drops from a maximum 82 cm to 11 cm at Point Atkinson and its maximum occurs eight hours later.  A similar drop in the maximum surge and delay in timing of the maximum surge is observed at the other locations. The atmospheric model indicates southeasterly winds near Point Atkinson during the onset of the surge but after the peak surge has passed, the winds shift to westerly. A strong westerly wind would cause an elevated sea surface height at Point Atkinson as water piles against the coast, explaining the delay in peak surge when only atmospheric forcing is used since the winds shift to westerly after the peak surge has passed. A simulation with only wind forcing produces a surge of 7.8 cm at Point Atkinson, a small fraction of the total observed surge, and only centimeters at the other locations. Note that this wind-induced surge occurs well after the peak surge from observations and simulations with full forcing.
 
-The contribution to the surge due to atmospheric forcing appears to be geographically dependent, its removal leading to a drop of about 5 cm in the maximum surge at Point Atkinson and 10 cm at Campbell River. When atmospheric forces are neglected the timing of the maximum surge is earlier at Point Atkinson but later at Campbell River. Campbell River exhibits a strong response to atmospheric conditions during midday on Feb 4, as demonstrated in a two sharp spikes in both the blue and red curves around 12:00 hr The green curve, which does not include any atmospheric coring, does not exhibit this behaviour. The result is a peak surge earlier than in day than the no atmospheric forcing case. This response is also noted in the observations at Campbell River in Figure \ref{fig:feb2006} where the maximum surge occurs earlier than at the other locations. At Victoria and Patricia Bay, the surge amplitude is mainly unaffected by the atmospheric forcing. 
-%maybe look at winds/pressure to see why Vic/Pat Bay aren't affected?. Plan: map of wind vectors from CGRF (not for paper, just for me in aiding with explanation)
+The contribution to the surge due to atmospheric forcing appears to be geographically dependent, its removal leading to a drop of about 2.5 cm in the maximum surge at Point Atkinson and 2.3 cm at Campbell River. Interestingly, the surge amplitude increases by 4.8 cm at Victoria and 3.6 cm at Patricia Bay when atmospheric forces are negelcted. The southeasterly winds over the Strait of Georgia could be acting to push water away from the southern tip of Vancouver Island, resulting in slight decrease in the surge amplitude at Victoria and Patricia Bay when wind effects are included in the model. Additionally, the surge amplitude decreases by a few centimtres if the inverse barometer effect due to atmospheric pressure is not included. 
 
-
-These comparisons point to the importance of including, as a forcing condition at the open boundary, the surge entering the domain from the Pacific Ocean. Storms travelling over the Pacific Ocean towards the west coast of the northern United States and Canada can induce elevated sea levels along the coastline which then enter the Salish Sea system through the Strait of Juan de Fuca. In a model domain that does not include the Pacific Ocean, this effect must be included as a boundary condition. Previous simulations by \citet{murty1995storm} suggest that the inverse barometer effect and the surge entering the system through the Strait of Juan de Fuca contribute most significantly to storm surges in this domain.  A detailed assessment of the effect of the local atmospheric conditions and winds is included later where simulations have been performed with high resolution atmospheric forcing data.  
+These comparisons point to the importance of including, as a forcing condition at the open boundary, the surge entering the domain from the Pacific Ocean. Storms travelling over the Pacific Ocean towards the west coast of the northern United States and Canada can induce elevated sea levels along the coastline which then enter the Salish Sea system through the Strait of Juan de Fuca. In a model domain that does not include the Pacific Ocean, this effect must be included as a boundary condition. Previous simulations by \citet{murty1995storm} suggest that the inverse barometer effect and the surge entering the system through the Strait of Juan de Fuca contribute most significantly to storm surges in this domain.  A detailed assessment of the effect of the local atmospheric conditions and winds should be performed with high resolution atmospheric forcing data.  
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{Figures/feb2006_factors.pdf}
-\caption{Comparison of the modelled residual for three simulations: A simulation with all forcing (solid black), a simulation without atmospheric forcing (solid grey), a simulation without the sea surface height anomaly (dashed black) and a simulation with only wind forcing, ie no sea surface height anomaly or pressure (dashed grey). }
+\caption{Comparison of the modelled residual for three simulations: A simulation with all forcing (solid black), a simulation without atmospheric forcing (solid grey), a simulation without the sea surface height anomaly (dashed black) and a simulation with only wind forcing, i.e.\ no sea surface height anomaly or pressure (dashed grey). }
 \label{fig:factors}
 \end{figure}
 
