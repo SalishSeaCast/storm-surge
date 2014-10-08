@@ -16,6 +16,13 @@ Bernier, N. and K.~Thompson (2006).
 \newblock {\em Journal of Geophysical Research: Oceans (1978--2012)\/}~{\em
   111}, C10009.
 
+\bibitem[\protect\citeauthoryear{Bernier and Thompson}{Bernier and
+  Thompson}{2010}]{bernier2010tide}
+Bernier, N. and K.~Thompson (2010).
+\newblock Tide and surge energy budgets for eastern canadian and northeast us
+  waters.
+\newblock {\em Continental Shelf Research\/}~{\em 30\/}(3), 353--364.
+
 \bibitem[\protect\citeauthoryear{Bobanovi{\'c}, Thompson, Desjardins, and
   Ritchie}{Bobanovi{\'c} et~al.}{2006}]{bobanovic2006forecasting}
 Bobanovi{\'c}, J., K.~R. Thompson, S.~Desjardins, and H.~Ritchie (2006).
@@ -207,6 +214,14 @@ Sutherland, D.~A., P.~MacCready, N.~S. Banas, and L.~F. Smedstad (2011).
 \newblock A model study of the {Salish Sea} estuarine circulation.
 \newblock {\em Journal of Physical Oceanography\/}~{\em 41\/}(6), 1125--1143.
 
+\bibitem[\protect\citeauthoryear{Thompson, Sheng, Smith, and Cong}{Thompson
+  et~al.}{2003}]{thompson2003prediction}
+Thompson, K.~R., J.~Sheng, P.~C. Smith, and L.~Cong (2003).
+\newblock Prediction of surface currents and drifter trajectories on the inner
+  scotian shelf.
+\newblock {\em Journal of Geophysical Research: Oceans (1978--2012)\/}~{\em
+  108\/}(C9).
+
 \bibitem[\protect\citeauthoryear{Thomson}{Thomson}{1981}]{thomson1981oceanogra%
 phy}
 Thomson, R.~E. (1981).
@@ -230,6 +245,12 @@ Umlauf, L. and H.~Burchard (2003).
 Weisberg, R.~H. and L.~Zheng (2006).
 \newblock Hurricane storm surge simulations for tampa bay.
 \newblock {\em Estuaries and Coasts\/}~{\em 29\/}(6), 899--913.
+
+\bibitem[\protect\citeauthoryear{Willmott}{Willmott}{1982}]{willmott1982some}
+Willmott, C.~J. (1982).
+\newblock Some comments on the evaluation of model performance.
+\newblock {\em Bulletin of the American Meteorological Society\/}~{\em
+  63\/}(11), 1309--1313.
 
 \bibitem[\protect\citeauthoryear{Xu, Zhang, Shen, and Li}{Xu
   et~al.}{2010}]{xu2010storm}
