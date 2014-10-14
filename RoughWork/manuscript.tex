@@ -162,16 +162,16 @@ The maximum water level and maximum residuals are important factors in storm sur
 
 \begin{table}[h]
 \centering 
-\begin{tabular}{|l |c c c | c c c|} 
+\begin{tabular}{|l |c c c c c | c c c c c|} 
 \hline 
-& \multicolumn{3}{|c|}{Water Level ($\eta$)}        & \multicolumn{3}{|c|}{Residual ($\delta$)} \\ 
+& \multicolumn{5}{|c|}{Water Level ($\eta$)}        & \multicolumn{5}{|c|}{Residual ($\delta$)} \\ 
 \hline 
-Location       & $\bar{e}$ (cm) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\gamma^2$ & $WS$      \\
+Location       & $\bar{e}$ (cm) & $\bar{\eta_{o}}$ (m) & $\bar{\eta_{m}}$ (m) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\bar{\delta_{o}}$ (m) & $\bar{\delta_{m}}$ (m) & $\gamma^2$ & $WS$ \\
 \hline 
-Point Atkinson & 10.5           &   0.012    & 0.994  & 6.2            &  0.065     & 0.979     \\
-Victoria       &  8.6           &   0.032    & 0.992  & 6.1            &  0.085     & 0.970     \\
-Patricia Bay   &  9.1           &   0.024    & 0.992  & 6.9            &  0.070     & 0.969     \\
-Campbell River & 13.1           &   0.041    & 0.990  & 5.8            &  0.079     & 0.961     \\
+Point Atkinson & 10.5           & 3.46                 & 3.54                 &   0.012    & 0.994  & 6.2            &  0.273                 & 0.309                  & 0.065     & 0.979     \\
+Victoria       &  8.6           & 2.18                 & 2.19                 &   0.032    & 0.992  & 6.1            &  0.235                 & 0.278                  & 0.085     & 0.970     \\
+Patricia Bay   &  9.1           & 2.60                 & 2.64                 &   0.024    & 0.992  & 6.9            &  0.223                 & 0.278                  & 0.070     & 0.969     \\
+Campbell River & 13.1           & 3.20                 & 3.21                 &   0.041    & 0.990  & 5.8            &  0.303                 & 0.300                  & 0.079     & 0.961     \\
 \hline 
 \end{tabular}
 \caption{Evaluation of model performance for the Feb 2006 simulation. Mean absoulte error ($\bar{e}$), $\gamma^2$, and the Willmott skill score ($WS$) are provided for water level predictions ($\eta$) and resdiuals ($\delta$) during the period displayed in Figure \ref{fig:feb2006}.}
@@ -205,7 +205,7 @@ Finally, an assessment of the importance of including the tide-surge interaction
 \subsection{Spatial Extent of Surge: Dec 15, 2006}
 On Dec 15, 2006, a major storm with wind gusts over 120 km/hr caused significant damage to many coastal communities on the Pacific Northwest. Although the storm was very strong and the observed residual at Point Atkinson reached 84 cm, this event did not coincide with high tide and so no significant or reported flooding occurred in the Vancouver area \citep{forseth2006adaptation}. This event has been used to examine the propagation of the surge throughout the domain and spatial variations in the surge amplitude. First, an assessment of the accuracy of the hindcast is provided. 
 
-Point Atkinson observed a maximum surge amplitude of 84 cm, which is approximately 28 cm higher than the modelled residual, however the timing of the surge agrees almost exactly as displayed in Figure \ref{fig:dec2006}. The best agreement occurs at Victoria where the observed surge was 62 cm and the model returned 44 cm. At all of the locations, the model predicted the maximum surge to occur within 3.5 hours of the observed surge. Typically, the modelled surge was too early, in contrast to the later predictions in the Feb 4, 2006 case. Error and skill scores for the modelled water level and the modelled residual are provided in Table \ref{dec2006stat}. The modelled residuals are on average too low and have a lower skill score than the Feb 2006 case. This could be due to a number of factors. First,the very large wind speeds observed during this storm are significantly underrepresented by the atmospheric model leading to lower wind stress and less piling of water against the coast. Second, the anomaly forcing at the open boundaries could be too low. The observed residual at Tofino, BC (a point near by but outside of the domain) is up to 10 cm lower than the observed residual at Neah Bay, WA (a point near by but inside of the domain). Since the storm surge is less sensitive to wind forcing at the surface than anomaly forcing at the open boundaries, the latter is likely the case. 
+Point Atkinson observed a maximum surge amplitude of 84 cm, which is approximately 28 cm higher than the modelled residual, however the timing of the surge agrees almost exactly as displayed in Figure \ref{fig:dec2006}. The best agreement occurs at Victoria where the observed surge was 62 cm and the model returned 44 cm. At all of the locations, the model predicted the maximum surge to occur within 3.5 hours of the observed surge. Typically, the modelled surge was too early, in contrast to the later predictions in the Feb 4, 2006 case. Error and skill scores for the modelled water level and the modelled residual are provided in Table \ref{tab:dec2006stat}. The modelled residuals are on average too low and have a lower skill score than the Feb 2006 case. This could be due to a number of factors. First,the very large wind speeds observed during this storm are significantly underrepresented by the atmospheric model leading to lower wind stress and less piling of water against the coast. Second, the anomaly forcing at the open boundaries could be too low. The observed residual at Tofino, BC (a point near by but outside of the domain) is up to 10 cm lower than the observed residual at Neah Bay, WA (a point near by but inside of the domain). Since the storm surge is less sensitive to wind forcing at the surface than anomaly forcing at the open boundaries, the latter is likely the case. 
 %Skill score between CGRF and observed winds? 
 
 \begin{figure}
@@ -221,7 +221,7 @@ Point Atkinson observed a maximum surge amplitude of 84 cm, which is approximate
 \hline 
 & \multicolumn{5}{|c|}{Water Level ($\eta$)}        & \multicolumn{5}{|c|}{Residual ($\delta$)} \\ 
 \hline 
-Location       & $\bar{e}$ (cm) & $\bar{\eta_{o}}$ (m) & $\bar{\eta_{m}}$ (m) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\bar{\delta_{m}}$ (o) & $\bar{\delta_{m}}$ (m) & $\gamma^2$ & $WS$ \\
+Location       & $\bar{e}$ (cm) & $\bar{\eta_{o}}$ (m) & $\bar{\eta_{m}}$ (m) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\bar{\delta_{o}}$ (m) & $\bar{\delta_{m}}$ (m) & $\gamma^2$ & $WS$ \\
 \hline 
 Point Atkinson & 10.5           &  3.45                & 3.47                 &   0.025    & 0.994  & 11.1           &  0.212                 & 0.186                  &  0.275     & 0.891 \\
 Victoria       &  9.6           &  2.23                & 2.16                 &   0.042    & 0.984  &  7.9           &  0.190                 & 0.156                  &  0.223     & 0.911 \\
@@ -229,7 +229,7 @@ Patricia Bay   &  9.2           &  2.63                & 2.58                 & 
 Campbell River & 10.6           &  3.23                & 3.28                 &   0.030    & 0.992  & 10.6           &  0.191                 & 0.163                  &  0.247     & 0.905 \\
 \hline 
 \end{tabular}
-\caption{Evaluation of model performance for the Dec 2006 simulation.}
+\caption{Evaluation of model performance for the Dec 2006 hindcast.}
 \label{tab:dec2006stat} 
 \end{table}
 
@@ -264,7 +264,26 @@ Next, a relatively strong wind event recorded at Point Atkinson on Nov 19, 2009 
 \label{fig:nov2009}
 \end{figure}
 
-Once again, an evaluation of the model skill in this hindcast is provided in Table \ref{tab:nov2009stats}.
+Once again, an evaluation of the model skill for this hindcast is provided in Table \ref{tab:nov2009stat}.
+
+\begin{table}[h]
+\centering 
+\begin{tabular}{|l |c c c c c | c c c c c|} 
+\hline 
+& \multicolumn{5}{|c|}{Water Level ($\eta$)}        & \multicolumn{5}{|c|}{Residual ($\delta$)} \\ 
+\hline 
+Location       & $\bar{e}$ (cm) & $\bar{\eta_{o}}$ (m) & $\bar{\eta_{m}}$ (m) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\bar{\delta_{o}}$ (m) & $\bar{\delta_{m}}$ (m) & $\gamma^2$ & $WS$ \\
+\hline 
+Point Atkinson & 14.0           &  3.45                & 3.55                 &   0.012    & 0.995  &  6.1           &  0.313                 & 0.331                  &  0.237     & 0.913 \\
+Victoria       &  9.9           &  2.25                & 2.24                 &   0.023    & 0.989  &  4.8           &  0.323                 & 0.293                  &  0.245     & 0.899 \\
+Patricia Bay   & 11.2           &  2.50                & 2.65                 &   0.020    & 0.997  &  6.0           &  0.277                 & 0.290                  &  0.272     & 0.901 \\
+Campbell River & 13.5           &  3.22                & 3.27                 &   0.019    & 0.991  &  4.9           &  0.326                 & 0.314                  &  0.217     & 0.924 \\
+\hline 
+\end{tabular}
+\caption{Evaluation of model performance for the Nov 2009 hindcast.}
+\label{tab:nov2009stat} 
+\end{table}
+
 
 %\subsection{High Resolution Atmospheric Forcing: Dec 17, 2012}
 %not to be included
