@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  14 OCT 2014 15:45
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  14 OCT 2014 16:22
 entering extended mode
  %&-line parsing enabled.
 **manuscript.tex
@@ -216,7 +216,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Here is how much of TeX's memory you used:
  2053 strings out of 495061
  26688 string characters out of 1182622
- 87216 words of memory out of 3000000
+ 88216 words of memory out of 3000000
  5238 multiletter control sequences out of 15000+50000
  9668 words of font info for 35 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -233,7 +233,7 @@ ublic/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on manuscript.pdf (17 pages, 2848488 bytes).
+Output written on manuscript.pdf (17 pages, 2848995 bytes).
 PDF statistics:
  543 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
