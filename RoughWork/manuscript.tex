@@ -217,16 +217,16 @@ Point Atkinson observed a maximum surge amplitude of 84 cm, which is approximate
 
 \begin{table}[h]
 \centering 
-\begin{tabular}{|l |c c c | c c c|} 
+\begin{tabular}{|l |c c c c c | c c c c c|} 
 \hline 
-& \multicolumn{3}{|c|}{Water Level ($\eta$)}        & \multicolumn{3}{|c|}{Residual ($\delta$)} \\ 
+& \multicolumn{5}{|c|}{Water Level ($\eta$)}        & \multicolumn{5}{|c|}{Residual ($\delta$)} \\ 
 \hline 
-Location       & $\bar{e}$ (cm) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\gamma^2$ & $WS$      \\
+Location       & $\bar{e}$ (cm) & $\bar{\eta_{o}}$ (m) & $\bar{\eta_{m}}$ (m) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\bar{\delta_{m}}$ (o) & $\bar{\delta_{m}}$ (m) & $\gamma^2$ & $WS$ \\
 \hline 
-Point Atkinson & 10.5           &   0.025    & 0.994  & 11.1           &  0.275     & 0.891     \\
-Victoria       &  9.6           &   0.042    & 0.984  &  7.9           &  0.223     & 0.911     \\
-Patricia Bay   &  9.2           &   0.031    & 0.990  &  9.5           &  0.260     & 0.889     \\
-Campbell River & 10.6           &   0.030    & 0.992  & 10.6           &  0.247     & 0.905     \\
+Point Atkinson & 10.5           &  3.45                & 3.47                 &   0.025    & 0.994  & 11.1           &  0.212                 & 0.186                  &  0.275     & 0.891 \\
+Victoria       &  9.6           &  2.23                & 2.16                 &   0.042    & 0.984  &  7.9           &  0.190                 & 0.156                  &  0.223     & 0.911 \\
+Patricia Bay   &  9.2           &  2.63                & 2.58                 &   0.031    & 0.990  &  9.5           &  0.193                 & 0.149                  &  0.260     & 0.889 \\
+Campbell River & 10.6           &  3.23                & 3.28                 &   0.030    & 0.992  & 10.6           &  0.191                 & 0.163                  &  0.247     & 0.905 \\
 \hline 
 \end{tabular}
 \caption{Evaluation of model performance for the Dec 2006 simulation.}
@@ -252,9 +252,10 @@ An evaluation of the spatial distribution of the surge in a simulation without a
 \end{figure}
 
 \subsection{Strong Wind Event: Nov 19, 2009}
-Next, a relatively strong wind event recorded at Point Atkinson on Nov 19, 2009 is considered. As recorded in the Environment Canada Historical Climate Data archives, the maximum hourly wind speed at Point Atkinson was 18.6 m/s and the largest gust observed was 25.8 m/s or 93 km/hr. In addition, large wind speeds over 15 m/s persisted for over 9 hours. Yet, the surge associated with this event is rather small when compared the previous two cases as shown in Figure \ref{fig:nov2009} where we have plotted the wind speed at Point Atkinson, sea surface height anomaly forcing at the open boundaries, and observed and modelled residuals at Point Atkinson. Two significant surge events are noted, the first occurring on Nov 19 and a second, larger surge on Nov 20. The largest surge did not coincide with the strong wind event which peaked at Nov 19 01:00 hr, reflected in both the model and observations. The highest observed surge reached 62.6 cm on Nov 20 at 10:00 hr, while the model recorded a maximum surge of 38.8 cm five hours later. The surge did not occur during a high tide and so no high water level events were recorded. Although not shown here, the other three locations also observed a maximum surge on Nov 20, which appears to be linked to a secondary high wind event and a more significant surge entering the system at Tofino and Port Hardy. 
+Next, a relatively strong wind event recorded at Point Atkinson on Nov 19, 2009 is considered. As recorded in the Environment Canada Historical Climate Data archives, the maximum hourly wind speed at Point Atkinson was 18.6 m/s and the largest gust observed was 25.8 m/s or 93 km/hr. In addition, large wind speeds over 15 m/s persisted for over 9 hours. Yet, the surge associated with this event is rather small when compared the previous two cases as shown in Figure \ref{fig:nov2009} where we have plotted the wind speed at Point Atkinson, sea surface height anomaly forcing at the open boundaries, and observed and modelled residuals at Point Atkinson. Two significant surge events are noted, the first occurring on Nov 19 and a second, larger surge on Nov 20. The largest surge did not coincide with the strong wind event which peaked at Nov 19 01:00 UTC, reflected in both the model and observations. The highest observed surge reached 62.5 cm on Nov 20 at 10:30 UTC, while the model recorded a maximum surge of 50.5 cm five hours later. On Nov 19, the observed surge reached upwards of 50 cm, which is low when compared to the other cases considered. Neither of the surges occured during a high tide and so no high water level events were recorded. Although not shown here, the other three locations also observed a maximum surge on Nov 20, which appears to be linked to a secondary high wind event and another surge entering the system at Tofino and Port Hardy. 
+%citation for Environment Canada data?
 
-\citet{danard2003storm} discuss the role of wind fetch, the distance over which wind acts on the surface of a water basin, in setting up seiche motion in lakes and its contribution to storm surges. As wind blows over the surface of a lake, the water level becomes elevated on the downwind side and depressed on the upwind side in response to the wind-induced currents. The longer the fetch, the more significant the tilting of the water surface. These changes in water level can also contribute to storm surges.  During the high wind event on Nov 19, the winds at Point Atkinson were directed to the west, explaining the lack of surge associated with this high wind event since wind stresses would act to depress the water on the east side of the basin. It is possible that the surge occurring on Nov 19 formed in response to the sea surface returning to equilibrium in a seiche-like motion after the winds have relaxed. The model appears to reproduce this surge with reasonable accuracy, however, there are some discrepancies in the wind speed and direction between weather observations and the atmospheric forcing employed. A more detailed look at the sensitivity of modelled surges to atmospheric forcing is considered in a case with a high-resolution weather product. 
+\citet{danard2003storm} discuss the role of wind fetch, the distance over which wind acts on the surface of a water basin, in setting up seiche motion in lakes and its contribution to storm surges. As wind blows over the surface of a lake, the water level becomes elevated on the downwind side and depressed on the upwind side in response to the wind-induced currents. The longer the fetch, the more significant the tilting of the water surface. These changes in water level can also contribute to storm surges.  During the high wind event on Nov 19, the winds at Point Atkinson were directed to the west, explaining the lack of strong surge observed during this event since wind stresses would act to depress the water on the east side of the basin. The model appears to reproduce this surge with reasonable accuracy, however, there are some discrepancies in the wind speed and direction between weather observations and the atmospheric forcing employed. 
 
 \begin{figure}
 \centering
@@ -263,8 +264,12 @@ Next, a relatively strong wind event recorded at Point Atkinson on Nov 19, 2009 
 \label{fig:nov2009}
 \end{figure}
 
-%\subsection{High Resolution Atmospheric Forcing: Dec 17, 2012}
+Once again, an evaluation of the model skill in this hindcast is provided in Table \ref{tab:nov2009stats}.
 
+%\subsection{High Resolution Atmospheric Forcing: Dec 17, 2012}
+%not to be included
+
+%I have one other simulation for November 2006. Skill scores are comparable to the Feb 2006 case, so I'm not sure what this case adds to the overall article. 
 
 \section{Discussion}\label{sec:diss}
 %future directions: running real time, biology and chemistry, model improvements?
