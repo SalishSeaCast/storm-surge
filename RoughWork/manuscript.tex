@@ -158,7 +158,7 @@ A comparison between observed and modelled residuals is also displayed in the pa
 \label{fig:feb2006}
 \end{figure}
 
-The maximum water level and maximum residuals are important factors in storm surge hindcasts but a better indicator of overall model performance is provided by a group of statistical measures in Table \ref{tab:feb2006stat}. In general, $\gamma^2$ and $WS$ suggest good model agreement for the predicted water levels, most likely because the tidal signal dominates. The skill scores degrade slightly for the residuals but are still reasonable and indicate very good agreement. Note that the mean absolute error ($\bar{e}$) is lower for the residuals, but this measure does not account for the larger variablity in water levels as opposed to residuals.
+The maximum water level and maximum residuals are important factors in storm surge hindcasts but a better indicator of overall model performance is provided by a group of statistical measures in Table \ref{tab:feb2006stat}. In general, $\gamma^2$ and $WS$ suggest good model agreement for the predicted water levels, most likely because the tidal signal dominates. The skill scores degrade slightly for the residuals but are still reasonable and indicate very good agreement. Note that the mean absolute error ($\bar{e}$) is lower for the residuals, but this measure does not account for the larger variablity in water levels due to the tides.
 
 \begin{table}[h]
 \centering 
@@ -168,16 +168,17 @@ The maximum water level and maximum residuals are important factors in storm sur
 \hline 
 Location       & $\bar{e}$ (cm) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\gamma^2$ & $WS$      \\
 \hline 
-Point Atkinson & 10.5           &   0.012    & 0.994  & 6.2            &  0.0646    & 0.979     \\
-Victoria       &  8.6           &   0.032    & 0.992  & 6.1            &  0.0851    & 0.970     \\
-Patricia Bay   &  9.1           &   0.024    & 0.992  & 6.9            &  0.0704    & 0.969     \\
-Campbell River & 13.1           &   0.041    & 0.990  & 5.8            &  0.0790    & 0.961     \\
+Point Atkinson & 10.5           &   0.012    & 0.994  & 6.2            &  0.065     & 0.979     \\
+Victoria       &  8.6           &   0.032    & 0.992  & 6.1            &  0.085     & 0.970     \\
+Patricia Bay   &  9.1           &   0.024    & 0.992  & 6.9            &  0.070     & 0.969     \\
+Campbell River & 13.1           &   0.041    & 0.990  & 5.8            &  0.079     & 0.961     \\
 \hline 
 \end{tabular}
 \caption{Evaluation of model performance for the Feb 2006 simulation. Mean absoulte error ($\bar{e}$), $\gamma^2$, and the Willmott skill score ($WS$) are provided for water level predictions ($\eta$) and resdiuals ($\delta$) during the period displayed in Figure \ref{fig:feb2006}.}
 \label{tab:feb2006stat} 
 \end{table} 
 %anything else to include? statistics calculated in Feb 2006 -paper prodcution.ipynb and saved in statisitcs_feb2006.csv 
+%mean of model and mean of observations?
 
 Next, an assessment of the factors that are most important in scenarios leading up to storm surges is presented in Figure \ref{fig:factors}. The modelled residual from four simulations have been plotted. First, a simulation with all the forcing conditions, including tides, atmospheric forcing, rivers, and sea surface height anomaly, is shown in the dashed black curve. Additionally, a simulation with all forcing except the atmospheric forcing is presented in solid grey and a simulation with all forcing except the sea surface height anomaly is shown solid black. Finally, a simulation with only wind forcing, that is no anomaly and no inverse barometer effect due to pressure, is shown in the dashed grey curve. It is clear that the sea surface height anomaly contributes most significantly to the surge at each of these locations. When the sea surface height anomaly is not included as a forcing condition, the surge drops from a maximum 82 cm to 11 cm at Point Atkinson and its maximum occurs eight hours later.  A similar drop in the maximum surge and delay in timing of the maximum surge is observed at the other locations. The atmospheric model indicates southeasterly winds near Point Atkinson during the onset of the surge but after the peak surge has passed, the winds shift to westerly. A strong westerly wind would cause an elevated sea surface height at Point Atkinson as water piles against the coast, explaining the delay in peak surge when only atmospheric forcing is used since the winds shift to westerly after the peak surge has passed. A simulation with only wind forcing produces a surge of 7.8 cm at Point Atkinson, a small fraction of the total observed surge, and only centimeters at the other locations. Note that this wind-induced surge occurs well after the peak surge from observations and simulations with full forcing.
 
@@ -202,16 +203,35 @@ Finally, an assessment of the importance of including the tide-surge interaction
 \end{figure}
 
 \subsection{Spatial Extent of Surge: Dec 15, 2006}
-On Dec 15, 2006, a major storm with wind gusts over 120 km/hr caused significant damage to many coastal communities on the Pacific Northwest. Although the storm was very strong and the observed residual at Point Atkinson reached 84 cm, this event did not coincide with high tide and so no significant or reported flooding occurred in the Vancouver area\citep{forseth2006adaptation}. This event has been used to examine the propagation of the surge throughout the domain. First, an assessment of the accuracy of the hindcast is provided. 
+On Dec 15, 2006, a major storm with wind gusts over 120 km/hr caused significant damage to many coastal communities on the Pacific Northwest. Although the storm was very strong and the observed residual at Point Atkinson reached 84 cm, this event did not coincide with high tide and so no significant or reported flooding occurred in the Vancouver area \citep{forseth2006adaptation}. This event has been used to examine the propagation of the surge throughout the domain and spatial variations in the surge amplitude. First, an assessment of the accuracy of the hindcast is provided. 
 
-Point Atkinson observed a maximum surge amplitude of 84 cm, which is approximately 29 cm higher than the model result, however the timing of the surge agrees almost exactly. as displayed in Figure \ref{fig:dec2006} The best agreement occurs at Victoria where the observed surge was 62 cm and the model returned 44 cm. At all of the locations, the model predicted the maximum surge to occur within 3.5 hours of the observed surge. Typically, the modelled surge was too early, in contrast to the later predictions in the Feb 4, 2006 case. Errors in the modelled water level at the time of maximum surge were of the same order as the errors in the surge amplitude.  
+Point Atkinson observed a maximum surge amplitude of 84 cm, which is approximately 28 cm higher than the modelled residual, however the timing of the surge agrees almost exactly as displayed in Figure \ref{fig:dec2006}. The best agreement occurs at Victoria where the observed surge was 62 cm and the model returned 44 cm. At all of the locations, the model predicted the maximum surge to occur within 3.5 hours of the observed surge. Typically, the modelled surge was too early, in contrast to the later predictions in the Feb 4, 2006 case. Error and skill scores for the modelled water level and the modelled residual are provided in Table \ref{dec2006stat}. The modelled residuals are on average too low and have a lower skill score than the Feb 2006 case. This could be due to a number of factors. First,the very large wind speeds observed during this storm are significantly underrepresented by the atmospheric model leading to lower wind stress and less piling of water against the coast. Second, the anomaly forcing at the open boundaries could be too low. The observed residual at Tofino, BC (a point near by but outside of the domain) is up to 10 cm lower than the observed residual at Neah Bay, WA (a point near by but inside of the domain). Since the storm surge is less sensitive to wind forcing at the surface than anomaly forcing at the open boundaries, the latter is likely the case. 
+%Skill score between CGRF and observed winds? 
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{Figures/dec2006.pdf}
-\caption{Comparison of observed water level and surge amplitudes during the Dec 15, 2006 storm surge simulation. }
+\caption{Comparison of observed and modelled water level and residuls during the Dec 15, 2006 storm surge simulation. }
 \label{fig:dec2006}
 \end{figure}%table instead of figure?
+
+\begin{table}[h]
+\centering 
+\begin{tabular}{|l |c c c | c c c|} 
+\hline 
+& \multicolumn{3}{|c|}{Water Level ($\eta$)}        & \multicolumn{3}{|c|}{Residual ($\delta$)} \\ 
+\hline 
+Location       & $\bar{e}$ (cm) & $\gamma^2$ & $WS$   & $\bar{e}$ (cm) & $\gamma^2$ & $WS$      \\
+\hline 
+Point Atkinson & 10.5           &   0.025    & 0.994  & 11.1           &  0.275     & 0.891     \\
+Victoria       &  9.6           &   0.042    & 0.984  &  7.9           &  0.223     & 0.911     \\
+Patricia Bay   &  9.2           &   0.031    & 0.990  &  9.5           &  0.260     & 0.889     \\
+Campbell River & 10.6           &   0.030    & 0.992  & 10.6           &  0.247     & 0.905     \\
+\hline 
+\end{tabular}
+\caption{Evaluation of model performance for the Dec 2006 simulation.}
+\label{tab:dec2006stat} 
+\end{table}
 
 The evolution and spatial distribution of the surge is highlighted in Figure \ref{fig:spatial} where the modelled residual is plotted every hour beginning on Dec 15 at 05:30 UTC. The surge enters the system from the Strait of Juna de Fuca and Johnstone Strait, peaking between Dec 15 at 6:30 and Dec 15 at 10:30 and then begins to subside throughout the entire domain. Notably, the Strait of Georgia experiences the largest surge values, upwards of 70 cm, whereas the Juan de Fuca region experiences a maximum surge around 55 cm. Additionally, the coastal areas on the mainland side of the Strait of Georgia experience slightly higher surges than the Vancouver Island side, likely due to the southerly wind in the atmospheric model pushing water against the mainland coast.  
 
