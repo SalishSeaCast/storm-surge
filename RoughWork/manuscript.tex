@@ -64,7 +64,7 @@ In addition to the equations of motion, a prognostic equation for the sea surfac
 \end{figure}
 %image may need more work
 
-The model includes two open boundaries that connect to the Pacific Ocean, the western boundary of the Strait of Juan de Fuca as well as Johnstone Strait at the north, both of which are forced with eight tidal constituents (K$_1$ ,O$_1$, P$_1$, Q$_1$, M$_2$, K$_2$, N$_2$, S$_2$), temperature and salinity climatologies, and the sea surface height anomaly. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major M$_2$ and K$_1$ constituents. Additionally, O$_1$ and S$_2$ elevation harmonics from their measurements were employed. The remaining constituents were extrapolated from Webtide. 
+The model includes two open boundaries that connect to the Pacific Ocean, the western boundary of the Strait of Juan de Fuca as well as Johnstone Strait at the north, both of which are forced with eight tidal constituents (K$_1$ ,O$_1$, P$_1$, Q$_1$, M$_2$, K$_2$, N$_2$, S$_2$), temperature and salinity climatologies, and the sea surface height anomaly. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major M$_2$ and K$_1$ constituents. Additionally, O$_1$ and S$_2$ elevation harmonics from their measurements were employed. The remaining constituents were extrapolated from Webtide. At the western boundary, the tidal elevation and currents forcing parameters were tuned for a good match wiht observations at locations within the Strait of Georgia, including Point Atkinson, Gibsons Landing, Winchelsea and Halfmoon Bay. At the nothern boundary, the tides were tuned for good matches at Yorke Island and Kelsey Bay. Further details on the tuning are provided in the appendix \ref{sec:appendix}. 
 % Needs editing! Update when we are finished with tides.
 
 Temperature and salinity at the Juan de Fuca boundary were taken from a weekly climatology which was created from results from a model covering the Salish Sea and the west coast of Vancouver Island \citep{massonfine2012}.  Their results, originally on s-levels were interpolated onto z-levels and then onto the NEMO horizontal grid.  To prepare the climatology all years (1995-2008) were averaged and results, approximately every 15 days, were interpolated to a weekly climatology. The model is relaxed to the forced temperature and salinity over the 10 grid points (about 5km) closest to the open boundaries, using a flow relaxation scheme \citep{engedahl1995use}. %other references?
@@ -178,7 +178,7 @@ Campbell River & 13.1           & 3.20                 & 3.21                 & 
 \label{tab:feb2006stat} 
 \end{table} 
 %anything else to include? statistics calculated in Feb 2006 -paper prodcution.ipynb and saved in statisitcs_feb2006.csv 
-%mean of model and mean of observations?
+%I also have standard deviations, correlations, ...
 
 Next, an assessment of the factors that are most important in scenarios leading up to storm surges is presented in Figure \ref{fig:factors}. The modelled residual from four simulations have been plotted. First, a simulation with all the forcing conditions, including tides, atmospheric forcing, rivers, and sea surface height anomaly, is shown in the dashed black curve. Additionally, a simulation with all forcing except the atmospheric forcing is presented in solid grey and a simulation with all forcing except the sea surface height anomaly is shown solid black. Finally, a simulation with only wind forcing, that is no anomaly and no inverse barometer effect due to pressure, is shown in the dashed grey curve. It is clear that the sea surface height anomaly contributes most significantly to the surge at each of these locations. When the sea surface height anomaly is not included as a forcing condition, the surge drops from a maximum 82 cm to 11 cm at Point Atkinson and its maximum occurs eight hours later.  A similar drop in the maximum surge and delay in timing of the maximum surge is observed at the other locations. The atmospheric model indicates southeasterly winds near Point Atkinson during the onset of the surge but after the peak surge has passed, the winds shift to westerly. A strong westerly wind would cause an elevated sea surface height at Point Atkinson as water piles against the coast, explaining the delay in peak surge when only atmospheric forcing is used since the winds shift to westerly after the peak surge has passed. A simulation with only wind forcing produces a surge of 7.8 cm at Point Atkinson, a small fraction of the total observed surge, and only centimeters at the other locations. Note that this wind-induced surge occurs well after the peak surge from observations and simulations with full forcing.
 
@@ -252,10 +252,10 @@ An evaluation of the spatial distribution of the surge in a simulation without a
 \end{figure}
 
 \subsection{Strong Wind Event: Nov 19, 2009}
-Next, a relatively strong wind event recorded at Point Atkinson on Nov 19, 2009 is considered. As recorded in the Environment Canada Historical Climate Data archives, the maximum hourly wind speed at Point Atkinson was 18.6 m/s and the largest gust observed was 25.8 m/s or 93 km/hr. In addition, large wind speeds over 15 m/s persisted for over 9 hours. Yet, the surge associated with this event is rather small when compared the previous two cases as shown in Figure \ref{fig:nov2009} where we have plotted the wind speed at Point Atkinson, sea surface height anomaly forcing at the open boundaries, and observed and modelled residuals at Point Atkinson. Two significant surge events are noted, the first occurring on Nov 19 and a second, larger surge on Nov 20. The largest surge did not coincide with the strong wind event which peaked at Nov 19 01:00 UTC, reflected in both the model and observations. The highest observed surge reached 62.5 cm on Nov 20 at 10:30 UTC, while the model recorded a maximum surge of 50.5 cm five hours later. On Nov 19, the observed surge reached upwards of 50 cm, which is low when compared to the other cases considered. Neither of the surges occured during a high tide and so no high water level events were recorded. Although not shown here, the other three locations also observed a maximum surge on Nov 20, which appears to be linked to a secondary high wind event and another surge entering the system at Tofino and Port Hardy. 
+Next, a relatively strong wind event recorded at Point Atkinson on Nov 19, 2009 is considered. As recorded in the Environment Canada Historical Climate Data archives, the maximum hourly wind speed at Point Atkinson was 18.6 m/s and the largest gust observed was 25.8 m/s or 93 km/hr. In addition, large wind speeds over 15 m/s persisted for over 9 hours. Yet, the surge associated with this event is rather small when compared to the previous two cases as shown in Figure \ref{fig:nov2009} where we have plotted the wind speed at Point Atkinson, sea surface height anomaly forcing at the open boundaries, and observed and modelled residuals at Point Atkinson. Two significant surge events are noted, the first occurring on Nov 19 and a second, larger surge on Nov 20. The largest surge did not coincide with the strong wind event which peaked at Nov 19 01:00 UTC, reflected in both the model and observations. At Point Atkinsons, the highest observed surge reached 62.5 cm on Nov 20 at 10:30 UTC, while the model recorded a maximum surge of 50.5 cm five hours later. On Nov 19, the observed surge reached upwards of 50 cm, which is low when compared to the other cases considered. Neither of the surges occured during a high tide and so no high water level events were recorded. Although not shown here, the other three locations also observed a maximum surge on Nov 20, which appears to be linked to a secondary high wind event and another surge entering the system at Tofino and Port Hardy. 
 %citation for Environment Canada data?
 
-\citet{danard2003storm} discuss the role of wind fetch, the distance over which wind acts on the surface of a water basin, in setting up seiche motion in lakes and its contribution to storm surges. As wind blows over the surface of a lake, the water level becomes elevated on the downwind side and depressed on the upwind side in response to the wind-induced currents. The longer the fetch, the more significant the tilting of the water surface. These changes in water level can also contribute to storm surges.  During the high wind event on Nov 19, the winds at Point Atkinson were directed to the west, explaining the lack of strong surge observed during this event since wind stresses would act to depress the water on the east side of the basin. The model appears to reproduce this surge with reasonable accuracy, however, there are some discrepancies in the wind speed and direction between weather observations and the atmospheric forcing employed. 
+\citet{danard2003storm} discuss the role of wind fetch, the distance over which wind acts on the surface of a water basin, in setting up seiche motion in lakes and its contribution to storm surges. As wind blows over the surface of a lake, the water level becomes elevated on the downwind side and depressed on the upwind side in response to the wind-induced currents. The longer the fetch, the more significant the tilting of the water surface. These changes in water level can also contribute to storm surges.  During the high wind event on Nov 19 and Nov 20, the winds at Point Atkinson were directed to the west, explaining the lack of strong surge observed during this event since wind stresses would act to depress the water on the east side of the basin. In fact, the surge amplitude at Victoria on Nov 20 as 64.7 cm which is slightly higher than that observed at Point Atkinson (62.5 cm). Of the cases considered, this is the only example where the surge amplitude at Victoria was higher than that at Point Atkinson. In fact, this event observed a higher surge at Victoria than the Dec 2006 event, further highlighting the role that winds plays in setting up local variations in the surge. In this case, the model results do not reflect a higher surge at Victoria (46.1 cm versus 50.5 cm at Point Atkinson), perhaps due to an underestimate in the wind speed and some discrepancies in the wind direction of the atmospheric forcing.  
 
 \begin{figure}
 \centering
@@ -295,19 +295,49 @@ Campbell River & 13.5           &  3.22                & 3.27                 & 
 %comments on wetting and drying (maybe most important in shallow regions)
 %summary of skill scores
 
-\section{Appendix}
+\section{Appendix}\label{sec:appendix}
 \begin{table}[h]
 \centering 
 \begin{tabular}{l l c c c c c c} 
 \hline 
 & & \multicolumn{3}{c}{M$_2$} & \multicolumn{3}{c}{K$_1$} \\ 
 \hline 
-Station number & Station name & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) \\
+            & Station name     & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) & $R$ & $ \Delta \phi$ (deg) & $D$ (cm) \\
 \hline 
-               &              &     &                      &          &     &                      &          \\
+1           & Port Renfrew     &     &                      &          &     &                      &          \\
+2           & Sheringham Point &     &                      &          &     &                      &          \\
+3	    & Pedder Bay       &     &                      &          &     &                      &          \\
+4           & Esquimalt        &     &                      &          &     &                      &          \\
+5           & Victoria         &     &                      &          &     &                      &          \\
+6           & Clover Point     &     &                      &          &     &                      &          \\
+7           & Finnerty Cove    &     &                      &          &     &                      &          \\
+8           & Fulford Harbour  &     &                      &          &     &                      &          \\
+9           & Tumbo Channel    &     &                      &          &     &                      &          \\
+10          & Patos Island     &     &                      &          &     &                      &          \\
+11          & Whaler Bay       &     &                      &          &     &                      &          \\
+12          & Tsawwassen       &     &                      &          &     &                      &          \\
+13          & Sandheads        &     &                      &          &     &                      &          \\
+14          & Point Grey       &     &                      &          &     &                      &          \\
+15          & Point Atkinson   &     &                      &          &     &                      &          \\
+16          & Gibsons Landing  &     &                      &          &     &                      &          \\
+17          & Winchelsea       &     &                      &          &     &                      &          \\
+18          & Halfmoon Bay     &     &                      &          &     &                      &          \\
+19          & Irvines Landing  &     &                      &          &     &                      &          \\
+20          & Powell River     &     &                      &          &     &                      &          \\
+21          & Little River     &     &                      &          &     &                      &          \\
+22          & Lund             &     &                      &          &     &                      &          \\
+23          & Twin Islets      &     &                      &          &     &                      &          \\
+24          & Campbell River   &     &                      &          &     &                      &          \\
+25          & Maude Island E   &     &                      &          &     &                      &          \\
+26          & Nymphe Cove      &     &                      &          &     &                      &          \\
+27          & Seymour Narrows  &     &                      &          &     &                      &          \\
+28          & Brown Bay        &     &                      &          &     &                      &          \\
+29          & Chatham Point    &     &                      &          &     &                      &          \\
+30          & Kelsey Bay       &     &                      &          &     &                      &          \\
+31          & Yorke Island     &     &                      &          &     &                      &          \\
 \hline   
-Mean Error     &              &     &                      &          &     &                      &          \\
-RMS Error      &              &     &                      &          &     &                      &          \\
+            &  Mean Error      &     &                      &          &     &                      &          \\
+            &  RMS Error       &     &                      &          &     &                      &          \\
 \hline  
 \end{tabular}
 \caption{Comparisons of modelled and observed amplitudes and phases. $R$ is the ratio of modelled to observed amplitude. $\Delta \phi$ is the difference between modelled and observed phase. $D$ is the complex difference. }
