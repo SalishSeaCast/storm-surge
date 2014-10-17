@@ -65,7 +65,6 @@ In addition to the equations of motion, a prognostic equation for the sea surfac
 %image may need more work
 
 The model includes two open boundaries that connect to the Pacific Ocean, the western boundary of the Strait of Juan de Fuca as well as Johnstone Strait at the north, both of which are forced with eight tidal constituents (K$_1$ ,O$_1$, P$_1$, Q$_1$, M$_2$, K$_2$, N$_2$, S$_2$), temperature and salinity climatologies, and the sea surface height anomaly. Tidal heights and currents at grid points along the Juan de Fuca boundary were extracted from Webtide, an online web prediction model for the northeast Pacific Ocean, which is based on work by \citet{foreman2000webtide}. The Johnstone Strait boundary was forced with current and elevation tidal harmonics measured and calculated by \citet{thomson1980johnstone} for the major M$_2$ and K$_1$ constituents. Additionally, O$_1$ and S$_2$ elevation harmonics from their measurements were employed. The remaining constituents were extrapolated from Webtide. At the western boundary, the tidal elevation and currents forcing parameters were tuned for a good match wiht observations at locations within the Strait of Georgia, including Point Atkinson, Gibsons Landing, Winchelsea and Halfmoon Bay. At the nothern boundary, the tides were tuned for good matches at Yorke Island and Kelsey Bay. Further details on the tuning are provided in the appendix \ref{sec:appendix}. 
-% Needs editing! Update when we are finished with tides.
 
 Temperature and salinity at the Juan de Fuca boundary were taken from a weekly climatology which was created from results from a model covering the Salish Sea and the west coast of Vancouver Island \citep{massonfine2012}.  Their results, originally on s-levels were interpolated onto z-levels and then onto the NEMO horizontal grid.  To prepare the climatology all years (1995-2008) were averaged and results, approximately every 15 days, were interpolated to a weekly climatology. The model is relaxed to the forced temperature and salinity over the 10 grid points (about 5km) closest to the open boundaries, using a flow relaxation scheme \citep{engedahl1995use}. %other references?
 
@@ -87,29 +86,25 @@ Initial conditions for temperature and salinity were taken from a CTD cast in th
 \section{Model Evaluation}\label{sec:model}
 
 \subsection{Tidal evaluation}
-The model was initially evaluated qualitatively by comparing patterns of tidal amplitude and phase to results from \citep{foreman1995tidal}. For example, the amphidrome around Victoria was produced in the M$_2$ results, as well as the monotonic increase in $K_1$ amplitude moving northwards along the Strait of Georgia. Initially, the Johnstone Strait boundary was closed, but modelled M$_2$ amplitudes were too small compared to measured amplitudes... TBC
-
-%perhaps a nice contour map of M2 and K1 amps and phases goes here?
-
-Once our model was reproducing observed tidal patterns, model results were quantitatively evaluated by comparing modelled harmonic constituents to measured harmonic constituents at tidal measuring stations throughout the domain. Comparisons were made using the complex difference ($D$), defined by \citep{foreman1995tidal} as:
+The model was initially evaluated qualitatively by comparing patterns of tidal amplitude and phase to results from \citep{foreman1995tidal}. For example, the amphidrome around Victoria was produced in the M$_2$ results, as well as the monotonic increase in $K_1$ amplitude moving northwards along the Strait of Georgia. Once the model was reproducing observed tidal patterns, model results were quantitatively evaluated by comparing modelled harmonic constituents to measured harmonic constituents at tidal measuring stations throughout the domain. Comparisons were made using the complex difference ($D$), defined by \citep{foreman1995tidal} as:
 
 \begin{equation}
 D = [(A_0 \cos g_0 - A_m \cos g_m)^2 + (A_0 \sin g_0 - A_m \sin g_m)^2]^{1/2}
 \end{equation}\label{eq:compdiff}
-where $A_0$, $A_m$, $g_0$ and $g_m$ are observed and modelled amplitudes and phases.
+where $A_0$, $A_m$, $g_0$ and $g_m$ are observed and modelled amplitudes and phases. Figure \ref{fig:tides} compares modelled and observed amplitude and phase for the $M_2$ and $K_1$ tidal constituents for stations along a transect from the Strait of Juan de Fuca through to the Strait of Georgia and Johnstone Strait. Complex differences for these two constituents are also provided.  Comparisons have been made with data from \citet{foreman1995tidal}, \citet{foreman2004m} and \citet{foreman2012circulation}. Table  \ref{tab:comparison} lists station names and numbers in the Appendix \ref{sec:appendix}. 
+
+In general, the K$_1$ tidal harmonics are well represented by the model with complex differences below 5 cm at all stations except Seymour Narrows (station 27). Seymour Narrows is a very constricted region in Johnstone Strait and is not well resolved by the model. As such, the M$_2$ amplitude and phase are also poorly reproduced here. In addition, M$_2$ amphidrome in the model, indicated by the drop in amplitude around station 5 (Victoria), is too strong resulting in lower than observed M$_2$ amplitudes in this region. Additionally, the M$_2$ phase errors in the Strait of Juan de Fuca region (stations 1-7) are quite large, resulting in large complex differences in this region.  However, the match in the Strait of Georgia region (stations 10-24) is very good, with complex differences less than 6 cm, in part due to tidal tuning for a good match in the main area of interest. Details on the tidal tuning procedure are provided in the Appendix \ref{sec:appendix}.
+%still need to look up how other models of this region do with tides. 
 
 %perhaps a table of complex differences at tidal stations similar to Table 1 of Foreman et al (1995)  (such as the one produced by tidetools.calc_diffs_meas_mod) here?
 %(would be cool to include the complex differences calculated at the VENUS nodes too)
-
-
-
-Complex differences were less than ??cm at all stations in our domain, which was assumed to be acceptable for our purposes. 
+%perhaps a nice contour map of M2 and K1 amps and phases goes here?
 %if it's favourable, we could compare our complex differences to Foreman et al (1995), who got an average of D=3cm for M2 and D=2.5cm for K1
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{Figures/tides.pdf}
-\caption{Evaluation of model tidal amplitude and phases for the M$_2$ and K$_1$ constituents. On the left, a transect through the stations used for comparison. On the right, modelled M$_2$ (black) and K$_1$ (gray) amplitude (top) and phase (middle) compared with observations in the dashed curves of the same colour. The bottom plot displays the M$_2$ and K$_1$ complex differences.  }
+\caption{Evaluation of model tidal amplitude and phases for the M$_2$ and K$_1$ constituents. On the left, a transect through the stations used for comparison. On the right, modelled M$_2$ (black) and K$_1$ (gray) amplitude (top) and phase (middle) compared with observations in the dashed curves of the same colour. The bottom plot displays the M$_2$ and K$_1$ complex differences.}
 \label{fig:tides}
 \end{figure}
 
@@ -119,11 +114,11 @@ Complex differences were less than ??cm at all stations in our domain, which was
 %1. factors contributing to storm surge with focus on Feb 2006 event
 %2. Strong wind event but no surge (maybe Dec 2006 or Nov 2009)
 %3. High resolution wind (hopefully Dec 2012)
-A series of storm surge hindcasts is presented next. Storm surge simulations were started from rest at least three days prior to the event of interest to allow for adjustment of model currents. Stratification conditions from model spin-up at a time close to the event (within 5 days) were chosen to initialize the temperature and salinity fields. Boundary conditions include atmospheric forcing and fresh water input from rivers at the surface, sea surface height anomaly from observations at the open boundary, and tidal forcing with eight tidal constituents. Forcing the model with only eight tidal constituents leads to an error in modelled sea surface height predictions due to the omission of the next leading order tidal constituents such as J$_1$. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can be up to 40 cm (check) during times of high tidal range, and in particular, during the storm surge season Nov-Feb. As such, storm surge model predictions were corrected by accounting for this error. Additionally, since the sea surface height is calculated about a zero reference level, the modelled water level is determined by adding a long term average of mean sea level at the specified location to the modelled sea surface height.
+A series of storm surge hindcasts is presented next. Storm surge simulations were started from rest at least three days prior to the event of interest to allow for adjustment of model currents. Stratification conditions from model spin-up at a time close to the event (within five days) were chosen to initialize the temperature and salinity fields. Boundary conditions include atmospheric forcing and fresh water input from rivers at the surface, sea surface height anomaly from observations at the open boundary, and tidal forcing with eight tidal constituents. Forcing the model with only eight tidal constituents leads to an error in modelled sea surface height due to the omission of the next leading order tidal constituents such as J$_1$. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can be up to 40 cm during times of high tidal range, and in particular, during the storm surge season Nov-Feb. As such, storm surge model predictions were corrected by accounting for this error. Additionally, since the sea surface height is calculated about a zero reference level, the modelled water level is determined by adding a long term average of mean sea level at the specified location to the modelled sea surface height.
 
 Model results have been compared with observations by calculating both the total modelled water level and the modelled residual. The modelled residual is calculated as the difference in model output between a simulation with all forcing conditions and a simulation forced only with tides and rivers. Water level observations are taken from Fisheries and Oceans Canada (citation) and are used to calculate the osberved residual, defined as the observed water level minus tidal predictions. Tidal predictions are calculated using t\_tide \citep{pawlowicz2002classical}, a MATLAB tool that calculates tidal harmonics from a given time series, in this case, from the year prior surge event of interest. Additionally, several simulations with varying forcing conditions such as removing atmospheric forcing or removing the sea surface height anomaly at the open boundaries have been completed. 
 
-Several significant surge or wind events have been considered in detail, as well as an array of hindcasts to asses model ability in a statistical measure. These cases have been used to asses the model's skill in reproducing water level height and surge amplitude and timing during storm events. In addition, the contribution to the surge due to several forcing conditions, such as atmospheric forcing and open boundary forcing, has been assessed. We have also examined the spatial variability of the surge as it propagates through the domain and have considered a case with high-resolution atmospheric forcing. 
+Several significant surge or wind events have been considered in detail, as well as an array of hindcasts to asses model ability in a statistical measure. These cases have been used to asses the model's skill in reproducing water level height and surge amplitude and timing during storm events. In addition, the contribution to the surge due to several forcing conditions, such as atmospheric forcing and open boundary forcing, has been assessed. We have also examined the spatial variability of the surge as it propagates through the domain and have considered a case with a strong wind event but no siginificant observed surge.  
 
 The model's skill is reported through a few statistical measures of the the total water level $\eta$ and the residual $\delta$. First, the mean absolute error ($\bar{e}$), defined as
 \begin{equation}
@@ -138,8 +133,6 @@ is also calculated. Smaller values of $\gamma^2$ indicate better model skill. Th
 WS = 1 - \frac{\sum_{i=1}^N \left(M_i - O_i\right)^2}{\sum_{i=1}^N \left(|M_i'| + |O_i'|\right)^2},
 \end{equation} 
 where $M_i' = M_i-\bar{O}$ and $O_i'=O_i-\bar{O}$ and $\bar{O}$ is the mean of the observations. This score is bounded by zero and one. Values close to one indicate good model skill. 
-
-%First, a study of a large surge event on Feb 4, 2006 is presented. This event caused significant damage and flooding in Boundary Bay, a community south of Richmond, (citation) and has been chosen as a case study to demonstrate the model's skill in reproducing a storm surge and to quantitatively assess forcing conditions that are important in storm surge hind casting. Second, an extreme wind event on Dec 15, 2006 is examined. This event produced winds over (x) (citation) but did not result in significant flooding because the storm did not occur at high tide, however, it did result in significant property damage due to high winds and waves. This event has been used to understand the spatial and temporal variability of the surge propagation. Next, a large wind event on Nov 18, 2009 that did not result in a significant surge or flooding is presented. This case was chosen to identify the model's capability in handling large wind events that do not result in high water levels. Next, a case with high resolution atmospheric forcing for a recent surge on Dec 17, 2012 is discussed. Lastly, these cases presented in detail will be combined with $x$ additional runs for statistical evaluation of model performance. 
 
 
 \subsection{Factors Contributing to Storm Surges: Feb 4, 2006}
@@ -213,7 +206,7 @@ Point Atkinson observed a maximum surge amplitude of 84 cm, which is approximate
 \includegraphics[scale=0.6]{Figures/dec2006.pdf}
 \caption{Comparison of observed and modelled water level and residuls during the Dec 15, 2006 storm surge simulation. }
 \label{fig:dec2006}
-\end{figure}%table instead of figure?
+\end{figure}%table instead of figure? or maybe just the surge and not water level?
 
 \begin{table}[h]
 \centering 
@@ -291,11 +284,18 @@ Campbell River & 13.5           &  3.22                & 3.27                 & 
 %I have one other simulation for November 2006. Skill scores are comparable to the Feb 2006 case, so I'm not sure what this case adds to the overall article. 
 
 \section{Discussion}\label{sec:diss}
+
+
 %future directions: running real time, biology and chemistry, model improvements?
 %comments on wetting and drying (maybe most important in shallow regions)
 %summary of skill scores
 
+\appendix
 \section{Appendix}\label{sec:appendix}
+This section details the procedure used to tune the tidal forcing for a good match with observations in the Strait of Georgia. Originallly, tidal elevation and currents were extracted from a tide prediction tool called Webtide \citep{foreman2000webtide} at the western Juan de Fuca boundary. At the northern boundary,  M$_2$ and K$_1$ tidal harmonics for both elevation and currents were taken from \citet{thomson1980johnstone}, as well as elevation harmonics for O$_1$ and S$_2$. The remaining constituents were extrapolated from Webtide based on the ratio between M$_2$/S$_2$ amplitudes and phase differences for the semi-diurnal constituents and K$_1$/O$_1$ for the diurnal constituents. However, these forcing conditions did not result in a good match between observed and modelled tidal elevation harmonics in the Strait of Georgia, the main region of interest (although the matches in the Strait of Juan de Fuca were adequate). As such, tidal forcing was tuned, by first adjusting the western boundary M$_2$ anc K$_1$ phase and K$_1$ amplitude for a good match in the Strait of Georgia (specifically at Point Atkinson, Gibsons Landing, Winchelsea and Halfmoon Bay). This tuning was performed on simulations that used only M$_2$ and K$_1$ forcing. Next, the M$_2$ and K$_1$ fluxes at the northern boundary were adjusted because the cross-sectional area of transect used by \citet{thomson1980johnstone} to measure tidal currents in Johnstone Strait is smaller than the cross-sectional area of our northern boundary. Finally, the remaining constituents were added, starting with O$_1$, then S$_2$, and then in pairs P$_1$/N$_2$ and Q$_1$/K$_2$. Adjustments were made if the addition of new constituents hindered performance of the main M$_2$ and K$_1$ components.
+
+Below, Table \ref{tab:comparison} compares the M$_2$ and K$_1$ elevation harmonics with data from \citet{foreman1995tidal}, \citet{foreman2004m} and \citet{foreman2012circulation}. Overall, the average complex difference for M$_2$ is 8.05 cm and for K$_1$ is 2.58 cm, but both constituents perform very well in the Strait of Georgia region. 
+
 \begin{table}[h]
 \centering 
 \begin{tabular}{l l l l c c c c c c} 
@@ -343,8 +343,7 @@ Campbell River & 13.5           &  3.22                & 3.27                 & 
 \caption{Comparisons of modelled and observed amplitudes and phases. $R$ is the ratio of modelled to observed amplitude. $\Delta \phi$ is the difference between modelled and observed phase. $D$ is the complex difference. }
 \label{tab:comparison} 
 \end{table}
-%May have to include station numbers and locations on a map? Maybe on the contour map, overlay with stations and green/red dots (hopefully mostly green)
-%Should we use the new method of calculating tides?
+
 
 \section{Acknowledgements}\label{sec:ack}
 We would like to thank Michael Foreman, Diane Masson, and Luc Fillion for providing data used in model set up and evaluation. This project is funded by the Marine Environmental Observation Prediction and Response Network (MEOPAR), a Network of Centres of Excellence of Canada.  
