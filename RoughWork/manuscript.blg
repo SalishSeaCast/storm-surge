@@ -3,29 +3,27 @@ The top-level auxiliary file: manuscript.aux
 The style file: chicago.bst
 Database file #1: ref.bib
 Warning--page numbers missing in massonfine2012
-Warning--no number and no volume in smith2013new
-Warning--page numbers missing in smith2013new
 Warning--page numbers missing in thompson2003prediction
 You've used 38 entries,
             2861 wiz_defined-function locations,
-            851 strings with 12144 characters,
-and the built_in function-call counts, 28475 in all, are:
-= -- 2294
+            854 strings with 12158 characters,
+and the built_in function-call counts, 28563 in all, are:
+= -- 2305
 > -- 2371
 < -- 2
 + -- 746
 - -- 791
-* -- 2779
-:= -- 5223
+* -- 2792
+:= -- 5232
 add.period$ -- 116
 call.type$ -- 38
 change.case$ -- 299
 chr.to.int$ -- 37
-cite$ -- 42
-duplicate$ -- 667
-empty$ -- 1583
+cite$ -- 40
+duplicate$ -- 669
+empty$ -- 1593
 format.name$ -- 910
-if$ -- 5247
+if$ -- 5266
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 38
@@ -37,14 +35,14 @@ purify$ -- 527
 quote$ -- 0
 skip$ -- 706
 stack$ -- 0
-substring$ -- 1490
-swap$ -- 214
+substring$ -- 1515
+swap$ -- 215
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 726
-warning$ -- 4
-while$ -- 345
+warning$ -- 2
+while$ -- 347
 width$ -- 0
 write$ -- 504
-(There were 4 warnings)
+(There were 2 warnings)
