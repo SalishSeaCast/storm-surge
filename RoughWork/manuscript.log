@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  21 OCT 2014 17:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  28 OCT 2014 12:41
 entering extended mode
  %&-line parsing enabled.
 **manuscript.tex
@@ -164,7 +164,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Figures/tides.pdf, id=43, 852.44339pt x 383.81363pt>
 File: Figures/tides.pdf Graphic file (type pdf)
  <use Figures/tides.pdf>
-Overfull \hbox (41.71497pt too wide) in paragraph at lines 108--109
+Overfull \hbox (41.71497pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
@@ -172,51 +172,46 @@ Overfull \hbox (41.71497pt too wide) in paragraph at lines 108--109
 <Figures/feb2006.pdf, id=229, 724.45656pt x 481.10521pt>
 File: Figures/feb2006.pdf Graphic file (type pdf)
 
-<use Figures/feb2006.pdf> [12] [13 <./Figures/feb2006.pdf>]
-<Figures/feb2006_factors.pdf, id=283, 741.77126pt x 354.39133pt>
+<use Figures/feb2006.pdf> [12] [13 <./Figures/feb2006.pdf>] [14]
+<Figures/feb2006_factors.pdf, id=286, 741.77126pt x 354.39133pt>
 File: Figures/feb2006_factors.pdf Graphic file (type pdf)
 
-<use Figures/feb2006_factors.pdf> [14]
-<Figures/feb2006_tidesurge.pdf, id=288, 741.77126pt x 285.07285pt>
+<use Figures/feb2006_factors.pdf> [15 <./Figures/feb2006_factors.pdf>]
+<Figures/feb2006_tidesurge.pdf, id=338, 741.77126pt x 285.07285pt>
 File: Figures/feb2006_tidesurge.pdf Graphic file (type pdf)
 
-<use Figures/feb2006_tidesurge.pdf> [15 <./Figures/feb2006_factors.pdf>]
-[16 <./Figures/feb2006_tidesurge.pdf>]
+<use Figures/feb2006_tidesurge.pdf> [16 <./Figures/feb2006_tidesurge.pdf>]
 <Figures/dec2006.pdf, id=389, 724.12721pt x 481.10521pt>
 File: Figures/dec2006.pdf Graphic file (type pdf)
 
-<use Figures/dec2006.pdf> [17] [18 <./Figures/dec2006.pdf>]
+<use Figures/dec2006.pdf> [17 <./Figures/dec2006.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<Figures/dec2006_spatial.pdf, id=443, 715.67375pt x 357.335pt>
+<Figures/dec2006_spatial.pdf, id=440, 715.67375pt x 357.335pt>
 File: Figures/dec2006_spatial.pdf Graphic file (type pdf)
 
 <use Figures/dec2006_spatial.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial_sshonly.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<Figures/dec2006_spatial_sshonly.pdf, id=445, 715.67375pt x 357.335pt>
+<Figures/dec2006_spatial_sshonly.pdf, id=442, 715.67375pt x 357.335pt>
 File: Figures/dec2006_spatial_sshonly.pdf Graphic file (type pdf)
 
-<use Figures/dec2006_spatial_sshonly.pdf> [19 <./Figures/dec2006_spatial.pdf>]
-[20 <./Figures/dec2006_spatial_sshonly.pdf>]
-<Figures/nov2009.pdf, id=460, 405.30798pt x 425.09596pt>
+<use Figures/dec2006_spatial_sshonly.pdf> [18 <./Figures/dec2006_spatial.pdf>]
+[19 <./Figures/dec2006_spatial_sshonly.pdf>]
+<Figures/nov2009.pdf, id=457, 405.30798pt x 425.09596pt>
 File: Figures/nov2009.pdf Graphic file (type pdf)
 
-<use Figures/nov2009.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21 <./Figures/nov2009.pdf>] [22] [23]
-Overfull \hbox (17.83194pt too wide) in paragraph at lines 335--377
+<use Figures/nov2009.pdf> [20 <./Figures/nov2009.pdf>] [21] [22]
+Overfull \hbox (17.83194pt too wide) in paragraph at lines 340--382
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./manuscript.bbl [24] [25] [26]) [27] [28] (./manuscript.aux) ) 
+[23] (./manuscript.bbl [24] [25] [26]) [27] [28] (./manuscript.aux) ) 
 Here is how much of TeX's memory you used:
  2089 strings out of 495061
  27302 string characters out of 1182622
@@ -224,20 +219,20 @@ Here is how much of TeX's memory you used:
  5270 multiletter control sequences out of 15000+50000
  9668 words of font info for 35 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 27i,11n,24p,1881b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on manuscript.pdf (28 pages, 2868759 bytes).
+ 27i,11n,24p,1881b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on manuscript.pdf (28 pages, 2868855 bytes).
 PDF statistics:
  578 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
