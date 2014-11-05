@@ -4,45 +4,45 @@ The style file: chicago.bst
 Database file #1: ref.bib
 Warning--page numbers missing in massonfine2012
 Warning--page numbers missing in thompson2003prediction
-You've used 38 entries,
+You've used 39 entries,
             2861 wiz_defined-function locations,
-            854 strings with 12158 characters,
-and the built_in function-call counts, 28563 in all, are:
-= -- 2305
-> -- 2371
+            860 strings with 12477 characters,
+and the built_in function-call counts, 29935 in all, are:
+= -- 2391
+> -- 2551
 < -- 2
-+ -- 746
-- -- 791
-* -- 2792
-:= -- 5232
-add.period$ -- 116
-call.type$ -- 38
-change.case$ -- 299
-chr.to.int$ -- 37
-cite$ -- 40
-duplicate$ -- 669
-empty$ -- 1593
-format.name$ -- 910
-if$ -- 5266
++ -- 806
+- -- 851
+* -- 2958
+:= -- 5494
+add.period$ -- 119
+call.type$ -- 39
+change.case$ -- 314
+chr.to.int$ -- 38
+cite$ -- 41
+duplicate$ -- 687
+empty$ -- 1639
+format.name$ -- 974
+if$ -- 5511
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 38
-newline$ -- 195
-num.names$ -- 378
-pop$ -- 198
+missing$ -- 39
+newline$ -- 200
+num.names$ -- 388
+pop$ -- 210
 preamble$ -- 1
-purify$ -- 527
+purify$ -- 548
 quote$ -- 0
-skip$ -- 706
+skip$ -- 723
 stack$ -- 0
-substring$ -- 1515
-swap$ -- 215
+substring$ -- 1566
+swap$ -- 221
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 726
+type$ -- 746
 warning$ -- 2
-while$ -- 347
+while$ -- 355
 width$ -- 0
-write$ -- 504
+write$ -- 517
 (There were 2 warnings)
