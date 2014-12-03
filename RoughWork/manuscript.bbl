@@ -64,6 +64,17 @@ Engedahl, H. (1995).
   ocean model with realistic topography.
 \newblock {\em Tellus A\/}~{\em 47\/}(3), 365--382.
 
+\bibitem[\protect\citeauthoryear{??}{Environment
+  Canada}{2014a}]{ECClimateArchive}
+Environment Canada (2014a).
+\newblock {Climate Database}.
+\newblock {http://climate.weather.gc.ca/index\_e.html}.
+
+\bibitem[\protect\citeauthoryear{??}{Environment Canada}{2014b}]{ECModel}
+Environment Canada (2014b).
+\newblock {High Resolution Deterministic Prediction System}.
+\newblock https://weather.gc.ca/grib/grib2\_HRDPS\_HR\_e.html.
+
 \bibitem[\protect\citeauthoryear{Flather}{Flather}{1994}]{flather1994storm}
 Flather, R.~A. (1994).
 \newblock {A storm surge prediction model for the northern Bay of Bengal with

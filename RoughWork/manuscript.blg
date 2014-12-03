@@ -2,44 +2,52 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: manuscript.aux
 The style file: chicago.bst
 Database file #1: ref.bib
-You've used 40 entries,
+Warning--no author, editor, or organization in ECModel
+Warning--no author, editor, or organization in ECClimateArchive
+Warning--no author, editor, or organization in ECClimateArchive
+Warning--no author, editor, or organization in ECClimateArchive
+Warning--no author, editor, or organization in ECModel
+Warning--no author, editor, or organization in ECClimateArchive
+Warning--no author, editor, or organization in ECModel
+You've used 42 entries,
             2861 wiz_defined-function locations,
-            865 strings with 12635 characters,
-and the built_in function-call counts, 30735 in all, are:
-= -- 2464
+            874 strings with 12861 characters,
+and the built_in function-call counts, 31420 in all, are:
+= -- 2536
 > -- 2603
 < -- 2
-+ -- 820
++ -- 821
 - -- 871
-* -- 3025
-:= -- 5636
-add.period$ -- 122
-call.type$ -- 40
-change.case$ -- 321
-chr.to.int$ -- 39
-cite$ -- 40
-duplicate$ -- 705
-empty$ -- 1694
+* -- 3082
+:= -- 5709
+add.period$ -- 128
+call.type$ -- 42
+change.case$ -- 333
+chr.to.int$ -- 40
+cite$ -- 49
+duplicate$ -- 735
+empty$ -- 1777
 format.name$ -- 998
-if$ -- 5666
-int.to.chr$ -- 2
+if$ -- 5821
+int.to.chr$ -- 3
 int.to.str$ -- 0
 missing$ -- 40
-newline$ -- 205
+newline$ -- 215
 num.names$ -- 398
-pop$ -- 214
+pop$ -- 220
 preamble$ -- 1
-purify$ -- 561
+purify$ -- 583
 quote$ -- 0
-skip$ -- 745
+skip$ -- 775
 stack$ -- 0
-substring$ -- 1632
-swap$ -- 225
+substring$ -- 1669
+swap$ -- 234
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 766
-warning$ -- 0
+type$ -- 802
+warning$ -- 7
 while$ -- 368
 width$ -- 0
-write$ -- 530
+write$ -- 556
+(There were 7 warnings)
