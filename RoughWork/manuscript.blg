@@ -2,52 +2,56 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: manuscript.aux
 The style file: chicago.bst
 Database file #1: ref.bib
+Warning--no author, editor, or organization in DFOObservations
 Warning--no author, editor, or organization in ECModel
 Warning--no author, editor, or organization in ECClimateArchive
 Warning--no author, editor, or organization in ECClimateArchive
 Warning--no author, editor, or organization in ECClimateArchive
 Warning--no author, editor, or organization in ECModel
+Warning--no author, editor, or organization in DFOObservations
+Warning--no author, editor, or organization in DFOObservations
 Warning--no author, editor, or organization in ECClimateArchive
 Warning--no author, editor, or organization in ECModel
-You've used 42 entries,
+Warning--no author, editor, or organization in DFOObservations
+You've used 45 entries,
             2861 wiz_defined-function locations,
-            874 strings with 12861 characters,
-and the built_in function-call counts, 31420 in all, are:
-= -- 2536
-> -- 2603
+            890 strings with 13296 characters,
+and the built_in function-call counts, 32999 in all, are:
+= -- 2683
+> -- 2681
 < -- 2
-+ -- 821
-- -- 871
-* -- 3082
-:= -- 5709
-add.period$ -- 128
-call.type$ -- 42
-change.case$ -- 333
-chr.to.int$ -- 40
-cite$ -- 49
-duplicate$ -- 735
-empty$ -- 1777
-format.name$ -- 998
-if$ -- 5821
++ -- 843
+- -- 901
+* -- 3208
+:= -- 5973
+add.period$ -- 137
+call.type$ -- 45
+change.case$ -- 352
+chr.to.int$ -- 43
+cite$ -- 56
+duplicate$ -- 784
+empty$ -- 1897
+format.name$ -- 1032
+if$ -- 6123
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 215
-num.names$ -- 398
-pop$ -- 220
+missing$ -- 41
+newline$ -- 230
+num.names$ -- 418
+pop$ -- 231
 preamble$ -- 1
-purify$ -- 583
+purify$ -- 620
 quote$ -- 0
-skip$ -- 775
+skip$ -- 831
 stack$ -- 0
-substring$ -- 1669
-swap$ -- 234
+substring$ -- 1754
+swap$ -- 250
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 802
-warning$ -- 7
-while$ -- 368
+type$ -- 862
+warning$ -- 11
+while$ -- 390
 width$ -- 0
-write$ -- 556
-(There were 7 warnings)
+write$ -- 595
+(There were 11 warnings)

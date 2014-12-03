@@ -75,6 +75,12 @@ Environment Canada (2014b).
 \newblock {High Resolution Deterministic Prediction System}.
 \newblock https://weather.gc.ca/grib/grib2\_HRDPS\_HR\_e.html.
 
+\bibitem[\protect\citeauthoryear{??}{Fisheries and Oceans
+  Canada}{2014}]{DFOObservations}
+Fisheries and Oceans Canada (2014).
+\newblock {Canadian Tides and Water Level Data Archive}.
+\newblock http://www.isdm-gdsi.gc.ca/isdm-gdsi/twl-mne/index-eng.htm.
+
 \bibitem[\protect\citeauthoryear{Flather}{Flather}{1994}]{flather1994storm}
 Flather, R.~A. (1994).
 \newblock {A storm surge prediction model for the northern Bay of Bengal with
@@ -238,6 +244,13 @@ Stronach, J., J.~Backhaus, T.~Murty, et~al. (1993).
 \newblock {\em Oceanography and Marine Biology: An annual review\/}~{\em 31},
   1--86.
 
+\bibitem[\protect\citeauthoryear{Strub and James}{Strub and
+  James}{2002}]{strub2002altimeter}
+Strub, P. and C.~James (2002).
+\newblock {Altimeter-derived surface circulation in the large-scale NE Pacific
+  Gyres.: Part 2: 1997--1998 El Ni{\~n}o anomalies}.
+\newblock {\em Progress in Oceanography\/}~{\em 53\/}(2), 185--214.
+
 \bibitem[\protect\citeauthoryear{Sutherland, MacCready, Banas, and
   Smedstad}{Sutherland et~al.}{2011}]{sutherland2011model}
 Sutherland, D.~A., P.~MacCready, N.~S. Banas, and L.~F. Smedstad (2011).
@@ -263,6 +276,11 @@ Thomson, R.~E. (1981).
 Thomson, R.~E. and W.~S. Huggett (1980).
 \newblock M$_2$ baroclinic tides in {Johnstone Strait, British Columbia}.
 \newblock {\em Journal of Physical Oceanography\/}~{\em 10}, 1509--1539.
+
+\bibitem[\protect\citeauthoryear{Tinis}{Tinis}{2014}]{StormBC}
+Tinis, S. (2014).
+\newblock {BC Storm Surge Forecasting Program}.
+\newblock http://stormsurgebc.ca.
 
 \bibitem[\protect\citeauthoryear{Umlauf and Burchard}{Umlauf and
   Burchard}{2003}]{umlauf2003generic}
