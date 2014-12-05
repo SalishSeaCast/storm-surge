@@ -18,3 +18,9 @@ Nancy Soontiens
 - designed, ran, and analyzed all storm surge hindcasts
 - assisted in setting up tidal forcing at the northern Johnstone Strait boundary
 - assisted in tidal tuning and evaluation
+
+Susan Allen
+Science: broad conception of the problem, discussions with Nancy on definition of problem
+Model: set-up NEMO 3.4 w Doug, made initial configuration choices (T&S, parameters etc), helped define the rivers w Kate, open boundary conditions w Kate and Nancy, spin-up runs w Doug, tuned the tides
+Paper: first editor
+Supervision: direct for Nancy, Doug, Kate and in-direct for Idalia 
