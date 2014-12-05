@@ -1,0 +1,20 @@
+Description of contributions made by each author. 
+
+Kate Le Souef
+-initial lit review of past tidal models 
+-parameterised river input throughout domain
+-began setting up Juan de Fuca boundary conditions with monthly climatology 
+-began setting up Johnstone Strait boundary with measured tidal data
+-gathered measured water level data throughout domain and automatically downloaded latest data
+-began tools for comparing measured and modelled water level (time series and harmonics)
+-identified storms in water level data for testing model performance
+
+Nancy Soontiens
+- developed open boundary conditions for storm surge sea surface height anomaly at western and northern boundaries
+- literature review of previous numerical models of the Strait of Georgia, storm surges in general, and storm surge modelling
+- wrote the introduction, storm surge hindcasts, and discussion sections and parts of the model configuration and tidal evaluation sections  
+- generated all figures and statistics
+- coordinated writing and review of manuscript
+- designed, ran, and analyzed all storm surge hindcasts
+- assisted in setting up tidal forcing at the northern Johnstone Strait boundary
+- assisted in tidal tuning and evaluation
