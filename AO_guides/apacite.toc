@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Installation, package loading, and running {\rmfamily B\kern -.05em\textsc {i\kern -.025em b}\kern -.08emT\kern -.1667em\lower .7ex\hbox {E}\kern -.125emX}{}}{5}
+\contentsline {section}{\numberline {3}Package options}{7}
+\contentsline {section}{\numberline {4}The citation commands}{10}
+\contentsline {subsection}{\numberline {4.1}The ``classic'' \textsf {apacite} citation commands}{11}
+\contentsline {subsection}{\numberline {4.2}Using \textsf {natbib} for citations}{15}
+\contentsline {section}{\numberline {5}Contents of the bibliography database file}{16}
+\contentsline {subsection}{\numberline {5.1}Types of references}{18}
+\contentsline {subsection}{\numberline {5.2}Fields}{22}
+\contentsline {subsection}{\numberline {5.3}Overriding the default sorting orders}{32}
+\contentsline {section}{\numberline {6}Customization}{32}
+\contentsline {subsection}{\numberline {6.1}Punctuation and small formatting issues}{33}
+\contentsline {subsection}{\numberline {6.2}Labels}{36}
+\contentsline {subsection}{\numberline {6.3}More drastic formatting changes to the reference list}{40}
+\contentsline {section}{\numberline {7}Language support}{42}
+\contentsline {subsection}{\numberline {7.1}Language-specific issues}{43}
+\contentsline {subsection}{\numberline {7.2}Setting up MiKT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m }{44}
+\contentsline {section}{\numberline {8}Compatibility}{45}
+\contentsline {subsection}{\numberline {8.1}\textsf {natbib}}{47}
+\contentsline {subsection}{\numberline {8.2}\textsf {hyperref}, \textsf {backref}, and \textsf {url}}{47}
+\contentsline {subsection}{\numberline {8.3}Multiple bibliographies}{48}
+\contentsline {subsection}{\numberline {8.4}\textsf {bibentry}}{50}
+\contentsline {subsection}{\numberline {8.5}Programs for conversion to html, rtf, etc.}{50}
+\contentsline {section}{\numberline {9}Generating an author index}{52}
+\contentsline {section}{\numberline {10}Annotated bibliographies}{56}
+\contentsline {section}{\numberline {11}Auxiliary, ad hoc, and experimental commands in \texttt {apacdoc.sty}}{56}
+\contentsline {section}{\numberline {12}Known problems and todo-list}{61}
+\contentsline {section}{\numberline {13}Examples of the APA manual}{63}
+\contentsline {section}{References}{89}
+\contentsline {section}{Author Index}{100}

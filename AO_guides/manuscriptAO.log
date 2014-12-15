@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  13 DEC 2014 12:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  14 DEC 2014 16:09
 entering extended mode
  %&-line parsing enabled.
 **manuscriptAO.tex
@@ -205,14 +205,24 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip51
 \subfig@bottom=\skip52
-) (./natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip53
-\bibsep=\skip54
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count107
+) (./apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count107
+\bibleftmargin=\skip53
+\bibindent=\skip54
+\bibparsep=\skip55
+\bibitemsep=\skip56
+\biblabelsep=\skip57
 )
-(./manuscriptAO.aux)
+(./natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count108
+)
+LaTeX Info: Redefining \BBA on input line 12.
+ (./manuscriptAO.aux)
 \openout1 = `manuscriptAO.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -227,19 +237,21 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
+\scratchcounter=\count109
 \scratchdimen=\dimen138
 \scratchbox=\box31
-\nofMPsegments=\count109
-\nofMParguments=\count110
+\nofMPsegments=\count110
+\nofMParguments=\count111
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count111
+\MPscratchCnt=\count112
 \MPscratchDim=\dimen139
-\MPnumerator=\count112
+\MPnumerator=\count113
 \everyMPtoPDFconversion=\toks22
 )
+\c@maskedRefs=\count114
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 28.
  (/usr/share/texmf-texlive/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -312,14 +324,6 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 37.
 
 
-Package natbib Warning: Citation `thomson1981oceanography' on page 1 undefined 
-on input line 41.
-
-
-Package natbib Warning: Citation `thomson1981oceanography' on page 1 undefined 
-on input line 41.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -336,47 +340,6 @@ Overfull \vbox (0.62988pt too high) has occurred while \output is active []
 
 
 ]
-
-Package natbib Warning: Citation `thomson1981oceanography' on page 2 undefined 
-on input line 44.
-
-
-Package natbib Warning: Citation `masson2004modelling' on page 2 undefined on i
-nput line 44.
-
-
-Package natbib Warning: Citation `crean1988mathematical' on page 2 undefined on
- input line 47.
-
-
-Package natbib Warning: Citation `crean1988numerical' on page 2 undefined on in
-put line 47.
-
-
-Package natbib Warning: Citation `stronach1993update' on page 2 undefined on in
-put line 47.
-
-
-Package natbib Warning: Citation `stronach1993update' on page 2 undefined on in
-put line 47.
-
-
-Package natbib Warning: Citation `marinone1996model' on page 2 undefined on inp
-ut line 47.
-
-
-Package natbib Warning: Citation `stronach1993update' on page 2 undefined on in
-put line 47.
-
-
-Package natbib Warning: Citation `foreman1995tidal' on page 2 undefined on inpu
-t line 47.
-
-
-Package natbib Warning: Citation `foreman2004m' on page 2 undefined on input li
-ne 47.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -389,27 +352,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [2]
-
-Package natbib Warning: Citation `masson2004modelling' on page 3 undefined on i
-nput line 49.
-
-
-Package natbib Warning: Citation `yang2010multi' on page 3 undefined on input l
-ine 49.
-
-
-Package natbib Warning: Citation `sutherland2011model' on page 3 undefined on i
-nput line 49.
-
-
-Package natbib Warning: Citation `giddings2014hindcasts' on page 3 undefined on
- input line 49.
-
-
-Package natbib Warning: Citation `foreman2012circulation' on page 3 undefined o
-n input line 49.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -422,51 +364,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [3]
-
-Package natbib Warning: Citation `strub2002altimeter' on page 4 undefined on in
-put line 52.
-
-
-Package natbib Warning: Citation `danard2003storm' on page 4 undefined on input
- line 54.
-
-
-Package natbib Warning: Citation `thomson1981oceanography' on page 4 undefined 
-on input line 54.
-
-
-Package natbib Warning: Citation `forseth2006adaptation' on page 4 undefined on
- input line 54.
-
-
-Package natbib Warning: Citation `abeys2011extreme' on page 4 undefined on inpu
-t line 54.
-
-
-Package natbib Warning: Citation `hubbert1999storm' on page 4 undefined on inpu
-t line 57.
-
-
-Package natbib Warning: Citation `weisberg2006hurricane' on page 4 undefined on
- input line 57.
-
-
-Package natbib Warning: Citation `weisberg2006hurricane' on page 4 undefined on
- input line 57.
-
-
-Package natbib Warning: Citation `lane2009verification' on page 4 undefined on 
-input line 57.
-
-
-Package natbib Warning: Citation `flather1994storm' on page 4 undefined on inpu
-t line 57.
-
-
-Package natbib Warning: Citation `xu2010storm' on page 4 undefined on input lin
-e 57.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -479,51 +376,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [4]
-
-Package natbib Warning: Citation `crean1988mathematical' on page 5 undefined on
- input line 59.
-
-
-Package natbib Warning: Citation `murty1995storm' on page 5 undefined on input 
-line 59.
-
-
-Package natbib Warning: Citation `danard2003storm' on page 5 undefined on input
- line 59.
-
-
-Package natbib Warning: Citation `gray1984preliminary' on page 5 undefined on i
-nput line 59.
-
-
-Package natbib Warning: Citation `bernier2006predicting' on page 5 undefined on
- input line 59.
-
-
-Package natbib Warning: Citation `bobanovic2006forecasting' on page 5 undefined
- on input line 59.
-
-
-Package natbib Warning: Citation `bernier2007tide' on page 5 undefined on input
- line 59.
-
-
-Package natbib Warning: Citation `bernier2010tide' on page 5 undefined on input
- line 59.
-
-
-Package natbib Warning: Citation `StormBC' on page 5 undefined on input line 59
-.
-
-
-Package natbib Warning: Citation `abeys2011extreme' on page 5 undefined on inpu
-t line 59.
-
-
-Package natbib Warning: Citation `madec2012nemo' on page 5 undefined on input l
-ine 65.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -536,18 +388,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [5]
-
-Package natbib Warning: Citation `haugerud1999digital' on page 6 undefined on i
-nput line 67.
-
-
-Package natbib Warning: Citation `madec2012nemo' on page 6 undefined on input l
-ine 69.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -560,50 +400,11 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./Figures/bathy.pdf): PDF inclusion: found PDF v
 ersion <1.5>, but at most version <1.4> allowed
-<Figures/bathy.pdf, id=34, 686.565pt x 556.0775pt>
+<Figures/bathy.pdf, id=31, 686.565pt x 556.0775pt>
 File: Figures/bathy.pdf Graphic file (type pdf)
  <use Figures/bathy.pdf>
 
-Package natbib Warning: Citation `foreman2000webtide' on page 7 undefined on in
-put line 81.
-
-
-Package natbib Warning: Citation `thomson1980johnstone' on page 7 undefined on 
-input line 81.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [7 <./Figures/bathy.pdf>]
-
-Package natbib Warning: Citation `massonfine2012' on page 8 undefined on input 
-line 83.
-
-
-Package natbib Warning: Citation `engedahl1995use' on page 8 undefined on input
- line 83.
-
-
-Package natbib Warning: Citation `DFOObservations' on page 8 undefined on input
- line 85.
-
-
-Package natbib Warning: Citation `pawlowicz2002classical' on page 8 undefined o
-n input line 85.
-
-
-Package natbib Warning: Citation `flather1994storm' on page 8 undefined on inpu
-t line 85.
-
-
-Package natbib Warning: Citation `madec2012nemo' on page 8 undefined on input l
-ine 85.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -617,32 +418,16 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [8]
-
-Package natbib Warning: Citation `umlauf2003generic' on page 9 undefined on inp
-ut line 87.
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `madec2012nemo' on page 9 undefined on input l
-ine 87.
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 
-Package natbib Warning: Citation `smith2014new' on page 9 undefined on input li
-ne 89.
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `ECModel' on page 9 undefined on input line 89
-.
-
-
-Package natbib Warning: Citation `morrison2011rivers' on page 9 undefined on in
-put line 91.
-
-
-Package natbib Warning: Citation `morrison2011rivers' on page 9 undefined on in
-put line 91.
-
-
+ [8 <./Figures/bathy.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -655,19 +440,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [9]
-
-Package natbib Warning: Citation `pawlowiczetal2007' on page 10 undefined on in
-put line 95.
-
-
-Package natbib Warning: Citation `foreman1995tidal' on page 10 undefined on inp
-ut line 99.
-
-
-Package natbib Warning: Citation `foreman1995tidal' on page 10 undefined on inp
-ut line 99.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -680,26 +452,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [10]
-
-Package natbib Warning: Citation `foreman1995tidal' on page 11 undefined on inp
-ut line 104.
-
-
-Package natbib Warning: Citation `foreman2004m' on page 11 undefined on input l
-ine 104.
-
-
-Package natbib Warning: Citation `foreman2012circulation' on page 11 undefined 
-on input line 104.
-
-<Figures/tides.pdf, id=53, 852.44339pt x 383.81363pt>
-File: Figures/tides.pdf Graphic file (type pdf)
- <use Figures/tides.pdf>
-Overfull \hbox (55.46999pt too wide) in paragraph at lines 115--116
- [][] 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -709,13 +461,15 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [11]
+<Figures/tides.pdf, id=56, 852.44339pt x 383.81363pt>
+File: Figures/tides.pdf Graphic file (type pdf)
+ <use Figures/tides.pdf>
+Overfull \hbox (55.46999pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
 
-Package natbib Warning: Citation `DFOObservations' on page 12 undefined on inpu
-t line 124.
 
-
-Package natbib Warning: Citation `pawlowicz2002classical' on page 12 undefined 
-on input line 124.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -727,21 +481,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [12 <./Figures/tides.pdf>]
-
-Package natbib Warning: Citation `thompson2003prediction' on page 13 undefined 
-on input line 130.
-
-
-Package natbib Warning: Citation `bernier2006predicting' on page 13 undefined o
-n input line 134.
-
-
-Package natbib Warning: Citation `bernier2010tide' on page 13 undefined on inpu
-t line 134.
-
-
-Package natbib Warning: Citation `willmott1982some' on page 13 undefined on inp
-ut line 134.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -753,7 +493,16 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [13]
-<Figures/feb2006.pdf, id=241, 724.45656pt x 481.10521pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [14]
+<Figures/feb2006.pdf, id=244, 724.45656pt x 481.10521pt>
 File: Figures/feb2006.pdf Graphic file (type pdf)
 
 <use Figures/feb2006.pdf>
@@ -768,7 +517,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [14]
+ [15]
 
 LaTeX Warning: Float too large for page by 47.65274pt on input line 211.
 
@@ -776,10 +525,6 @@ LaTeX Warning: Float too large for page by 47.65274pt on input line 211.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package natbib Warning: Citation `bernier2007tide' on page 15 undefined on inpu
-t line 215.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -788,28 +533,20 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [15 <./Figures/feb2006.pdf>]
-<Figures/feb2006_tidesurge.pdf, id=294, 741.77126pt x 285.07285pt>
+ [16 <./Figures/feb2006.pdf>]
+<Figures/feb2006_tidesurge.pdf, id=297, 741.77126pt x 285.07285pt>
 File: Figures/feb2006_tidesurge.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_tidesurge.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [16 <./Figures/feb2006_tidesurge.pdf>]
-
-Package natbib Warning: Citation `murty1995storm' on page 17 undefined on input
- line 231.
-
-
+ [17 <./Figures/feb2006_tidesurge.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -821,20 +558,11 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [17]
-
-Package natbib Warning: Citation `murty1995storm' on page 18 undefined on input
- line 233.
-
-<Figures/feb2006_factors.pdf, id=348, 741.77126pt x 354.39133pt>
+ [18]
+<Figures/feb2006_factors.pdf, id=351, 741.77126pt x 354.39133pt>
 File: Figures/feb2006_factors.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_factors.pdf>
-
-Package natbib Warning: Citation `forseth2006adaptation' on page 18 undefined o
-n input line 243.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -843,8 +571,8 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [18 <./Figures/feb2006_factors.pdf>]
-<Figures/dec2006.pdf, id=400, 724.12721pt x 481.10521pt>
+ [19 <./Figures/feb2006_factors.pdf>]
+<Figures/dec2006.pdf, id=404, 724.12721pt x 481.10521pt>
 File: Figures/dec2006.pdf Graphic file (type pdf)
 
 <use Figures/dec2006.pdf>
@@ -856,33 +584,22 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [19 <./Figures/dec2006.pdf>]
+ [20 <./Figures/dec2006.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<Figures/dec2006_spatial.pdf, id=452, 715.67375pt x 357.335pt>
+<Figures/dec2006_spatial.pdf, id=455, 715.67375pt x 357.335pt>
 File: Figures/dec2006_spatial.pdf Graphic file (type pdf)
 
 <use Figures/dec2006_spatial.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [20 <./Figures/dec2006_spatial.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial_sshonly.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<Figures/dec2006_spatial_sshonly.pdf, id=460, 715.67375pt x 357.335pt>
+<Figures/dec2006_spatial_sshonly.pdf, id=457, 715.67375pt x 357.335pt>
 File: Figures/dec2006_spatial_sshonly.pdf Graphic file (type pdf)
 
 <use Figures/dec2006_spatial_sshonly.pdf>
-
-Package natbib Warning: Citation `danard2003storm' on page 21 undefined on inpu
-t line 275.
+Underfull \vbox (badness 4832) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -893,18 +610,21 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [21 <./Figures/dec2006_spatial_sshonly.pdf>]
-<Figures/nov2009.pdf, id=468, 405.30798pt x 425.09596pt>
+ [21 <./Figures/dec2006_spatial.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [22 <./Figures/dec2006_spatial_sshonly.pdf>]
+<Figures/nov2009.pdf, id=471, 405.30798pt x 425.09596pt>
 File: Figures/nov2009.pdf Graphic file (type pdf)
 
 <use Figures/nov2009.pdf>
-
-Package natbib Warning: Citation `ECClimateArchive' on page 22 undefined on inp
-ut line 281.
-
-
-Package natbib Warning: Citation `ECClimateArchive' on page 22 undefined on inp
-ut line 281.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -915,8 +635,8 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [22 <./Figures/nov2009.pdf>]
-<Figures/dec2012_weather.pdf, id=521, 764.3509pt x 481.10521pt>
+ [23 <./Figures/nov2009.pdf>]
+<Figures/dec2012_weather.pdf, id=523, 764.3509pt x 481.10521pt>
 File: Figures/dec2012_weather.pdf Graphic file (type pdf)
 
 <use Figures/dec2012_weather.pdf>
@@ -925,14 +645,6 @@ Overfull \hbox (2.61409pt too wide) in paragraph at lines 295--296
  []
 
 
-Package natbib Warning: Citation `ECClimateArchive' on page 23 undefined on inp
-ut line 296.
-
-
-Package natbib Warning: Citation `ECClimateArchive' on page 23 undefined on inp
-ut line 296.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -944,16 +656,11 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [23]
-<Figures/dec2012_surge.pdf, id=526, 741.51247pt x 285.07285pt>
+ [24]
+<Figures/dec2012_surge.pdf, id=528, 741.51247pt x 285.07285pt>
 File: Figures/dec2012_surge.pdf Graphic file (type pdf)
 
 <use Figures/dec2012_surge.pdf>
-
-Package natbib Warning: Citation `smith2014new' on page 24 undefined on input l
-ine 311.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -965,12 +672,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [24 <./Figures/dec2012_weather.pdf>]
-
-Package natbib Warning: Citation `murty1995storm' on page 25 undefined on input
- line 313.
-
-
+ [25 <./Figures/dec2012_weather.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -979,38 +681,8 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [25 <./Figures/dec2012_surge.pdf>]
+ [26 <./Figures/dec2012_surge.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [26]
-
-Package natbib Warning: Citation `stronach1993update' on page 27 undefined on i
-nput line 321.
-
-
-Package natbib Warning: Citation `foreman2004m' on page 27 undefined on input l
-ine 321.
-
-
-Package natbib Warning: Citation `foreman2000webtide' on page 27 undefined on i
-nput line 329.
-
-
-Package natbib Warning: Citation `thomson1980johnstone' on page 27 undefined on
- input line 329.
-
-
-Package natbib Warning: Citation `thomson1980johnstone' on page 27 undefined on
- input line 329.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1022,26 +694,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [27]
-
-Package natbib Warning: Citation `foreman1995tidal' on page 28 undefined on inp
-ut line 331.
-
-
-Package natbib Warning: Citation `foreman2004m' on page 28 undefined on input l
-ine 331.
-
-
-Package natbib Warning: Citation `foreman2012circulation' on page 28 undefined 
-on input line 331.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-No file manuscriptAO.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1051,6 +703,10 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [28]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./manuscriptAO.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1063,6 +719,21 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [30]
+Underfull \hbox (badness 1478) in paragraph at lines 542--556
+\OT1/cmr/m/it/10.95 53N, lon-gi-tude 116W-133W\OT1/cmr/m/n/10.95 .  U. S. Ge-o-
+log-i-cal Sur-vey Open-File Re-port 99-369.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1071,7 +742,67 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [30]
+ [31]
+Underfull \hbox (badness 10000) in paragraph at lines 566--572
+[]\OT1/cmr/m/it/10.95 High Res-o-lu-tion De-ter-min-is-tic Pre-dic-tion Sys-tem
+.  \OT1/cmr/m/n/10.95 (2014b).
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [33])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [36]
 (./manuscriptAO.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1082,33 +813,33 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2808 strings out of 495061
- 33244 string characters out of 1182622
- 121818 words of memory out of 3000000
- 5959 multiletter control sequences out of 15000+50000
- 14137 words of font info for 55 fonts, out of 3000000 for 9000
+ 3399 strings out of 495061
+ 42906 string characters out of 1182622
+ 132395 words of memory out of 3000000
+ 6545 multiletter control sequences out of 15000+50000
+ 13996 words of font info for 55 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,11n,30p,1988b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,27p,1989b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss1
-2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmti9.pfb>
-Output written on manuscriptAO.pdf (30 pages, 3360962 bytes).
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb>
+Output written on manuscriptAO.pdf (36 pages, 3384714 bytes).
 PDF statistics:
- 942 PDF objects out of 1000 (max. 8388607)
+ 961 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

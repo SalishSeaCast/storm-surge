@@ -6,7 +6,7 @@
 \usepackage{subfigure}% Support for small, `sub' figures and tables
 
 %\usepackage[longnamesfirst,sort]{natbib}% Citation support using natbib.sty
-%\bibpunct[, ]{(}{)}{;}{a}{,}{,}% Citation support using natbib.sty
+\bibpunct[, ]{(}{)}{;}{a}{,}{,}% Citation support using natbib.sty
 
 \usepackage[natbibapa]{apacite}% Citation support using apacite.sty. Commands using natbib.sty MUST be deactivated first!
 

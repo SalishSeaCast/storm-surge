@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: apacite.aux
+The style file: apacitex.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 15176 items from 5000.
+Database file #1: apa5ex.bib
+apacitex.bst [2013/07/21 v6.03 APA bibl. style with author index info]
+Warning--No journal in 4.04-11
+Warning--No journal in 4.04-12
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No institution in ex91
+Warning--No address in ex91
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 212 entries,
+            6951 wiz_defined-function locations,
+            2269 strings with 37565 characters,
+and the built_in function-call counts, 540728 in all, are:
+= -- 68913
+> -- 2690
+< -- 24653
++ -- 33385
+- -- 1068
+* -- 31724
+:= -- 94876
+add.period$ -- 897
+call.type$ -- 212
+change.case$ -- 4715
+chr.to.int$ -- 0
+cite$ -- 428
+duplicate$ -- 20533
+empty$ -- 18800
+format.name$ -- 8503
+if$ -- 98270
+int.to.chr$ -- 0
+int.to.str$ -- 658
+missing$ -- 0
+newline$ -- 6622
+num.names$ -- 1525
+pop$ -- 11637
+preamble$ -- 1
+purify$ -- 1961
+quote$ -- 0
+skip$ -- 27243
+stack$ -- 0
+substring$ -- 41693
+swap$ -- 8510
+text.length$ -- 1215
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 17082
+warning$ -- 6
+while$ -- 3563
+width$ -- 0
+write$ -- 9344
+(There were 6 warnings)

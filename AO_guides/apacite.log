@@ -1,0 +1,780 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  14 DEC 2014 16:02
+entering extended mode
+ %&-line parsing enabled.
+**apacite.drv
+(./apacite.drv
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+File: apacite.drv 2013/07/21 v6.03 apacite documentation driver file
+(/usr/share/texmf-texlive/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 2007/11/11 v2.0u Standard LaTeX documentation class
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/base/doc.sty
+Package: doc 2006/02/02 v2.1d Standard LaTeX documentation package (FMi)
+\c@StandardModuleDepth=\count87
+\guard@level=\count88
+\MacrocodeTopsep=\skip43
+\MacroIndent=\dimen103
+\macro@cnt=\count89
+\MacroTopsep=\skip44
+\index@excludelist=\toks14
+
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count90
+\mult@box=\box26
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count91
+\c@collectmore=\count92
+\doublecol@number=\count93
+\multicoltolerance=\count94
+\multicolpretolerance=\count95
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count96
+\c@finalcolumnbadness=\count97
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+\IndexMin=\dimen112
+\c@IndexColumns=\count98
+\GlossaryMin=\dimen113
+\c@GlossaryColumns=\count99
+\check@sum=\count100
+\bslash@cnt=\count101
+\wrong@table=\toks15
+\c@CodelineNo=\count102
+)) (./apacdoc.sty
+Package: apacdoc 2013/07/21 v6.03 apacite documentation style
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (./apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count103
+\bibleftmargin=\skip47
+\bibindent=\skip48
+\bibparsep=\skip49
+\bibitemsep=\skip50
+\biblabelsep=\skip51
+\@AXfile=\write3
+\openout3 = `apacite.adx'.
+
+
+Writing author index file apacite.adx 
+) (./apacite.aux)
+\openout1 = `apacite.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+Package doc Info: Made | a short reference for \verb on input line 99.
+\c@maskedRefs=\count104
+\@indexfile=\write4
+\openout4 = `apacite.idx'.
+
+
+Writing index file apacite.idx
+(./apacite.dtx
+***************************
+* Character table correct *
+***************************
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 554.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 554.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 554.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 554.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 554.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 560.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./apacite.toc
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 2.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 26.
+)
+\tf@toc=\write5
+\openout5 = `apacite.toc'.
+
+ [2
+
+]
+Overfull \hbox (10.13835pt too wide) in paragraph at lines 580--584
+[]\OT1/cmr/m/n/10 The APA man-ual dis-cusses how can-di-date au-thors should wr
+ite their manuscripts:
+ []
+
+[3
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 646.
+
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 646.
+
+Overfull \hbox (16.11464pt too wide) in paragraph at lines 694--694
+[]\OT1/cmr/bx/sc/14.4 Installation, pack-age load-ing, and run-ning BibT[]X 
+ []
+
+[4]
+Overfull \hbox (13.88622pt too wide) in paragraph at lines 743--750
+\OT1/cmtt/m/n/10 french.apc\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 german.apc\OT1/cm
+r/m/n/10 , \OT1/cmtt/m/n/10 ngerman.apc\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 greek
+.apc\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 norsk.apc\OT1/cmr/m/n/10 , \OT1/cmtt/m/n
+/10 spanish.apc\OT1/cmr/m/n/10 ,
+ []
+
+[5]
+LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 761.
+ [6] [7] [8] [9] [10]
+Overfull \hbox (28.55406pt too wide) in paragraph at lines 1059--1077
+ [] 
+ []
+
+[11]
+Overfull \hbox (7.30371pt too wide) in paragraph at lines 1153--1159
+\OT1/cmr/m/n/10 used for con-struc-tions like ``[]\OT1/cmtt/m/n/10 \citeauthor{
+Jone01}' \citeyear{Jone01} method\OT1/cmr/m/n/10 '',
+ []
+
+
+Overfull \hbox (4.92812pt too wide) in paragraph at lines 1196--1208
+[]\OT1/cmr/m/n/10 The stan-dard L[]T[]X com-mand \OT1/cmtt/m/n/10 \nocite \OT1/
+cmr/m/n/10 is also pro-vided by \OT1/cmss/m/n/10 apacite\OT1/cmr/m/n/10 ; \OT1/
+cmtt/m/n/10 \nocite\OMS/cmsy/m/n/10 f$h$\OT1/cmr/m/it/10 keys$\OMS/cmsy/m/n/10 
+i$g
+ []
+
+[12]
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+[13]
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+
+Overfull \hbox (8.1667pt too wide) in paragraph at lines 1327--1342
+[][][]\OT1/cmr/m/n/10 In ad-di-tion to the masked ci-ta-tion com-mands, \OT1/cm
+ss/m/n/10 apacite \OT1/cmr/m/n/10 also pro-vides \OT1/cmtt/m/n/10 \masknocite\O
+T1/cmr/m/n/10 ,
+ []
+
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+[14]
+Overfull \hbox (9.05453pt too wide) in paragraph at lines 1414--1427
+\OT1/cmr/m/n/10 brack-ets for both the pre-fix and the post-fix: ``[]\OT1/cmtt/
+m/n/10 \command[prefix][postfix]{keys}\OT1/cmr/m/n/10 ''.
+ []
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+
+LaTeX Warning: Marginpar on page 15 moved.
+
+[15]
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+[16] [17]
+\oldtabcolsep=\skip52
+
+
+LaTeX Warning: Float too large for page by 14.26743pt on input line 1720.
+
+[18] [19] [20]
+Overfull \hbox (25.40746pt too wide) in paragraph at lines 1844--1869
+\OT1/cmr/m/n/10 For un-pub-lished manuscripts and sim-i-larly ``ob-scure'' ma-t
+e-rial. The \OT1/cmtt/m/n/10 howpublished
+ []
+
+
+Overfull \hbox (22.9325pt too wide) in paragraph at lines 1844--1869
+\OT1/cmtt/m/n/10 Hopkins University, Center for Social Organization of Schools\
+OT1/cmr/m/n/10 ''. Note
+ []
+
+[21] [22] [23] [24]
+Overfull \hbox (0.74619pt too wide) in paragraph at lines 2100--2100
+ []  \OT1/cmtt/m/n/9 howpublished = {Retrieved August 24, 2000, from Columbia U
+niversity,[] 
+ []
+
+[25] [26] [27] [28] [29] [30] [31] [32]
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+[33]
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+[34]
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+Overfull \hbox (4.09583pt too wide) in paragraph at lines 2763--2763
+[]\OT1/cmtt/m/n/9 \DeclareRobustCommand{\BCntIP}[1]{\setcounter{BibCnt}{#1}\mbo
+x{-\theBibCnt}}[] 
+ []
+
+
+Overfull \hbox (4.09583pt too wide) in paragraph at lines 2763--2763
+[]\OT1/cmtt/m/n/9 \DeclareRobustCommand{\BCntND}[1]{\setcounter{BibCnt}{#1}\mbo
+x{-\theBibCnt}}[] 
+ []
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+[35]
+Overfull \hbox (6.29846pt too wide) in paragraph at lines 2885--2885
+ []|\OT1/cmtt/m/n/9 \bibcomputerprogramandmanual
+ []
+
+[36]
+Overfull \hbox (11.0234pt too wide) in paragraph at lines 2894--2894
+ []|\OT1/cmtt/m/n/9 \bibcomputersoftwareandmanual
+ []
+
+
+Overfull \hbox (5.55305pt too wide) in paragraph at lines 2894--2896
+[][]\OT1/cmr/m/n/10 Default is ``[]\OT1/cmtt/m/n/10 Computer software and manua
+l\OT1/cmr/m/n/10 ''. 
+ []
+
+[37]
+Overfull \hbox (5.09851pt too wide) in paragraph at lines 2987--2991
+[][]\OT1/cmr/m/n/10 Used for \OT1/cmtt/m/n/10 incollection \OT1/cmr/m/n/10 and 
+\OT1/cmtt/m/n/10 intechreport\OT1/cmr/m/n/10 , for ``In $\OMS/cmsy/m/n/10 h$\OT
+1/cmr/m/it/10 editor$\OMS/cmsy/m/n/10 i$ \OT1/cmr/m/n/10 (Ed.[]), $\OMS/cmsy/m/
+n/10 h$\OT1/cmr/m/it/10 booktitle$\OMS/cmsy/m/n/10 i$\OT1/cmr/m/n/10 '',
+ []
+
+[38]
+Overfull \hbox (9.07292pt too wide) in paragraph at lines 3109--3118
+\OT1/cmr/m/n/10 This is now su-per-seded by \OT1/cmtt/m/n/10 \BRetrievedFrom\OT
+1/cmr/m/n/10 . De-fault is ``[]\OT1/cmtt/m/n/10 Available from\ \OT1/cmr/m/n/10
+ ''.
+ []
+
+[39]
+Overfull \hbox (13.11061pt too wide) in paragraph at lines 3156--3164
+\OT1/cmr/m/n/10 the sec-tion or chap-ter head-ing, and im-me-di-ately af-ter \O
+T1/cmtt/m/n/10 \bibliographytypesize\OT1/cmr/m/n/10 .
+ []
+
+
+Overfull \hbox (12.68436pt too wide) in paragraph at lines 3174--3177
+[][]\OT1/cmr/m/n/10 Name (head-ing) of the au-thor in-dex. De-fault is ``[]\OT1
+/cmtt/m/n/10 Author Index\OT1/cmr/m/n/10 ''. 
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 3267--3271
+
+ []
+
+[41]
+Overfull \hbox (1.5456pt too wide) in paragraph at lines 3298--3301
+[][] [] 
+ []
+
+
+Overfull \hbox (1.57352pt too wide) in paragraph at lines 3301--3301
+ []|\OT1/cmtt/m/n/9 \APACaddressPublisherEqAuth
+ []
+
+
+Overfull \hbox (26.04561pt too wide) in paragraph at lines 3301--3304
+[][] [] 
+ []
+
+
+Overfull \hbox (11.0234pt too wide) in paragraph at lines 3304--3304
+ []|\OT1/cmtt/m/n/9 \APACaddressInstitutionEqAuth
+ []
+
+
+Overfull \hbox (15.40672pt too wide) in paragraph at lines 3304--3307
+[][] [] 
+ []
+
+
+Overfull \hbox (63.57358pt too wide) in paragraph at lines 3328--3331
+[][] [] 
+ []
+
+
+Overfull \hbox (65.40698pt too wide) in paragraph at lines 3331--3334
+[][] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3340--3344
+
+ []
+
+
+Overfull \hbox (59.5629pt too wide) in paragraph at lines 3344--3345
+[][][] [] 
+ []
+
+
+Overfull \hbox (49.70108pt too wide) in paragraph at lines 3348--3352
+[][][] [] 
+ []
+
+[42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+[53] [54]
+Overfull \hbox (6.2491pt too wide) in paragraph at lines 4117--4133
+\OT1/cmtt/m/n/10 includecorporate \OT1/cmr/m/n/10 op-tion is re-quested, ei-the
+r ex-plic-itly or im-plic-itly, \OT1/cmtt/m/n/10 \corporateAX
+ []
+
+[55]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 4218.
+
+ [56]
+Overfull \hbox (44.41478pt too wide) in paragraph at lines 4279--4294
+[][][][][][][][][][]\OT1/cmr/m/n/10 This com-mand, and its sib-lings \OT1/cmtt/
+m/n/10 \bibleciteA\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 \bibleciteNP\OT1/cmr/m/n/1
+0 , \OT1/cmtt/m/n/10 \fullbiblecite\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (13.49721pt too wide) in paragraph at lines 4279--4294
+\OT1/cmtt/m/n/10 \fullbibleciteA\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 \fullbibleci
+teNP\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 \shortbiblecite\OT1/cmr/m/n/10 , \OT1/cm
+tt/m/n/10 \shortbibleciteA\OT1/cmr/m/n/10 ,
+ []
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+Overfull \hbox (105.609pt too wide) in paragraph at lines 4296--4303
+[][]\OT1/cmr/m/n/10 This de-fines the ver-sion of the Bible used: []\OT1/cmtt/m
+/n/10 \bibleversion{Revised Standard Version}\OT1/cmr/m/n/10 .
+ []
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+[57]
+Overfull \hbox (20.63718pt too wide) in paragraph at lines 4305--4319
+[][][][][][][][][][]\OT1/cmr/m/n/10 This com-mand and its sib-lings \OT1/cmtt/m
+/n/10 \citeAsong\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 \citesongNP\OT1/cmr/m/n/10 ,
+ \OT1/cmtt/m/n/10 \fullcitesong\OT1/cmr/m/n/10 ,
+ []
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+
+LaTeX Warning: Marginpar on page 58 moved.
+
+[58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]
+[73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
+Overfull \hbox (51.08057pt too wide) in paragraph at lines 5607--5612
+\OML/cmm/m/it/10 . $\OT1/cmr/m/n/10 Here and in ex. 83, I used the \OT1/cmtt/m/
+n/10 \BAbstractRetrieved \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10 \BmakeAbstractRet
+rieved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5612--5613
+
+ []
+
+[86] [87]
+No file apacite.gls.
+LaTeX Info: Redefining \bibeditortype on input line 5704.
+(./apacite.bbl [88] [89
+
+] [90]
+Underfull \hbox (badness 3128) in paragraph at lines 1670--1689
+[]\OT1/cmr/m/n/10 Crow, T. J.[]  (2000).  Did \OT1/cmr/m/it/10 Homo sapi-ens \O
+T1/cmr/m/n/10 spe-ci-ate on the \OT1/cmr/m/it/10 y \OT1/cmr/m/n/10 chro-
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 1670--1689
+\OT1/cmr/m/n/10 mo-some?  \OT1/cmr/m/it/10 Psy-colo-quy\OT1/cmr/m/n/10 , \OT1/c
+mr/m/it/10 11\OT1/cmr/m/n/10 .  Re-trieved March 25, 2001, from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1670--1689
+\OT1/cmtt/m/n/10 ftp :// ftp [] .princeton [] .edu / harnad / Psycoloquy / 2000
+ [] .volume [] .11 /
+ []
+
+[91] [92] [93] [94] [95] [96] [97] [98]) [99] (./apacite.and [100
+
+] [101]
+[102])
+No file apacite.ind.
+) (./apacite.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2198 strings out of 495061
+ 24655 string characters out of 1182622
+ 145032 words of memory out of 3000000
+ 5392 multiletter control sequences out of 15000+50000
+ 14465 words of font info for 51 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 30i,9n,30p,546b,496s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmss9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx
+10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmti7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on apacite.pdf (102 pages, 671065 bytes).
+PDF statistics:
+ 449 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: manuscriptAO.aux
+The style file: apacite.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: ref.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No address in forseth2006adaptation
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 44 entries,
+            6951 wiz_defined-function locations,
+            1546 strings with 19112 characters,
+and the built_in function-call counts, 93615 in all, are:
+= -- 11174
+> -- 728
+< -- 5174
++ -- 5359
+- -- 87
+* -- 6527
+:= -- 18575
+add.period$ -- 174
+call.type$ -- 44
+change.case$ -- 776
+chr.to.int$ -- 0
+cite$ -- 89
+duplicate$ -- 2467
+empty$ -- 3356
+format.name$ -- 1300
+if$ -- 16840
+int.to.chr$ -- 0
+int.to.str$ -- 136
+missing$ -- 0
+newline$ -- 1119
+num.names$ -- 328
+pop$ -- 1277
+preamble$ -- 1
+purify$ -- 188
+quote$ -- 0
+skip$ -- 5334
+stack$ -- 0
+substring$ -- 5738
+swap$ -- 1491
+text.length$ -- 111
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 3310
+warning$ -- 3
+while$ -- 473
+width$ -- 0
+write$ -- 1435
+(There were 3 warnings)
