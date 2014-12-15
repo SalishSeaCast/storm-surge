@@ -6,7 +6,7 @@
 \usepackage{subfigure}% Support for small, `sub' figures and tables
 
 %\usepackage[longnamesfirst,sort]{natbib}% Citation support using natbib.sty
-\bibpunct[, ]{(}{)}{;}{a}{,}{,}% Citation support using natbib.sty
+%\bibpunct[, ]{(}{)}{;}{a}{,}{,}% Citation support using natbib.sty
 
 \usepackage[natbibapa]{apacite}% Citation support using apacite.sty. Commands using natbib.sty MUST be deactivated first!
 
@@ -380,8 +380,10 @@ Below, Table \ref{tab:comparison} compares the M$_2$ and K$_1$ elevation harmoni
 
 
 \section*{Acknowledgements}\label{sec:ack}
-We would like to thank Michael Foreman, Diane Masson, Luc Fillion, Rich Pawlowicz, Mark Halverson, Kao-Shen Chung, and Pramod Thupaki for providing data used in model set up and evaluation. For providing guidance with stakeholder engagement, we also thank Stephanie Chang, Jackie Yip, and Shona van Zijil de jong. This project is funded by the Marine Environmental Observation Prediction and Response Network (MEOPAR), a Network of Centres of Excellence of Canada. This research was enabled in part by support provided by WestGrid (www.westgrid.ca) and Compute Canada Calcul Canada (www.computecanada.ca).
+We would like to thank Michael Foreman, Diane Masson, Luc Fillion, Rich Pawlowicz, Mark Halverson, Kao-Shen Chung, and Pramod Thupaki for providing data used in model set up and evaluation. For providing guidance with stakeholder engagement, we also thank Stephanie Chang, Jackie Yip, and Shona van Zijil de jong. This research was enabled in part by support provided by WestGrid (www.westgrid.ca) and Compute Canada Calcul Canada (www.computecanada.ca).
 
+\section*{Funding}
+ This project is funded by the Marine Environmental Observation Prediction and Response Network (MEOPAR), a Network of Centres of Excellence of Canada.
 
 \bibliographystyle{apacite}
 \bibliography{ref}

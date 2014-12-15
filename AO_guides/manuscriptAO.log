@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  14 DEC 2014 17:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  14 DEC 2014 17:16
 entering extended mode
  %&-line parsing enabled.
 **manuscriptAO.tex
@@ -719,6 +719,9 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 
@@ -731,6 +734,18 @@ s-o-lu-tion De-ter-min-is-tic Pre-dic-tion Sys-tem.
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [31]
 Underfull \hbox (badness 1478) in paragraph at lines 565--579
 \OT1/cmr/m/it/10.95 53N, lon-gi-tude 116W-133W\OT1/cmr/m/n/10.95 .  U. S. Ge-o-
 log-i-cal Sur-vey Open-File Re-port 99-369.
@@ -748,7 +763,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [31]
+ [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -760,16 +775,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [32])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [33]
+ [33])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -782,6 +788,15 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -790,7 +805,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [35]
+ [36]
 (./manuscriptAO.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -798,6 +813,9 @@ LaTeX Font Warning: Size substitutions with differences
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -807,7 +825,7 @@ Here is how much of TeX's memory you used:
  6543 multiletter control sequences out of 15000+50000
  13828 words of font info for 54 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,11n,27p,1989b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,27p,1989b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/font
@@ -824,9 +842,9 @@ nts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
 -texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmti9.pfb>
-Output written on manuscriptAO.pdf (35 pages, 3372097 bytes).
+Output written on manuscriptAO.pdf (36 pages, 3372877 bytes).
 PDF statistics:
- 954 PDF objects out of 1000 (max. 8388607)
+ 957 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
