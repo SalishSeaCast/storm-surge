@@ -7,46 +7,45 @@ Database file #1: ref.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in forseth2006adaptation
 Warning--`others' not consistent with 6th ed. of the APA Manual
-Warning--`others' not consistent with 6th ed. of the APA Manual
 You've used 44 entries,
             6951 wiz_defined-function locations,
-            1546 strings with 19112 characters,
-and the built_in function-call counts, 93615 in all, are:
-= -- 11174
-> -- 728
-< -- 5174
-+ -- 5359
-- -- 87
-* -- 6527
-:= -- 18575
-add.period$ -- 174
+            1539 strings with 18965 characters,
+and the built_in function-call counts, 92440 in all, are:
+= -- 11001
+> -- 730
+< -- 5146
++ -- 5229
+- -- 91
+* -- 6406
+:= -- 18443
+add.period$ -- 178
 call.type$ -- 44
-change.case$ -- 776
+change.case$ -- 779
 chr.to.int$ -- 0
 cite$ -- 89
-duplicate$ -- 2467
-empty$ -- 3356
-format.name$ -- 1300
-if$ -- 16840
+duplicate$ -- 2375
+empty$ -- 3305
+format.name$ -- 1290
+if$ -- 16634
 int.to.chr$ -- 0
 int.to.str$ -- 136
 missing$ -- 0
-newline$ -- 1119
-num.names$ -- 328
-pop$ -- 1277
+newline$ -- 1116
+num.names$ -- 334
+pop$ -- 1320
 preamble$ -- 1
-purify$ -- 188
+purify$ -- 191
 quote$ -- 0
-skip$ -- 5334
+skip$ -- 5300
 stack$ -- 0
-substring$ -- 5738
-swap$ -- 1491
-text.length$ -- 111
+substring$ -- 5572
+swap$ -- 1410
+text.length$ -- 113
 text.prefix$ -- 0
 top$ -- 1
 type$ -- 3310
-warning$ -- 3
-while$ -- 473
+warning$ -- 2
+while$ -- 464
 width$ -- 0
-write$ -- 1435
-(There were 3 warnings)
+write$ -- 1430
+(There were 2 warnings)

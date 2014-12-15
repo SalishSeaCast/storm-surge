@@ -23,12 +23,10 @@ Abeysirigunawardena, D\BPBI S.%
 \newblock
 {\BBOQ}\APACrefatitle {Extreme Sea Surge Responses to Climate Variability in
   Coastal {British Columbia, Canada}} {Extreme sea surge responses to climate
-  variability in coastal {British Columbia, Canada}}{\BBCQ}\ [Journal Article].
+  variability in coastal {British Columbia, Canada}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Annals of the Association of American
   Geographers}{101}{5}{992-1010}.
-\newblock
-\begin{APACrefDOI} \doi{10.1080/00045608.2011.585929} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -146,37 +144,6 @@ Bobanovi{\'c}, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Fisheries and Oceans Canada}{%
-Fisheries and Oceans Canada}{%
-{\protect \APACyear {2014}}%
-}]{%
-DFOObservations}
-\APACinsertmetastar {%
-DFOObservations}%
-\APACrefbtitle {{Canadian Tides and Water Level Data Archive}.} {{Canadian
-  Tides and Water Level Data Archive}.}
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-\APAChowpublished {http://www.isdm-gdsi.gc.ca/isdm-gdsi/twl-mne/index-eng.htm}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Environment Canada}{%
-Environment Canada}{%
-{\protect \APACyear {2014}}%
-{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
-ECClimateArchive}
-\APACinsertmetastar {%
-ECClimateArchive}%
-\APACrefbtitle {{Climate Database}.} {{Climate Database}.}
-\newblock
-\APACrefYearMonthDay{2014{\protect \BCnt {1}}}{}{}.
-\newblock
-\APAChowpublished {{http://climate.weather.gc.ca/index\_e.html}}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 P.~Crean%
 , Murty%
 \BCBL {}\ \BBA {} Stronach%
@@ -229,11 +196,9 @@ Crean, P\BPBI B.%
 {\BBOQ}\APACrefatitle {NUMERICAL-SIMULATION OF OCEANOGRAPHIC PROCESSES IN THE
   WATERS BETWEEN {Vancouver Island} AND THE MAINLAND} {Numerical-simulation of
   oceanographic processes in the waters between {Vancouver Island} and the
-  mainland}{\BBCQ}\ [Journal Article].
+  mainland}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Oceanography and Marine Biology}{26}{}{11-142}.
-\newblock
-\begin{APACrefURL} \url{<Go to ISI>://WOS:A1988Q990100001} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -289,6 +254,68 @@ Engedahl, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Environment Canada}{%
+Environment Canada}{%
+{\protect \APACyear {2014}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+ECClimateArchive}
+\APACinsertmetastar {%
+ECClimateArchive}%
+\begin{APACrefauthors}%
+{\bibcorporate{Environment Canada}}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014{\protect \BCnt {1}}}{}{}.
+\newblock
+\APACrefbtitle {{Climate Database}.} {{Climate Database}.}
+\newblock
+\APAChowpublished {{http://climate.weather.gc.ca/index\_e.html}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Environment Canada}{%
+Environment Canada}{%
+{\protect \APACyear {2014}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+ECModel}
+\APACinsertmetastar {%
+ECModel}%
+\begin{APACrefauthors}%
+{\bibcorporate{Environment Canada}}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014{\protect \BCnt {2}}}{}{}.
+\newblock
+\APACrefbtitle {{High Resolution Deterministic Prediction System}.} {{High
+  Resolution Deterministic Prediction System}.}
+\newblock
+\APAChowpublished {https://weather.gc.ca/grib/grib2\_HRDPS\_HR\_e.html}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fisheries and Oceans Canada}{%
+Fisheries and Oceans Canada}{%
+{\protect \APACyear {2014}}%
+}]{%
+DFOObservations}
+\APACinsertmetastar {%
+DFOObservations}%
+\begin{APACrefauthors}%
+{\bibcorporate{Fisheries and Oceans Canada}}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {{Canadian Tides and Water Level Data Archive}.} {{Canadian
+  Tides and Water Level Data Archive}.}
+\newblock
+\APAChowpublished {http://www.isdm-gdsi.gc.ca/isdm-gdsi/twl-mne/index-eng.htm}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Flather%
 }{%
 Flather%
@@ -310,17 +337,17 @@ Flather, R\BPBI A.%
   surge prediction model for the northern Bay of Bengal with application to the
   cyclone disaster in April 1991}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Journal of Physical Oceanography}{24}{1}{172--190}.
+\APACjournalVolNumPages{J. Phys. Oceanogr.}{24}{1}{172--190}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-M.~Foreman%
+Foreman%
 , Crawford%
 , Cherniawsky%
 , Henry%
 \BCBL {}\ \BBA {} Tarbotto%
 }{%
-M.~Foreman%
+Foreman%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2000}}%
 }]{%
@@ -340,18 +367,16 @@ Foreman, M.%
 \newblock
 {\BBOQ}\APACrefatitle {A high-resolution assimilating tidal model for the
   northeast {Pacific Ocean}} {A high-resolution assimilating tidal model for
-  the northeast {Pacific Ocean}}{\BBCQ}\ [Journal Article].
+  the northeast {Pacific Ocean}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Geophysical
   Research}{105}{C1}{28,629-28,652}.
-\newblock
-\begin{APACrefDOI} \doi{10.1029/94jc02721} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-M.~Foreman%
+Foreman%
 \ \protect \BOthers {.}}{%
-M.~Foreman%
+Foreman%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2012}}%
 }]{%
@@ -379,11 +404,11 @@ Foreman, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-M.~Foreman%
+Foreman%
 , Sutherland%
 \BCBL {}\ \BBA {} Cummins%
 }{%
-M.~Foreman%
+Foreman%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2004}}%
 }]{%
@@ -407,13 +432,13 @@ Foreman, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-M\BPBI G\BPBI G.~Foreman%
+Foreman%
 , Walters%
 , Henry%
 , Keller%
 \BCBL {}\ \BBA {} Dolling%
 }{%
-M\BPBI G\BPBI G.~Foreman%
+Foreman%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {1995}}%
 }]{%
@@ -421,11 +446,11 @@ foreman1995tidal}
 \APACinsertmetastar {%
 foreman1995tidal}%
 \begin{APACrefauthors}%
-Foreman, M\BPBI G\BPBI G.%
-, Walters, R\BPBI A.%
-, Henry, R\BPBI F.%
-, Keller, C\BPBI P.%
-\BCBL {}\ \BBA {} Dolling, A\BPBI G.%
+Foreman, M.%
+, Walters, R.%
+, Henry, R.%
+, Keller, C.%
+\BCBL {}\ \BBA {} Dolling, A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -433,12 +458,10 @@ Foreman, M\BPBI G\BPBI G.%
 \newblock
 {\BBOQ}\APACrefatitle {A TIDAL MODEL FOR EASTERN {Juan de Fuca Strait} AND THE
   SOUTHERN {Strait OF Georgia}} {A tidal model for eastern {Juan de Fuca
-  Strait} and the southern {Strait OF Georgia}}{\BBCQ}\ [Journal Article].
+  Strait} and the southern {Strait OF Georgia}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Geophysical
   Research-Oceans}{100}{C1}{721-740}.
-\newblock
-\begin{APACrefDOI} \doi{10.1029/94jc02721} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -555,22 +578,6 @@ Haugerud, R\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Environment Canada}{%
-Environment Canada}{%
-{\protect \APACyear {2014}}%
-{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
-ECModel}
-\APACinsertmetastar {%
-ECModel}%
-\APACrefbtitle {{High Resolution Deterministic Prediction System}.} {{High
-  Resolution Deterministic Prediction System}.}
-\newblock
-\APACrefYearMonthDay{2014{\protect \BCnt {2}}}{}{}.
-\newblock
-\APAChowpublished {https://weather.gc.ca/grib/grib2\_HRDPS\_HR\_e.html}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Hubbert%
 \ \BBA {} McInnes%
 }{%
@@ -673,11 +680,9 @@ Marinone, S\BPBI G.%
 {\BBOQ}\APACrefatitle {A three-dimensional model of tide and wind-induced
   residual currents in the central {Strait of Georgia, Canada}} {A
   three-dimensional model of tide and wind-induced residual currents in the
-  central {Strait of Georgia, Canada}}{\BBCQ}\ [Journal Article].
+  central {Strait of Georgia, Canada}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Estuarine Coastal and Shelf Science}{43}{2}{157-182}.
-\newblock
-\begin{APACrefDOI} \doi{10.1006/ecss.1996.0063} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -702,12 +707,9 @@ Masson, D.%
 \newblock
 {\BBOQ}\APACrefatitle {Observations and modeling of seasonal variability in the
   {Straits of Georgia and Juan de Fuca}} {Observations and modeling of seasonal
-  variability in the {Straits of Georgia and Juan de Fuca}}{\BBCQ}\ [Journal
-  Article].
+  variability in the {Straits of Georgia and Juan de Fuca}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Marine Research}{62}{4}{491-516}.
-\newblock
-\begin{APACrefDOI} \doi{10.1357/0022240041850075} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -760,12 +762,9 @@ Morrison, J.%
 \newblock
 {\BBOQ}\APACrefatitle {A method for estimating monthly freshwater discharge
   affecting {British Columbia} coastal waters} {A method for estimating monthly
-  freshwater discharge affecting {British Columbia} coastal waters}{\BBCQ}\
-  [Journal Article].
+  freshwater discharge affecting {British Columbia} coastal waters}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Atmosphere-Ocean}{50}{1}{1-8}.
-\newblock
-\begin{APACrefDOI} \doi{10.1080/07055900.2011.637667} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -889,8 +888,8 @@ Smith, G\BPBI C.%
 \bibitem [\protect \citeauthoryear {%
 Stronach%
 , Backhaus%
-, Murty%
-\BCBL {}\ \protect \BOthers {.}}{%
+\BCBL {}\ \BBA {} Murty%
+}{%
 Stronach%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {1993}}%
@@ -901,8 +900,8 @@ stronach1993update}%
 \begin{APACrefauthors}%
 Stronach, J.%
 , Backhaus, J.%
-, Murty, T.%
-\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\BCBL {}\ \BBA {} Murty, T.%
+\end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{1993}{}{}.
@@ -969,12 +968,9 @@ Sutherland, D\BPBI A.%
 \APACrefYearMonthDay{2011}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {A Model Study of the {Salish Sea} Estuarine Circulation}
-  {A model study of the {Salish Sea} estuarine circulation}{\BBCQ}\ [Journal
-  Article].
+  {A model study of the {Salish Sea} estuarine circulation}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Journal of Physical Oceanography}{41}{6}{1125-1143}.
-\newblock
-\begin{APACrefDOI} \doi{10.1175/2010jpo4540.1} \end{APACrefDOI}
+\APACjournalVolNumPages{J. Phys. Oceanogr.}{41}{6}{1125-1143}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1055,7 +1051,7 @@ Thomson, R\BPBI E.%
   Columbia}} {M$_2$ baroclinic tides in {Johnstone Strait, British
   Columbia}}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Journal of Physical Oceanography}{10}{}{1509-1539}.
+\APACjournalVolNumPages{J. Phys. Oceanogr.}{10}{}{1509-1539}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1213,11 +1209,9 @@ Yang, Z.%
   unstructured-grid coastal ocean model: from tide flats to estuaries and
   coastal waters} {Multi-scale modeling of {Puget Sound} using an
   unstructured-grid coastal ocean model: from tide flats to estuaries and
-  coastal waters}{\BBCQ}\ [Journal Article].
+  coastal waters}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Ocean Dynamics}{60}{6}{1621-1637}.
-\newblock
-\begin{APACrefDOI} \doi{10.1007/s10236-010-0348-5} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
