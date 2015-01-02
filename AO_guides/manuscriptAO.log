@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  14 DEC 2014 17:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  2 JAN 2015 13:09
 entering extended mode
  %&-line parsing enabled.
 **manuscriptAO.tex
@@ -469,7 +469,7 @@ Overfull \hbox (55.46999pt too wide) in paragraph at lines 115--116
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4479) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -706,7 +706,7 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./manuscriptAO.bbl
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -716,7 +716,8 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./manuscriptAO.bbl
+Underfull \vbox (badness 1314) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -816,13 +817,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3396 strings out of 495061
- 42867 string characters out of 1182622
- 132361 words of memory out of 3000000
- 6543 multiletter control sequences out of 15000+50000
+ 3401 strings out of 495061
+ 42938 string characters out of 1182622
+ 132410 words of memory out of 3000000
+ 6548 multiletter control sequences out of 15000+50000
  13828 words of font info for 54 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,11n,27p,1989b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,27p,2022b,394s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/font
@@ -839,7 +840,7 @@ nts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
 -texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmti9.pfb>
-Output written on manuscriptAO.pdf (36 pages, 3372886 bytes).
+Output written on manuscriptAO.pdf (36 pages, 3373337 bytes).
 PDF statistics:
  957 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

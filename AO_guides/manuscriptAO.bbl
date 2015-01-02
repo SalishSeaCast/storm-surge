@@ -1105,6 +1105,31 @@ Umlauf, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{\bibcorporate{Webtide}}%
+}{%
+{\bibcorporate{Webtide}}%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+webtide}
+\APACinsertmetastar {%
+webtide}%
+\begin{APACrefauthors}%
+{\bibcorporate{Webtide}}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {{WebTide Tidal Prediction Model}.} {{WebTide Tidal Prediction
+  Model}.}
+\newblock
+\APAChowpublished
+  {{http://www.bio.gc.ca/science/research-recherche/ocean/webtide/index-eng.ph%
+p}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Weisberg%
 \ \BBA {} Zheng%
 }{%
