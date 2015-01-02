@@ -578,6 +578,29 @@ Haugerud, R\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Holton%
+}{%
+Holton%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+holton1992introduction}
+\APACinsertmetastar {%
+holton1992introduction}%
+\begin{APACrefauthors}%
+Holton, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1992}.
+\newblock
+\APACrefbtitle {An Introduction to Dynamic Meteorology} {An introduction to
+  dynamic meteorology}.
+\newblock
+\APACaddressPublisher{}{Academic Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hubbert%
 \ \BBA {} McInnes%
 }{%
