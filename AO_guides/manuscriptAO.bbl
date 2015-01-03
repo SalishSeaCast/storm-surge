@@ -229,6 +229,35 @@ Danard, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+de Young%
+, Lu%
+\BCBL {}\ \BBA {} Greatbatch%
+}{%
+de Young%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+young1995synoptic}
+\APACinsertmetastar {%
+young1995synoptic}%
+\begin{APACrefauthors}%
+de Young, B.%
+, Lu, Y.%
+\BCBL {}\ \BBA {} Greatbatch, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Synoptic bottom pressure variability on the Labrador and
+  Newfoundland Continental Shelves} {Synoptic bottom pressure variability on
+  the labrador and newfoundland continental shelves}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Oceans
+  (1978--2012)}{100}{C5}{8639--8653}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Engedahl%
 }{%
 Engedahl%
@@ -677,35 +706,6 @@ Madec, G.%
 \APACaddressPublisher{France}{}.
 \newblock
 \APACrefnote{Ver 3.4, ISSN No 1288-1619}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Marinone%
-, Pond%
-\BCBL {}\ \BBA {} Fyfe%
-}{%
-Marinone%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1996}}%
-}]{%
-marinone1996model}
-\APACinsertmetastar {%
-marinone1996model}%
-\begin{APACrefauthors}%
-Marinone, S\BPBI G.%
-, Pond, S.%
-\BCBL {}\ \BBA {} Fyfe, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1996}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A three-dimensional model of tide and wind-induced
-  residual currents in the central {Strait of Georgia, Canada}} {A
-  three-dimensional model of tide and wind-induced residual currents in the
-  central {Strait of Georgia, Canada}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Estuarine Coastal and Shelf Science}{43}{2}{157-182}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1203,6 +1203,36 @@ Willmott, C\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Wright%
+, Greenberg%
+\BCBL {}\ \BBA {} Majaess%
+}{%
+Wright%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1987}}%
+}]{%
+wright1987influence}
+\APACinsertmetastar {%
+wright1987influence}%
+\begin{APACrefauthors}%
+Wright, D\BPBI G.%
+, Greenberg, D\BPBI A.%
+\BCBL {}\ \BBA {} Majaess, F\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The influence of bays on adjusted sea level over
+  adjacent shelves with application to the Labrador Shelf} {The influence of
+  bays on adjusted sea level over adjacent shelves with application to the
+  labrador shelf}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Oceans
+  (1978--2012)}{92}{C13}{14610--14620}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Xu%
 , Zhang%
 , Shen%
@@ -1231,35 +1261,6 @@ Xu, H.%
   approach}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Ocean dynamics}{60}{6}{1597--1619}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Yang%
-\ \BBA {} Khangaonkar%
-}{%
-Yang%
-\ \BBA {} Khangaonkar%
-}{%
-{\protect \APACyear {2010}}%
-}]{%
-yang2010multi}
-\APACinsertmetastar {%
-yang2010multi}%
-\begin{APACrefauthors}%
-Yang, Z.%
-\BCBT {}\ \BBA {} Khangaonkar, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2010}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Multi-scale modeling of {Puget Sound} using an
-  unstructured-grid coastal ocean model: from tide flats to estuaries and
-  coastal waters} {Multi-scale modeling of {Puget Sound} using an
-  unstructured-grid coastal ocean model: from tide flats to estuaries and
-  coastal waters}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Ocean Dynamics}{60}{6}{1621-1637}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

@@ -9,43 +9,43 @@ Warning--No address in forseth2006adaptation
 Warning--`others' not consistent with 6th ed. of the APA Manual
 You've used 46 entries,
             6951 wiz_defined-function locations,
-            1547 strings with 19177 characters,
-and the built_in function-call counts, 95100 in all, are:
-= -- 11333
-> -- 750
-< -- 5248
-+ -- 5314
+            1547 strings with 19127 characters,
+and the built_in function-call counts, 94935 in all, are:
+= -- 11317
+> -- 755
+< -- 5215
++ -- 5293
 - -- 97
-* -- 6544
-:= -- 18894
+* -- 6523
+:= -- 18795
 add.period$ -- 187
 call.type$ -- 46
 change.case$ -- 813
 chr.to.int$ -- 0
 cite$ -- 93
-duplicate$ -- 2442
-empty$ -- 3439
-format.name$ -- 1318
-if$ -- 17185
+duplicate$ -- 2457
+empty$ -- 3443
+format.name$ -- 1326
+if$ -- 17180
 int.to.chr$ -- 0
 int.to.str$ -- 142
 missing$ -- 0
-newline$ -- 1160
+newline$ -- 1161
 num.names$ -- 350
-pop$ -- 1433
+pop$ -- 1437
 preamble$ -- 1
 purify$ -- 199
 quote$ -- 0
-skip$ -- 5463
+skip$ -- 5460
 stack$ -- 0
-substring$ -- 5666
-swap$ -- 1440
+substring$ -- 5648
+swap$ -- 1445
 text.length$ -- 118
 text.prefix$ -- 0
 top$ -- 1
 type$ -- 3470
 warning$ -- 2
-while$ -- 474
+while$ -- 479
 width$ -- 0
-write$ -- 1478
+write$ -- 1482
 (There were 2 warnings)
