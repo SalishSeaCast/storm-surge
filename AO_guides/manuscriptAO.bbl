@@ -876,6 +876,29 @@ Pawlowicz, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Pugh%
+}{%
+Pugh%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+pugh2004changing}
+\APACinsertmetastar {%
+pugh2004changing}%
+\begin{APACrefauthors}%
+Pugh, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {Changing sea levels: effects of tides, weather and climate}
+  {Changing sea levels: effects of tides, weather and climate}.
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Smith%
 \ \protect \BOthers {.}}{%
 Smith%

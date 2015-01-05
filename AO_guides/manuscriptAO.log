@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  5 JAN 2015 10:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  5 JAN 2015 10:53
 entering extended mode
  %&-line parsing enabled.
 **manuscriptAO.tex
@@ -588,16 +588,15 @@ File: Figures/feb2006_tidesurge_spatial.pdf Graphic file (type pdf)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [20 <./Figures/feb2006_factors.pdf> <./Figures/feb2006_tidesurge.pdf>]
-<Figures/dec2006.pdf, id=410, 724.12721pt x 481.10521pt>
-File: Figures/dec2006.pdf Graphic file (type pdf)
-
-<use Figures/dec2006.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -607,6 +606,10 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [21 <./Figures/feb2006_tidesurge_spatial.pdf>]
+<Figures/dec2006.pdf, id=416, 724.12721pt x 481.10521pt>
+File: Figures/dec2006.pdf Graphic file (type pdf)
+
+<use Figures/dec2006.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
@@ -638,14 +641,11 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [23 <./Figures/dec2006_spatial.pdf> <./Figures/dec2006_spatial_sshonly.pdf>]
-<Figures/nov2009.pdf, id=480, 405.30798pt x 425.09596pt>
+ [23 <./Figures/dec2006_spatial.pdf>]
+<Figures/nov2009.pdf, id=477, 405.30798pt x 425.09596pt>
 File: Figures/nov2009.pdf Graphic file (type pdf)
 
 <use Figures/nov2009.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -654,7 +654,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [24]
+ [24 <./Figures/dec2006_spatial_sshonly.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -672,10 +672,7 @@ Overfull \hbox (2.61409pt too wide) in paragraph at lines 320--321
  [][] 
  []
 
-<Figures/dec2012_surge.pdf, id=538, 741.51247pt x 285.07285pt>
-File: Figures/dec2012_surge.pdf Graphic file (type pdf)
 
-<use Figures/dec2012_surge.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -688,6 +685,10 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [26]
+<Figures/dec2012_surge.pdf, id=541, 741.51247pt x 285.07285pt>
+File: Figures/dec2012_surge.pdf Graphic file (type pdf)
+
+<use Figures/dec2012_surge.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -734,7 +735,7 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./manuscriptAO.bbl
-Underfull \vbox (badness 1454) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -746,6 +747,18 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [32]
 Underfull \hbox (badness 3460) in paragraph at lines 314--325
 []\OT1/cmr/m/n/10.95 Environment Canada.  (2014b).  \OT1/cmr/m/it/10.95 High Re
 s-o-lu-tion De-ter-min-is-tic Pre-dic-tion Sys-tem.
@@ -763,7 +776,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [32]
+ [33]
 Underfull \hbox (badness 1478) in paragraph at lines 594--608
 \OT1/cmr/m/it/10.95 53N, lon-gi-tude 116W-133W\OT1/cmr/m/n/10.95 .  U. S. Ge-o-
 log-i-cal Sur-vey Open-File Re-port 99-369.
@@ -781,7 +794,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [33]
+ [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -793,16 +806,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [34])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [35]
+ [35])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -815,6 +819,15 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -823,7 +836,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [37]
+ [38]
 (./manuscriptAO.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -834,13 +847,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3413 strings out of 495061
- 43345 string characters out of 1182622
- 132472 words of memory out of 3000000
- 6559 multiletter control sequences out of 15000+50000
+ 3418 strings out of 495061
+ 43461 string characters out of 1182622
+ 132505 words of memory out of 3000000
+ 6564 multiletter control sequences out of 15000+50000
  13828 words of font info for 54 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,11n,27p,2022b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,11n,27p,2022b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/font
@@ -858,9 +871,9 @@ onts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss1
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmti9.pfb>
-Output written on manuscriptAO.pdf (37 pages, 3976250 bytes).
+Output written on manuscriptAO.pdf (38 pages, 3977860 bytes).
 PDF statistics:
- 972 PDF objects out of 1000 (max. 8388607)
+ 975 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
