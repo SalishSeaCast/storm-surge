@@ -75,7 +75,7 @@ In addition to the equations of motion, a prognostic equation for the sea surfac
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{Figures/bathy.pdf}
-\caption{Model domain (highlighted area) including bathymetry, rivers (blue circles), and storm surge locations of interest  (red stars).}\label{fig:domain}
+\caption{Model domain (highlighted area) including bathymetry, rivers (green circles), and storm surge locations of interest  (red stars).}\label{fig:domain}
 \end{figure}
 
 
@@ -124,7 +124,7 @@ In general, the K$_1$ tidal harmonics are well represented by the model with com
 
 
 \section{Storm Surge Hindcasts}\label{sec:storm}
-A series of five storm surge hindcasts is presented next. Storm surge simulations were started from rest at least three days prior to the event of interest to allow for adjustment of model currents. Stratification conditions from model spin-up at a time close to the event (within five days) were chosen to initialize the temperature and salinity fields. Boundary conditions include atmospheric forcing and fresh water input from rivers at the surface, sea surface height anomaly from observations at the open boundary, and tidal forcing with eight tidal constituents. Forcing the model with only eight tidal constituents leads to an error in modelled sea surface height due to the omission of the next leading order tidal constituents such as J$_1$. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can approach 40 cm during times of high tidal range, and in particular, during the storm surge season Nov-Feb. As such, storm surge model predictions were corrected by accounting for this error. Additionally, since the sea surface height is calculated about a zero reference level, the modelled water level is determined by adding a long term mean sea level at the specified location to the modelled sea surface height. All times are reported in UTC.
+A series of five storm surge hindcasts is presented next. Storm surge simulations were started from rest at least three days prior to the event of interest to allow for adjustment of model currents. Stratification conditions from model spin-up at a time close to the event (within five days) were chosen to initialize the temperature and salinity fields. Boundary conditions include atmospheric forcing and fresh water input from rivers at the surface, sea surface height anomaly from observations at the open boundary, and tidal forcing with eight tidal constituents. Forcing the model with only eight tidal constituents leads to an error in modelled sea surface height due to the omission of the next leading order tidal constituents such as J$_1$. Comparisons between full tidal predictions and tidal predictions using eight constituents suggest that this error can approach 40 cm during times of high tidal range, and in particular, during the storm surge season Nov-Feb. As such, storm surge model predictions were corrected by accounting for this error; for each storm surge location of intetest, the difference between a full tidal prediction and a tidal prediction with eight constiuents is added to the modelled sea surface height. This correction is only applied to the modelled water level and not the modelled residuals. Additionally, since the sea surface height is calculated about a zero reference level, the modelled water level is determined by adding a long term mean sea level at the specified location to the modelled sea surface height. All times are reported in UTC.
 
 Model results have been compared with observations by calculating both the total modelled water level and the modelled residual at four permanent tidal measuring stations: Point Atkinson, Victoria, Patricia Bay, and Campbell River (locations indicated in Figure \ref{fig:domain}). The modelled residual is calculated as the difference in model output between a simulation with all forcing conditions and a simulation forced only with tides and rivers. Water level observations are taken from the Canadian Tides and Water Level Data Archive \citep{DFOObservations} and are used to calculate the observed residual, defined as the observed water level minus tidal predictions. Tidal predictions are calculated using t\_tide \citep{pawlowicz2002classical}, a MATLAB tool that calculates tidal harmonics from a given time series, in this case, from the year prior to the surge event of interest. 
 
@@ -241,7 +241,7 @@ These comparisons point to the importance of including, as a forcing condition a
 \label{fig:factors}
 \end{figure}
 
-Next, an assessment of the importance of including the tide-surge interaction, which is important in shallow regions due to nonlinear effects and bottom friction \citep{bernier2007tide}, is presented for this hindcast (Figure \ref{fig:tidesurge}). The most significant differences occur at Point Atkinson where the maximum of the surge-only case is 8.7 cm higher than maximum modelled residual, about 10\% of the total surge amplitude.  In contrast, the tide-surge interaction at Victoria is hardly noticeable. Indeed, a spatial map of the difference between the modelled residual and surge-only difference (not shown here) indicates that the tide-surge interaction is more pronounced north of the San Juan and Gulf Islands. The passages between these islands are known for vigorous tidal mixing, which may have a nonlinear effect on the surge propagation. However, the effect is a relatively small overestimate of the surge elevation and no changes to the timing of the surge. So, in operational settings, performing a surge-only simulation and adding the predicted tides \textit{a posteriori} could be more computationally efficient with only a small decrease in the accuracy of the prediction. 
+Next, an assessment of the importance of including the tide-surge interaction, which is important in shallow regions due to nonlinear effects and bottom friction \citep{bernier2007tide}, is presented for this hindcast (Figure \ref{fig:tidesurge}). The most significant differences occur at Point Atkinson where the maximum of the surge-only case is 8.7 cm higher than maximum modelled residual, about 10\% of the total surge amplitude.  In contrast, the tide-surge interaction at Victoria is hardly noticeable. Indeed, a spatial map of the difference between the modelled residual and surge-only difference (Figure \ref{fig:tidesurge_spatial}) indicates that the tide-surge interaction is more pronounced north of the San Juan and Gulf Islands. The passages between these islands are known for vigorous tidal mixing, which may have a nonlinear effect on the surge propagation. However, the effect is a relatively small overestimate of the surge elevation and no changes to the timing of the surge. So, in operational settings, performing a surge-only simulation and adding the predicted tides \textit{a posteriori} could be more computationally efficient with only a small decrease in the accuracy of the prediction. 
 
 \begin{figure}
 \centering
@@ -249,7 +249,14 @@ Next, an assessment of the importance of including the tide-surge interaction, w
 \caption{Modelled residuals (solid) compared with a simulation of the surge propagation without tidal forcing (dashed) for the Feb 2006 hindcast. }
 \label{fig:tidesurge}
 \end{figure}
-%modify figure!
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{Figures/feb2006_tidesurge_spatial.pdf}
+\caption{Spatial dependency of tide-surge interaction Difference in sea surface height between simulations with tidal forcing and without tidal forcing. Each plot is an average over 4 hours. }
+\label{fig:tidesurge_spatial}
+\end{figure}
+
 
 \subsection{Spatial Extent of Surge}\label{sec:spatial}
 A major wind storm on Dec 15, 2006 is hindcasted next. Although the storm was very strong (gusts over 120 km hr$^{-1}$) and the observed residual at Point Atkinson reached 84 cm, this event did not coincide with high tide and so no significant or reported flooding occurred in the Vancouver area \citep{forseth2006adaptation}. Because of the high winds, this event has been used to examine the propagation of the surge throughout the domain and spatial variations in the surge amplitude. First, an assessment of the accuracy of the hindcast is provided. 
