@@ -4,7 +4,7 @@
 \documentclass{tATO2e}
 
 \usepackage{subfigure}% Support for small, `sub' figures and tables
-\usepackage[nolists]{endfloat}
+%\usepackage[nolists,nomarkers]{endfloat}
 %\usepackage[longnamesfirst,sort]{natbib}% Citation support using natbib.sty
 %\bibpunct[, ]{(}{)}{;}{a}{,}{,}% Citation support using natbib.sty
 
@@ -348,8 +348,10 @@ Finally, difficulties in reproducing accurate M$_2$ tidal harmonics in both the 
 %future directions: running real time, biology and chemistry, model improvements?
 %summary of skill scores
 
+
+
 \appendices
-\section{}\label{sec:appendix}
+\section{Details on tidal tuning}\label{sec:appendix}
 This section details the procedure used to tune the tidal forcing for a good match with observations in the Strait of Georgia. Originally, the eight most important tidal constituents were extracted from a tide prediction tool called Webtide \citep{webtide} at the western Juan de Fuca boundary based on work by \citet{foreman2000webtide}. At the northern boundary,  M$_2$ and K$_1$ tidal harmonics for both elevation and currents were taken from \citet{thomson1980johnstone}, as well as elevation harmonics for O$_1$ and S$_2$. The remaining constituents were extrapolated from Webtide based on the ratio between S$_2$/M$_2$ amplitudes and phase differences for the semi-diurnal constituents and O$_1$/K$_1$ for the diurnal constituents. However, these forcing conditions did not result in a good match between observed and modelled tidal elevation harmonics in the Strait of Georgia, the main region of interest (although the matches in the Strait of Juan de Fuca were adequate). As such, tidal forcing was tuned, by first adjusting the western boundary M$_2$ and K$_1$ phase and K$_1$ amplitude for a good match in the Strait of Georgia (specifically at Point Atkinson, Gibsons Landing, Winchelsea and Halfmoon Bay). This tuning was performed on simulations that used only M$_2$ and K$_1$ forcing. Next, the M$_2$ and K$_1$ fluxes at the northern boundary were adjusted because the cross-sectional area of transect used by \citet{thomson1980johnstone} to measure tidal currents in Johnstone Strait is smaller than the cross-sectional area of our northern boundary. Finally, the remaining constituents were added, starting with O$_1$, then S$_2$, and then in pairs P$_1$/N$_2$ and Q$_1$/K$_2$. Final adjustments were made by slightly varying amplitude and phase, evaluating the changes to M$_2$, K$_1$ and the ratios S$_2$/M$_2$, N$_2$/M$_2$, K$_2$/M$_2$, O$_1$/K$_1$, P$_1$/K$_1$, Q$_1$/K$_1$ and then choosing new values to move closer to observations by linear interpolation. 
 
 Below, Table \ref{tab:comparison} compares the M$_2$ and K$_1$ elevation harmonics with data from \citet{foreman1995tidal}, \citet{foreman2004m} and \citet{foreman2012circulation}. Overall, the average complex difference for M$_2$ is 8.05 cm and for K$_1$ is 2.58 cm, but both constituents perform very well in the Strait of Georgia region. 
