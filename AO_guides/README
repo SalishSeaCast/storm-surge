@@ -1,66 +1,119 @@
+This is the readme file for the endfloat package v2.5
 
-THE APACITE PACKAGE
-===================
+This readme was modified on October 2, 1997 but without
+updated endfloat itself, instead to fix errors in this file
+and in endfloat.ins
 
-Description
------------
+It was again modified on March 31, 2006, by Frank K\"uster
+<frank@kuesterei.ch> to indicate the license clarification (see below).
 
-The apacite package (for LaTeX and BibTeX) implements the requirements
-of the American Psychological Association concerning citations and
-reference list. In addition, it provides a large number of options and
-other possibilities for customization, so that a wide range of citation
-styles and reference list styles can be handled. Furthermore, it also
-provides the possibility of automatically generating an author index.
+It was again modified on December 4, 2011, by Axel Sommerfeldt
+<axel.sommerfeldt@f-m.fm> to reflect the changes introduced
+with version 2.5 of the endfloat package.
+
+Endfloat is a LaTeX package.  Versions 2.1 and above require
+LaTeX2e.
+
+Accompanying files should be:
+
+	README				This file
+	endfloat.dtx			Docstrip archive  (essential)
+	endfloat.ins			(La)TeX batch file (if you
+					    don't know what it is
+					    then you DO need it)
+
+============================================================
+Overview:
+  the package places figures and tables at the end of the document,
+  as often requested by journals for non-camera ready submission.
+
+========================================================
+Installation:
+
+Run
+
+  latex endfloat.ins
+
+This will produce three files, endfloat.sty, endfloat.drv and efxmpl.cfg .
+You can run LaTeX on endfloat.drv for the documentation.
+  
+You should copy the file endfloat.sty to where you keep
+your (La)TeX inputs.  You should read the documentation to find out
+more about the example configuration file, efxmpl.cfg.
+
+To produce the documentation, run LaTeX on endfloat.drv (or endfloat.dtx)
+a couple of times, and then use the makeindex program (which might be
+called makeindx on your system) to generate the index
+
+ makeindex -g -s gind.ist endfloat
+
+Then run LaTeX (at least) two more times to get the index in the table
+of contents.
+
+=========================================================
+Major changes in version 2.5 since 2.4:
+  New commands \DeclareDelayedFloat, \DeclareDelayedFloatFlavor,
+  and \SetupDelayedFloat added.
+  New package options `tablesonly' and `figuresonly' added.
+
+Major changes in version 2.4 since 2.3:
+  Configuration file (with example of getting sidewaystable to work),
+  Many new hooks for more user control.  Internal changes.
+
+Major changes in version 2.3 and 2.2 since 2.1:
+  Documentation and many internal changes.
+  Added options for suppressing "Tables" and "Figures" section heads, for
+  switching order of tables and figures.  Use of package options
+  generally.
+
+=================================================
+Maintainer:  Jeff Goldberg (jeffrey@goldmark.org)
+Original author: James Darrell McCauley
+
+Obtaining endfloat:  The necessary files are kept on the Comprehensive
+TeX Archive Network (CTAN).  Current CTAN sites are ftp.tex.ac.uk,
+ftp.shsu.edu, and ftp.dante.de.  They are also mirrored at other locations.
+Once on CTAN, type the command "quote site index endfloat" to
+find where endfloat lives.  It is probably in
+macros/latex/contrib/supported/endfloat .
+Get the whole directory.
 
 
-Copyright and license
----------------------
+=================================================
+License and copying:
+    endfloat for LaTeX
+    Copyright (C) 1992 Darrel McCauley
+    Copyright (C) 1994-2011 Jeffrey Goldberg <jeffrey@goldmark.org>
 
-Copyright (C) 1994-2013 Erik Meijer and any individual authors listed
-elsewhere in this package.
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
 
-This package may be distributed and/or modified under the
-conditions of the LaTeX Project Public License, either
-version 1.3 of this license or (at your option) any later
-version.  The latest version of this license is in:
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
-   http://www.latex-project.org/lppl.txt
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
 
-and version 1.3 or later is part of all distributions of
-LaTeX version 2005/12/01 or later.
+This distribution currently comprises the following files:
 
-See the file apacite.dtx for more details.
+README
+COPYING
+endfloat.dtx
+endfloat.ins
+endfloat.pdf
 
+The license has been clarified by Jeffrey Goldberg in March 06
 
-Building the package and its documentation
-------------------------------------------
+=================================================
+No Warranty:
+There is no warranty.  If it doesn't work right, none of the authors
+may be held liable for any direct or indirect damage.  There are
+some known bugs (see the documentation), there may very well be
+some unknown bugs.
 
-The generated LaTeX package (.sty), BibTeX style (.bst), and supporting
-files (.apc, .bib, .drv, .tex) are extracted by running:
-
-tex apacite.ins
-
-The documentation is then generated by the following sequence:
-
-pdflatex apacite.drv  <== Produces apacite.pdf (documentation)
-bibtex   apacite      <== Produces apacite.bbl (reference list)
-pdflatex apacite.drv  <== Include ref. list
-pdflatex apacite.drv  <== Resolve citations
-pdflatex apacite.drv  <== 'Labels may have changed'
-makeindex -o apacite.and apacite.adx <== (author index)
-pdflatex apacite.drv  <== Include author index
-pdflatex apacite.drv  <== Resolve table of contents
-
-Note that apacite comes with pre-built documentation (PDF format,
-U.S. letter-sized paper), so you only need to regenerate the
-documentation if you are unhappy with the documentation as
-provided. For example, if you want to generate a version for
-A4 paper, or if you want the full reference manual, including the
-documented source code and change log. In the latter case,
-edit the file apacite.drv according to your wishes (see the comments
-in that file) and insert the following lines in the sequence, after
-generating the author index:
-
-makeindex -s gind.ist apacite <== Produces apacite.ind (code index)
-makeindex -s gglo.ist -o apacite.gls apacite.glo  <== (change log)
-
+===================================================

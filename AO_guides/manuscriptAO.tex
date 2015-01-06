@@ -4,7 +4,7 @@
 \documentclass{tATO2e}
 
 \usepackage{subfigure}% Support for small, `sub' figures and tables
-
+\usepackage[nolists]{endfloat}
 %\usepackage[longnamesfirst,sort]{natbib}% Citation support using natbib.sty
 %\bibpunct[, ]{(}{)}{;}{a}{,}{,}% Citation support using natbib.sty
 
@@ -274,7 +274,7 @@ Modelled residuals are generally too low in this hindcast (Figure \ref{fig:dec20
 \includegraphics[scale=0.6]{Figures/dec2006.pdf}
 \caption{Comparison of observed and modelled water level and residuals during the Dec 15, 2006 storm surge simulation. }
 \label{fig:dec2006}
-\end{figure}%table instead of figure? or maybe just the surge and not water level?
+\end{figure}
 
 The evolution and spatial distribution of the surge is highlighted in Figure \ref{fig:spatial} where the modelled residual is plotted every hour beginning on Dec 15 at 05:30 UTC through to Dec 15 at 14:30 UTC. The surge enters the system from the Strait of Juan de Fuca, peaking between Dec 15 at 9:30 UTC and Dec 15 at 11:30 UTC and then begins to subside throughout the entire domain. Notably, the Strait of Georgia experiences the largest surge values, upwards of 60 cm, whereas the Juan de Fuca region experiences a maximum surge around 45 cm. Additionally, the coastal areas on the mainland side of the Strait of Georgia experience slightly higher surges ($\sim$10 cm) than the Vancouver Island side, likely due to the southerly wind in the atmospheric model pushing water against the mainland coast. At about 11:30 UTC, the winds at Point Atkinson switch to northwesterly and then westerly, further amplifying the surge along the mainland coast. 
 
