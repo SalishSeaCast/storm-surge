@@ -968,7 +968,7 @@
      \let\@oddfoot\@evenfoot
      \def\@oddhead{\hbox to \textwidth{{\small\begin{tabular}[t]{@{}l@{}}
                                                                                      \\ %[14.9pt]
-                          {To appear in \itshape \@jname} \\Vol. \@jvol, No. \@jnum,
+                          {Submitted to \itshape \@jname} \\Vol. \@jvol, No. \@jnum,
                           \ifx\@jmonth\empty\else\@jmonth\ \fi\@jyear,  \thepage--\@endpage\\
                           \@doi\\
                           \end{tabular}}%
