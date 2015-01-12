@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  8 JAN 2015 15:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  12 JAN 2015 11:43
 entering extended mode
  %&-line parsing enabled.
 **manuscriptAO.tex
@@ -736,6 +736,9 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./manuscriptAO.bbl
+Underfull \vbox (badness 1454) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -857,7 +860,7 @@ onts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss1
 ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmti9.pfb>
-Output written on manuscriptAO.pdf (37 pages, 3976533 bytes).
+Output written on manuscriptAO.pdf (37 pages, 3976516 bytes).
 PDF statistics:
  973 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
