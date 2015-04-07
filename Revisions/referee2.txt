@@ -1,0 +1,65 @@
+
+Comments to the Author
+Comments on “Storm surge in the Strait of Georgia simulated with a regional model”
+This article used the NEMO model in the Strait of Georgia, British Columbia with five strong wind events to demonstrate the model skills in simulating the storm surges. Tidal tuning was successfully used to improve the tidal comparison in the Strait of Georgia. Sensitivity cases were developed to examine the effect of remote forcing and local atmospheric forcing. However, some questions need to be clarified. Moreover, one reference focusing on the storm surges and the stratification change in east Canada can be added as reference (Ma et al. 2015. Oceanic responses to Hurricane Igor over the Grand Banks: A modelling study.)
+
+1.	The main purpose of this article needs to be clear.
+Can be added in intro?
+
+2.	This study included the effect of stratification in this region. However, this article focused on the dynamic of the storm surges and the mechanisms resulted in the strong storm surges. The baroclinic effect does not look like a core point in the article. So is there any reason to include the baroclinic effect in model? And is there any difference for the storm surges without the stratification?
+Perhaps a simulation with a different stratificaiton... turn off Fraser River?
+
+3.	Without tidal tuning, the tidal constituents were adequate in the Strait of Juan de Fuca, but not good in the Strait of Georgia.  When using the tidal tuning, the tidal constituents have good comparison in the Strait of Georgia, but poor in the Strait of Juan de Fuca. Did the tidal tuning result in the poor results in the Strait of Juan de Fuca?
+Yes, tuning was used to achieve good matches in SOG, the main area of interest. The result is poorer matches in the SJdF. Will add this comment to text.
+
+4.	The tide gauge stations (such as 1, 31, 27) are really close to open boundary. Are the tidal constituents in these stations suitable in comparison?
+Can check and comment.
+
+5.	This article states five storm events to support the points of the article. Is there any particular reason to include all the five storm events or are the two or three events enough to support the conclusion? I think it needs to be pointed out.
+Five events give some variety - strong wind (Dec 2006), strong wind + no surge (Nov 2009), Feb 2006 + Nov 2006 (perhaps only one is needed), Dec 2012 - needed for wind sensitivity. I think maybe I could remove Nov 2006, but the other four give a strong picture. Maybe Nov 2006 could be use to look at stratification?
+
+6.	There are some weather stations located inside the model domain. Is there any particular reason to use 33km resolution model wind instead in simulation?  Is there any reason to use the forecasts wind in the hindcast simulation?
+Atmospheric model gives mode detail for radiation fluxes, etc? Any other reason?
+
+7.	The atmospheric forcing includes the wind and air pressure as open boundary in this article. What is the temperature and salinity boundary condition at surface?
+Climatologies from Masson and Fine. Can add some clarification to this point, but I think it is in there. 
+
+8.	Some locations mentioned in this article are not shown in Figure. 1 such as Neah Bay in page 21, Boundary Bay and Crescent Beach in Page 29. 
+These should be added. Also, expand to include Port Hardy as suggested by referee 1. 
+
+Address these later... some are just minor suggestions. 
+Some Detailed suggestions:
+Page 1, line 38, add “the” between “through” and “comparisons of”
+Page 1, line39-40, “ water levels” can be removed.
+Page 1, line 43, what is the “variability” referred to? 
+Page1, line 45, “ this points” is not clear.
+Page 2, line 4-5, “ a strongly stratified,” add reference if possible.
+Page 2, line 17-18, add reference for “ induce vigorous tidal mixing”
+Page 2, line 21-22, add “a” between “This system is “ and “ home”.
+Page 2, line 50-51, “ and mean sea level is lower”   what does the mean sea level mean?
+Page 3, line22-25, more references focusing on Canadian water can be added here, like the references mentioned above. 
+Page 3, line 28-29, add “of” between the ‘inclusion’ and ‘surface waves’
+Page 4, line6, “resulted in” can be change to ‘developed”
+Page 5, line3-4, what does ‘An updated version’ mean?  This new model updated the tidal simulation or other things? What does ‘high surface temperature’ mean?  What is the temperature if it is high?
+Page 5, line 14-16, here ‘appropriate treatment of mixing is a recurring difficulty in modelling this region’ is mentioned. So is there any advanced mixing treatment used in NEMO. 
+Page 6, line1-2, something needs to be added in between ‘Although’ and ‘not used in the present work’.
+Page6, line 4, some successfully cases using NEMO is other coastal areas can be added as references here.
+Page 6, line20-21, the smoothing limit is set to 0.8 as a ratio between the difference ratio and the averaged depth in each grid cells. How can you determine the 0.8 is enough? Any reference?
+Page 8, line28-37, here, the climatological sea level anomaly was generated to spin up the model. Then for the storm surge simulation, hourly sea surface height was used. Is the yearly mean surface height set to zero in hourly sea surface height? 
+Page 11, line 6-11, this sentence is not clear. The initial ocean is zero velocity and zero surface height. In either case, is the velocity adjusted to forcing in less than one day? Do any experiments support this? And what is the purpose to spin up the model for 15.5 months from September 16, 2002 but the storm surge events are after 2004? 
+Page 14, line 35-39, here, the article stats the   for residual should be much lower than that for total water levels because total water level has a larger variability. Is this a general conclusion?
+Page 15, line 20, ‘to ‘ can be changed to ‘with’. Model results can be compared with observation, not opposite.
+Page 15, line 39-41, the sentence starts with ‘ when considering the over predicted water levels …’ is not clear. 
+Page 17, line 3-5, the sentence starting with ‘ the timing of the maximum surge at Campbell River was…’ needs to be rewritten. 
+Page 17, line 31-33, the sentence starting with ‘Comparisons between these simulations indicate… ‘ is not clear. From my understanding, these simulations indicate the importance of the remote forcing. The effects of local wind and air pressure are weak. 
+Page 19, line 36-37. The sentence  ‘this is related to the small spatial scale of the model domain.’ is not clear.  I also have a question on how you specified the boundary condition on the case with local atmospheric forcing only.
+Page 19, line 51-52, ‘consistent with the results of the present study’ is not clear. The present study could consistent with previous model results. 
+Page 21, line24-48, this paragraph states the modelled residuals are lower than the observations. The lower sea level is mostly attributed to the open boundary sea level.  Why not use the observed sea level at Neah Bay if this point is much closer to open boundary. Have you checked if there is any difference on sea level between Tofino and Neah Bay for other storms cases?
+Page 21, line 58-59, The sentence starting with ‘Notably, the Strait of Georgia experiences the largest surge values, upwards of 60cm’ needs to have a figure to support.
+Page 22, line 37-40, the article states the winds at Point Atkinson switch to northwesterly and then westerly, further amplifying the surge along the mainland coast. From the geometry in the map, I think the westerly wind will decrease the surge along the mainland coast based on Ekman transport.
+Page22, line 49-52, the sentence starting with ‘Interestingly, the winds over the Strait of Juan de Fuca…’ needs to add a figure reference at the end.
+Page 22, line 54-58, what is the surge difference between full case and the case without atmospheric forcing? To me, I found there are at least 10 cm difference from the figure 8 and figure 9. If so, this difference is larger than previous cases. 
+Page23, line 53-54, here, the article states ‘ Next, a relatively strong event recorded at Point Atkinson …’ .  ‘ a relatively strong event’ is stronger compared the mean wind speed or the storm event. From figure 10, the observed wind speed in this case is below 20 m/s. Generally speaking, my understanding of strong wind is over 30 m/s.
+Page 24, line4-5, the article stats ‘ Surprisingly, the strong wind event of Nov 19 was associated with the smaller of the two surges’.  This sentence needs to be written. The previous cases conclude the effect of wind is unimportant on surge generation. If this is the case, it is easy to understand that the surge may not in phase with the strong wind event.
+Page 24, line7-8,  add “the sea surface height” on the other three stations between ‘Although’ and ‘ not shown here’. 
+Page 25, line 27-28, ‘large’ can be changed to ‘strong’
