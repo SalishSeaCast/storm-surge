@@ -19,7 +19,7 @@ names_long = ['SA  '; 'SSA '; 'MSM '; 'MM  ';'MSF ';'MF  '];
 for i=1:length(names_long)
 n=names_long(i,:);
 ind = strmatch(n,tidestruc.name,'exact');
-tidestruc.name(ind) = [];
+tidestruc.name(ind,:) = [];
 tidestruc.freq(ind) = [];
 tidestruc.tidecon(ind,:) = [];
 end
@@ -72,7 +72,7 @@ datetick('x','mm/yyyy')
 %% Save predictions
 M = datestr(tim);
 n = length(tim);
-filename = [location  '_t_tide_compare8_' datestr(start_date) '_' datestr(end_date) '_snr_filter.csv'];
+filename = [location  '_t_tide_compare8_' datestr(start_date) '_' datestr(end_date) '_snr2_filter.csv'];
 fid = fopen(filename, 'w');
 %add some headers
 fprintf(fid, 'Harmonics from: ,');
