@@ -19,7 +19,7 @@ Descriptions below the links are from the first cell of the notebooks
 
 * ##[Nov 2009 -weather compare.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/storm-surge/raw/tip/FigureScripts/Nov 2009 -weather compare.ipynb)  
     
-* ##[bathyImage.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/storm-surge/raw/tip/FigureScripts/bathyImage.ipynb)  
+* ##[bathyImage.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/Storm-Surge/raw/tip/FigureScripts/bathyImage.ipynb)  
     
     This notebook creates an image of the bathymetry to be used in the storm surges paper. Things included:  
       
