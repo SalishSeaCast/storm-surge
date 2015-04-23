@@ -60,14 +60,41 @@ tidestruc_8.freq=freqs_8;
 
 pred_8 = t_predic(tim,tidestruc_8,'latitude',lat, 'synthesis', 2);
 
+%% Predictions without nonlinear constituents
+%Remove long period constituents. Do not use these in the predictions
+names_nonlinear = ['M4  '; 'M6  '; 'M8  '; 'S6  '; 'MO3 '; 'MK3 '; '2MS2'; 'MS4 '; 'S4  '; 'MN4 '; 'NO1 '; 'OQ2 '; 'MKS2'; 'SO3 '; ];
+for i=1:length(names_nonlinear)
+n=names_nonlinear(i,:);
+ind = strmatch(n,tidestruc.name,'exact');
+tidestruc.name(ind,:) = [];
+tidestruc.freq(ind) = [];
+tidestruc.tidecon(ind,:) = [];
+end
+
+
+%Time
+start_date=datenum(starts);
+end_date=datenum(ends);
+tim = start_date:1/24:end_date;
+    
+%Get predicted tide for same period
+pred_no_nonlinear = t_predic(tim,tidestruc,'latitude',lat,'synthesis',2);
+
 %% Plot 
 figure
+subplot(2,1,1)
 plot(tim,pred_8,'b',tim,pred_all,'m',tim,pred_all-pred_8,'r')
 legend('predictions 8 const.', 'predictions all','difference','Location','EastOutside')
 xlabel('time')
 ylabel('water level elevation (m CD)')
 datetick('x','mm/yyyy')
 
+subplot(2,1,2)
+plot(tim,pred_8,'b',tim,pred_no_nonlinear,'m',tim,pred_no_nonlinear-pred_8,'r')
+legend('predictions 8 const.', 'predictions all','difference','Location','EastOutside')
+xlabel('time')
+ylabel('water level elevation (m CD)')
+datetick('x','mm/yyyy')
 
 %% Save predictions
 M = datestr(tim);
