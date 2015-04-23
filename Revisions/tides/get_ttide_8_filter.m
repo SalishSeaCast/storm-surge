@@ -60,11 +60,12 @@ tidestruc_8.freq=freqs_8;
 
 pred_8 = t_predic(tim,tidestruc_8,'latitude',lat, 'synthesis', 2);
 
-%% Predictions without nonlinear constituents
+%% Predictions without shallow water constituents
 %Remove long period constituents. Do not use these in the predictions
-names_nonlinear = ['M4  '; 'M6  '; 'M8  '; 'S6  '; 'MO3 '; 'MK3 '; '2MS2'; 'MS4 '; 'S4  '; 'MN4 '; 'NO1 '; 'OQ2 '; 'MKS2'; 'SO3 '; ];
-for i=1:length(names_nonlinear)
-n=names_nonlinear(i,:);
+CONST = t_getconsts;
+names_noshallow = CONST.name(isfinite(CONST.ishallow),:);
+for i=1:length(names_noshallow)
+n=names_noshallow(i,:);
 ind = strmatch(n,tidestruc.name,'exact');
 tidestruc.name(ind,:) = [];
 tidestruc.freq(ind) = [];
@@ -78,20 +79,27 @@ end_date=datenum(ends);
 tim = start_date:1/24:end_date;
     
 %Get predicted tide for same period
-pred_no_nonlinear = t_predic(tim,tidestruc,'latitude',lat,'synthesis',2);
+pred_no_shallow = t_predic(tim,tidestruc,'latitude',lat,'synthesis',2);
 
 %% Plot 
 figure
-subplot(2,1,1)
+subplot(3,1,1)
 plot(tim,pred_8,'b',tim,pred_all,'m',tim,pred_all-pred_8,'r')
 legend('predictions 8 const.', 'predictions all','difference','Location','EastOutside')
 xlabel('time')
 ylabel('water level elevation (m CD)')
 datetick('x','mm/yyyy')
 
-subplot(2,1,2)
-plot(tim,pred_8,'b',tim,pred_no_nonlinear,'m',tim,pred_no_nonlinear-pred_8,'r')
-legend('predictions 8 const.', 'predictions all','difference','Location','EastOutside')
+subplot(3,1,2)
+plot(tim,pred_8,'b',tim,pred_no_shallow,'m',tim,pred_no_shallow-pred_8,'r')
+legend('predictions 8 const.', 'predictions no shallow','difference','Location','EastOutside')
+xlabel('time')
+ylabel('water level elevation (m CD)')
+datetick('x','mm/yyyy')
+
+subplot(3,1,3)
+plot(tim,pred_all,'b',tim,pred_no_shallow,'m',tim,pred_no_shallow-pred_all,'r')
+legend('predictions all const.', 'predictions no shallow','difference','Location','EastOutside')
 xlabel('time')
 ylabel('water level elevation (m CD)')
 datetick('x','mm/yyyy')
@@ -108,10 +116,11 @@ fprintf(fid, 'Mean ,');
 fprintf(fid, '%f,\n',msl);
 fprintf(fid, 'Latitude ,');
 fprintf(fid, '%f,\n',lat);
-fprintf(fid, 'Time_Local , pred_8 , pred_all ,\n');
+fprintf(fid, 'Time_Local , pred_8 , pred_all , pred_noshallow \n');
 for row=1:n
     fprintf(fid, '%s ,', M(row,:));
     fprintf(fid,' %f,', pred_8(row));
     fprintf(fid,' %f,\n', pred_all(row));
+    fprintf(fid,' %f,\n', pred_no_shallow(row));
 end
 fclose(fid);
