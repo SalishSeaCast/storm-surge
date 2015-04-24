@@ -120,7 +120,7 @@ fprintf(fid, 'Time_Local , pred_8 , pred_all , pred_noshallow \n');
 for row=1:n
     fprintf(fid, '%s ,', M(row,:));
     fprintf(fid,' %f,', pred_8(row));
-    fprintf(fid,' %f,\n', pred_all(row));
-    fprintf(fid,' %f,\n', pred_no_shallow(row));
+    fprintf(fid,' %f,', pred_all(row));
+    fprintf(fid,' %f\n', pred_no_shallow(row));
 end
 fclose(fid);
