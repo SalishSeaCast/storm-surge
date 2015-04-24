@@ -1,0 +1,50 @@
+Notes on tidal predictions
+
+
+Harmonics
+Tidal haronics are generated using t_tide in the following manner.
+
+1. A year-long time series from the year of the storm surge is attained from the DFO website. 
+This time series typically covers Dec 31 trough to Jan 2. 
+
+2. A Doodson tidal filter (NOAA Tidal Analysis and Prediction pg 127) is applied the time series. 
+This filter removes most of the tidal energy. 
+Any time periods for which the remaining signal has an amplitude > 30cm departure from annual mean is removed from the time series.
+
+3. A harmonic analysis is applied to the filtered time series.
+
+These calculations are performed in Matlab files filter_tides.m and calculate_harmonics_filter.m.
+
+Predictions
+From the caclulated harmonics, we have generated tidal predictions in several ways:
+
+1. A full tidal prediction with constituents that have a signal-to-noise ratio > 2 EXCEPT long periods constituents SA, SSA, MSM, MM, MSF, MF. 
+Following a harmonics analysis, these constituents often contain non-tidal energy because of seasonal meterological events (NOAA Tidal Analysis and Prediction pg 119) resulting in interannual variability in the amplitude and phase calculations. Our preference is to include the interannual variability as a forcing component of the model.
+
+2. A tidal prediction with only the big 8 constituents (M2, S2, N2, K2, K1, O1, P1, Q1). 
+The model is forced with only these constituents.
+
+3. A tidal prediction as in 1 but without shallow water constituents.
+
+All tidal predictions will be centred about a 19 year mean sea level from 1983-2001 for residual calculations. 
+
+The tidal predictions are calculated in get_ttide_8_filter.m, which makes use of the harmonics and filter matlab files.
+
+Usage
+The tidal predictions are used in the following ways:
+
+- Forcing and observed residuals are calculated with the predictions from 1. 
+- A model correction is calculated using the differnced between 3 and 2. 
+
+Justification
+
+Removal of long period constituents
+The model should account for interannual variability in mean sea level due to meteorological events that vary year to year (storms, El Nino, etc). 
+A tidal prediction using SA and other long period constituents that are affected by interannual changes would remove this signal in a residual calculation.
+Since we are not forcing the model with the long period constituents directly, we are, in a sense, including this signal through the residual forcing.
+Further, since the model residual is calculated by removing a model run forced with tides only, we are not removing this signal in the calculation of the model residual.
+So the observed residuals should also contain this signal for a fair model comparison.
+
+Removal of shallow water constituents for correction
+Although the model is not forced with shallow water constituents, they will be present in the model through nonlinearities in the model equations. 
+We would like to correct the model since it does not include some fairly significant constituents like J1, etc, the model correction should not include the shallow water constituents. 
