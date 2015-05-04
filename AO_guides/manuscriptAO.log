@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  4 MAY 2015 13:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  4 MAY 2015 16:02
 entering extended mode
  %&-line parsing enabled.
 **manuscriptAO.tex
@@ -230,165 +230,42 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
+(/usr/share/texmf-texlive/tex/latex/hyperref/nohyperref.sty
+Package: nohyperref 2009/10/09 v6.79a Dummy hyperref (SR)
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
-Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
-O)
-
-(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
-Package: xcolor-patch 2009/10/02 xcolor patch
-))
-\@linkdim=\dimen138
-\Hy@linkcounter=\count109
-\Hy@pagecounter=\count110
-
-(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)
-(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
-t (HO)
-))
-Package hyperref Info: Hyper figures OFF on input line 2975.
-Package hyperref Info: Link nesting OFF on input line 2980.
-Package hyperref Info: Hyper index ON on input line 2983.
-Package hyperref Info: Plain pages OFF on input line 2990.
-Package hyperref Info: Backreferencing OFF on input line 2995.
-
-Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 3191.
 (/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 3428.
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
-Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
-Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
- (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
-)
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-)))
-\Fld@menulength=\count111
-\Field@Width=\dimen139
-\Fld@charsize=\dimen140
-\Field@toks=\toks21
-Package hyperref Info: Hyper figures OFF on input line 4377.
-Package hyperref Info: Link nesting OFF on input line 4382.
-Package hyperref Info: Hyper index ON on input line 4385.
-Package hyperref Info: backreferencing OFF on input line 4392.
-Package hyperref Info: Link coloring OFF on input line 4397.
-Package hyperref Info: Link coloring with OCG OFF on input line 4402.
-Package hyperref Info: PDF/A mode OFF on input line 4407.
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
-)
-\Hy@abspage=\count112
-\c@Item=\count113
-\c@Hfootnote=\count114
-)
-*hyperref using default driver hpdftex*
-(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count115
 ) (./manuscriptAO.aux)
 \openout1 = `manuscriptAO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen141
+\scratchcounter=\count109
+\scratchdimen=\dimen138
 \scratchbox=\box31
-\nofMPsegments=\count117
-\nofMParguments=\count118
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen142
-\MPnumerator=\count120
-\everyMPtoPDFconversion=\toks23
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen139
+\MPnumerator=\count113
+\everyMPtoPDFconversion=\toks22
 )
-\c@maskedRefs=\count121
-Package hyperref Info: Link coloring OFF on input line 15.
- (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
-Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
-
-(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
-Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
-)
-\c@section@level=\count122
-)
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
- (./manuscriptAO.out) (./manuscriptAO.out)
-\@outlinefile=\write3
-\openout3 = `manuscriptAO.out'.
-
-\AtBeginShipoutBox=\box32
+\c@maskedRefs=\count114
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 31.
  (/usr/share/texmf-texlive/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -434,31 +311,31 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 39.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 40.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 39.
+(Font)              size <5> substituted on input line 40.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <11> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 39.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <7.69997> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 39.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <5.5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 39.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 39.
+(Font)              size <5> substituted on input line 40.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <11> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7.69997> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5.5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 39.
+(Font)              size <5> substituted on input line 40.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -537,11 +414,10 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./Figures/bathy.pdf): PDF inclusion: found PDF v
 ersion <1.5>, but at most version <1.4> allowed
-<Figures/bathy.pdf, id=163, 1050.92625pt x 723.70375pt>
+<Figures/bathy.pdf, id=34, 1050.92625pt x 723.70375pt>
 File: Figures/bathy.pdf Graphic file (type pdf)
-
-<use Figures/bathy.pdf>
-Overfull \hbox (69.46185pt too wide) in paragraph at lines 79--80
+ <use Figures/bathy.pdf>
+Overfull \hbox (69.46185pt too wide) in paragraph at lines 80--81
  [][] 
  []
 
@@ -600,10 +476,10 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [11]
-<Figures/tides.pdf, id=269, 852.44339pt x 383.81363pt>
+<Figures/tides.pdf, id=58, 852.44339pt x 383.81363pt>
 File: Figures/tides.pdf Graphic file (type pdf)
  <use Figures/tides.pdf>
-Overfull \hbox (55.46999pt too wide) in paragraph at lines 122--123
+Overfull \hbox (55.46999pt too wide) in paragraph at lines 123--124
  [][] 
  []
 
@@ -653,12 +529,18 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [15]
-<Figures/feb2006.pdf, id=502, 724.45656pt x 481.10521pt>
+<Figures/feb2006.pdf, id=248, 724.45656pt x 481.10521pt>
 File: Figures/feb2006.pdf Graphic file (type pdf)
 
 <use Figures/feb2006.pdf>
 
-LaTeX Warning: Float too large for page by 47.65274pt on input line 218.
+LaTeX Warning: Float too large for page by 47.65274pt on input line 219.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Float too large for page by 13.0084pt on input line 276.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -697,7 +579,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [18]
-<Figures/feb2006_factors.pdf, id=580, 741.77126pt x 354.39133pt>
+<Figures/feb2006_factors.pdf, id=304, 741.77126pt x 354.39133pt>
 File: Figures/feb2006_factors.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_factors.pdf>
@@ -713,14 +595,14 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [19]
-<Figures/feb2006_tidesurge.pdf, id=593, 741.77126pt x 285.07285pt>
+<Figures/feb2006_tidesurge.pdf, id=310, 741.77126pt x 285.07285pt>
 File: Figures/feb2006_tidesurge.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_tidesurge.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/feb2006_tidesurge_spatial.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<Figures/feb2006_tidesurge_spatial.pdf, id=595, 723.70375pt x 341.275pt>
+<Figures/feb2006_tidesurge_spatial.pdf, id=312, 723.70375pt x 341.275pt>
 File: Figures/feb2006_tidesurge_spatial.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_tidesurge_spatial.pdf>
@@ -745,14 +627,14 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [21 <./Figures/feb2006_tidesurge_spatial.pdf>]
-<Figures/dec2006.pdf, id=707, 724.12721pt x 481.10521pt>
+<Figures/dec2006.pdf, id=417, 724.12721pt x 481.10521pt>
 File: Figures/dec2006.pdf Graphic file (type pdf)
 
 <use Figures/dec2006.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<Figures/dec2006_spatial.pdf, id=710, 715.67375pt x 357.335pt>
+<Figures/dec2006_spatial.pdf, id=419, 715.67375pt x 357.335pt>
 File: Figures/dec2006_spatial.pdf Graphic file (type pdf)
 
 <use Figures/dec2006_spatial.pdf>
@@ -768,7 +650,7 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial_sshonly.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<Figures/dec2006_spatial_sshonly.pdf, id=764, 715.67375pt x 357.335pt>
+<Figures/dec2006_spatial_sshonly.pdf, id=470, 715.67375pt x 357.335pt>
 File: Figures/dec2006_spatial_sshonly.pdf Graphic file (type pdf)
 
 <use Figures/dec2006_spatial_sshonly.pdf>
@@ -781,7 +663,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [23 <./Figures/dec2006_spatial.pdf>]
-<Figures/nov2009.pdf, id=779, 405.30798pt x 425.09596pt>
+<Figures/nov2009.pdf, id=478, 405.30798pt x 425.09596pt>
 File: Figures/nov2009.pdf Graphic file (type pdf)
 
 <use Figures/nov2009.pdf>
@@ -803,11 +685,11 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [25 <./Figures/nov2009.pdf>]
-<Figures/dec2012_weather.pdf, id=846, 764.3509pt x 649.13298pt>
+<Figures/dec2012_weather.pdf, id=537, 764.3509pt x 649.13298pt>
 File: Figures/dec2012_weather.pdf Graphic file (type pdf)
 
 <use Figures/dec2012_weather.pdf>
-Overfull \hbox (2.61409pt too wide) in paragraph at lines 322--323
+Overfull \hbox (2.61409pt too wide) in paragraph at lines 378--379
  [][] 
  []
 
@@ -824,7 +706,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [26]
-<Figures/dec2012_surge.pdf, id=861, 741.51247pt x 285.07285pt>
+<Figures/dec2012_surge.pdf, id=542, 741.51247pt x 285.07285pt>
 File: Figures/dec2012_surge.pdf Graphic file (type pdf)
 
 <use Figures/dec2012_surge.pdf>
@@ -965,6 +847,15 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -973,7 +864,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [38]
+ [39]
 (./manuscriptAO.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -984,13 +875,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6741 strings out of 495061
- 94092 string characters out of 1182622
- 213852 words of memory out of 3000000
- 9685 multiletter control sequences out of 15000+50000
+ 3560 strings out of 495061
+ 45548 string characters out of 1182622
+ 149896 words of memory out of 3000000
+ 6693 multiletter control sequences out of 15000+50000
  14332 words of font info for 57 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,12n,30p,2022b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,27p,2022b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/font
@@ -1009,9 +900,9 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.p
 fb>
-Output written on manuscriptAO.pdf (38 pages, 4590958 bytes).
+Output written on manuscriptAO.pdf (39 pages, 4533063 bytes).
 PDF statistics:
- 1484 PDF objects out of 1728 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
+ 1101 PDF objects out of 1200 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

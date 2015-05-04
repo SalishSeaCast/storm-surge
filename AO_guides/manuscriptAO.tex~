@@ -10,7 +10,8 @@
 
 \usepackage[natbibapa]{apacite}% Citation support using apacite.sty. Commands using natbib.sty MUST be deactivated first!
 \usepackage{color}
-\usepackage{hyperref}
+\usepackage{nohyperref}
+\usepackage{url}
 
 \begin{document}
 
@@ -218,6 +219,61 @@ Campbell River & 11.6&	3.139&	3.177&	0.021&	0.994&	7.8&	0.246&	0.293&	0.188&	0.8
 \end{table} 
 %anything else to include? statistics calculated in Feb 2006 -paper production.ipynb and saved in statistics_feb2006.CV 
 %I also have standard deviations, correlations, ...
+\begin{table}[h]
+\centering 
+\tbl{{\color{red}Summary of maximum water level and surge and model time delay for all simulations. The model time delay is the number of hours between the maximum in the observations and the maximim in the model. A negative number means the model's  peak was later than the observations.  } }
+{\begin{tabular}{|l |c c c | c c c|} 
+\hline 
+& \multicolumn{3}{|c|}{Water Level ($\eta$)}        & \multicolumn{3}{|c|}{Residual ($\delta$)} \\ 
+\hline 
+Location       & Max obs (m) & Max mod (m) & Delay (hours) &Max obs (m) & Max mod (m) & Delay (hours) \\
+\hline
+Feb 2006&  &  &  &  &  & \\
+Point Atkinson  & 5.460 & 5.588 & 0 & 0.844 & 0.841 & -3\\
+Victoria        & 3.440 & 3.415 & -1 & 0.700 & 0.745 & 1\\
+Patricia Bay    & 4.250 & 4.179 & -1 & 0.781 & 0.773 & -2\\
+Campbell River  & 5.100 & 5.170 & -1 & 0.876 & 0.815 & -5\\
+\hline
+Nov 2006 &  &  &  &  &  & \\
+Point Atkinson  & 5.010 & 5.040 & 0 & 0.880 & 0.725 & 1\\
+Victoria        & 2.995 & 2.968 & 1 & 0.664 & 0.563 & 5\\
+Patricia Bay    & 3.840 & 3.743 & 0 & 0.709 & 0.607 & 2\\
+Campbell River  & 4.750 & 4.739 & 0 & 0.709 & 0.666 & -1\\
+\hline
+Dec 2006 &  &  &  &  &  & \\
+Point Atkinson  & 4.565 & 4.654 & 0 & 0.944 & 0.699 & 0\\
+Victoria        & 2.965 & 3.005 & -1 & 0.737 & 0.580 & 1\\
+Patricia Bay    & 3.505 & 3.480 & 0 & 0.859 & 0.613 & 1\\
+Campbell River  & 4.295 & 4.389 & -1 & 0.823 & 0.626 & 0\\
+\hline
+Nov 2009 &  &  &  &  &  & \\
+Point Atkinson  & 5.150 & 5.272 & 0 & 0.699 & 0.587 & -7\\
+Victoria        & 3.195 & 3.144 & -4 & 0.718 & 0.540 & -8\\
+Patricia Bay    & 3.985 & 3.902 & 0 & 0.637 & 0.541 & -8\\
+Campbell River  & 4.680 & 4.782 & 0 & 0.664 & 0.588 & -1\\
+\hline
+Dec 2012-CRGF &  &  &  &  &  & \\
+Point Atkinson  & 5.345 & 5.416 & 0 & 0.663 & 0.555 & -4\\
+Victoria        & 3.145 & 3.117 & 0 & 0.663 & 0.518 & -4\\
+Patricia Bay    & 4.115 & 3.975 & 0 & 0.632 & 0.533 & -4\\
+Campbell River  & 4.805 & 4.900 & 0 & 0.578 & 0.507 & -6\\
+\hline
+Dec 2012-HRDPS &  &  &  &  &  & \\
+Point Atkinson  & 5.345 & 5.414 & 0 & 0.663 & 0.555 & -4\\
+Victoria        & 3.145 & 3.123 & 0 & 0.663 & 0.518 & -4\\
+Patricia Bay    & 4.115 & 3.984 & 0 & 0.632 & 0.533 & -4\\
+Campbell River  & 4.805 & 4.905 & 0 & 0.578 & 0.511 & -6\\
+\hline
+\hline
+Averages  &  &  &  &  &  & \\
+Point Atkinson  & 5.196 & 5.277 & 0  & 0.752 & 0.634 & -3.125\\
+Victoria        & 3.147 & 3.125 & -0.625 & 0.684 & 0.563 & -2.125\\
+Patricia Bay    & 4.005 & 3.901 & -0.125 & 0.689 & 0.584 & -2.875\\
+Campbell River  & 4.756 & 4.835 & -0.250 & 0.673 & 0.590 & -3.875\\ 
+\hline 
+\end{tabular}}
+\label{tab:peak}
+\end{table}
 
 An additional storm surge hindcast for a Nov 16, 2006 storm surge is provided as another means of assessing model performance and is mentioned briefly here. The model performs reasonably well in this hindcast; Willmott skill scores are greater than 0.94 (Table \ref{tab:statistics}).  Further, the $\gamma^2$ statistic suggests that the standard deviation of the error in the modelled residuals is about 40\% ($\sqrt{0.16}$) of the standard deviation of the observed residuals. The best match in maximum surge occurred at Campbell River with a 6.2 cm underestimate by the model. The timing of the maximum surge at Campbell River was identical with observations and too early at the other the stations. 
 
