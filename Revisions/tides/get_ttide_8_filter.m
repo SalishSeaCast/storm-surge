@@ -1,4 +1,4 @@
-function [pred_all,pred_8,tim] = get_ttide_8_filter(csvfilename,location, starts, ends)
+function [pred_all,pred_8,tim] = get_ttide_8_filter(csvfilename,location, starts, ends, type)
 %returns the tidal predictions if only 8 constituents were used.
 %the 8 constituents are: M2,K1,O1,P1,Q1,N2,S2,K2
 %csvfilename contains DFO produced water level observations.
@@ -7,13 +7,18 @@ function [pred_all,pred_8,tim] = get_ttide_8_filter(csvfilename,location, starts
 %saves a spreadsheet with tim, pred_all, pred_8
 %starts is that start date for predictions (eg. 01-Jan-2006)
 %ends is the end date for the predictions (eg. 31-Dec-2006)
+%type representes the type of water level measurements (NOAA or DFO)
 
 % NKS May 2014
 
 %% Initial harmonics and prediction caclulations
 % Calculate harmonics
-[tidestruc,lat,msl]=calculate_harmonics_filter(csvfilename,location);
-
+if strcmp(type, 'DFO')
+    [tidestruc,lat,msl]=calculate_harmonics_filter(csvfilename,location);
+elseif strcmp(type,'NOAA')
+    [tidestruc,lat,msl]=calculate_harmonics_filter_NOAA(csvfilename,location);
+else print('Unrecognised type')
+end
 %Remove long period constituents. Do not use these in the predictions
 names_long = ['SA  '; 'SSA '; 'MSM '; 'MM  ';'MSF ';'MF  '];
 for i=1:length(names_long)
