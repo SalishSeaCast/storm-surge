@@ -31,8 +31,6 @@ end_date = time(end);
 
 %Truncated time series based on a tidal filter
 wlev_modified = filter_tides_NOAA(csvfilename,0.3);
-figure
-plot(wlev_modified)
 
 clear time newmeas meas
 
