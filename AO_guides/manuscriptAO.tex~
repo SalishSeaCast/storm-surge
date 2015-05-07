@@ -95,10 +95,17 @@ Sea surface height anomaly (or remote forcing) was set uniformly across the mout
 
 \begin{table}[h]
 \centering 
-\tbl{Average surge amplitudes and delay from Tofino at western tide gauges. Averages obtained over the surge events discussed on this article.  } 
+\tbl{Average surge amplitudes and delay in peak timing from Tofino at several tide gauges on the Pacific coast. Averages obtained over the surge events discussed on this article. A negative delay indicates that the peak surge occurred later than at Tofino.} 
 {\begin{tabular}{|l |c c} 
 \hline
-
+Location & Mean surge amplitude (m) & Mean delay from Tofino (hrs) \\
+Tofino  & 0.707 & - \\
+Toke Point & 1.17 & -2.83 \\
+Neah Bay & 0.658 & -1.83 \\
+Bamfield & 0.658 & -0.5 \\
+Winter Harbour & 0.572 & 0.333 \\
+Port Hardy & 0.491 & -2.67
+\hline
 \end{tabular}}
 \end{table}
 The tidal forcing and remote forcing were applied using the NEMO Flather scheme \citep{flather1994storm, madec2012nemo}, a radiation scheme that allows disturbances to propagate out of the domain without reflections off of the open boundary. The barotropic velocity component of the remote forcing was set to zero. At the west, the baroclinic velocities at the boundary were set equal to the values inside the boundary (zero-gradient boundary conditions).  This scheme is not part of core NEMO 3.4 (the version used here).  Zero gradient conditions were chosen because the baroclinic velocity at the mouth of Juan de Fuca is primarily estuarine and thus set by density variations between inside and outside the domain. At the north baroclinic velocities were set to zero. 
