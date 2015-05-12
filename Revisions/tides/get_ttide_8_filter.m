@@ -4,6 +4,7 @@ function [pred_all,pred_8,tim] = get_ttide_8_filter(csvfilename,location, starts
 %csvfilename contains DFO produced water level observations.
 %pred_all is the t_tide prediction with all constituents
 %pred_8 is the t_tide prediction with only 8 constituents
+%pred_noshallow is pred_all without the shallow water constituents
 %saves a spreadsheet with tim, pred_all, pred_8
 %starts is that start date for predictions (eg. 01-Jan-2006)
 %ends is the end date for the predictions (eg. 31-Dec-2006)
