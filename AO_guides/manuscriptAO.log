@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  6 MAY 2015 17:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.8)  11 MAY 2015 18:25
 entering extended mode
  %&-line parsing enabled.
 **manuscriptAO.tex
@@ -451,6 +451,10 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [8 <./Figures/bathy_zoom.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -463,7 +467,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [9]
-Underfull \vbox (badness 1577) has occurred while \output is active []
+Underfull \vbox (badness 3417) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -475,44 +479,6 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [11]
-<Figures/tides.pdf, id=63, 852.44339pt x 383.81363pt>
-File: Figures/tides.pdf Graphic file (type pdf)
- <use Figures/tides.pdf>
-Overfull \hbox (55.46999pt too wide) in paragraph at lines 126--127
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [13 <./Figures/tides.pdf>]
 Underfull \vbox (badness 1603) has occurred while \output is active []
 
 
@@ -524,8 +490,22 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [14]
-Underfull \vbox (badness 1019) has occurred while \output is active []
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [12]
+<Figures/tides.pdf, id=66, 852.44339pt x 383.81363pt>
+File: Figures/tides.pdf Graphic file (type pdf)
+ <use Figures/tides.pdf>
+Overfull \hbox (55.46999pt too wide) in paragraph at lines 148--149
+ [][] 
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -536,24 +516,25 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [14 <./Figures/tides.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
  [15]
-<Figures/feb2006.pdf, id=253, 724.45656pt x 481.10521pt>
-File: Figures/feb2006.pdf Graphic file (type pdf)
-
-<use Figures/feb2006.pdf>
-
-LaTeX Warning: Float too large for page by 47.65274pt on input line 222.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Float too large for page by 28.5528pt on input line 279.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -566,6 +547,10 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [16]
+<Figures/feb2006.pdf, id=256, 724.45656pt x 481.10521pt>
+File: Figures/feb2006.pdf Graphic file (type pdf)
+
+<use Figures/feb2006.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -575,6 +560,19 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [17 <./Figures/feb2006.pdf>]
+
+LaTeX Warning: Float too large for page by 47.65274pt on input line 244.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Float too large for page by 28.5528pt on input line 301.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -606,20 +604,23 @@ File: Figures/feb2006_factors.pdf Graphic file (type pdf)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [20 <./Figures/feb2006_factors.pdf>]
-<Figures/feb2006_tidesurge.pdf, id=366, 741.77126pt x 285.07285pt>
+ [20]
+<Figures/feb2006_tidesurge.pdf, id=318, 741.77126pt x 285.07285pt>
 File: Figures/feb2006_tidesurge.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_tidesurge.pdf>
 
 pdfTeX warning: pdflatex (file ./Figures/feb2006_tidesurge_spatial.pdf): PDF in
 clusion: found PDF version <1.5>, but at most version <1.4> allowed
-<Figures/feb2006_tidesurge_spatial.pdf, id=368, 723.70375pt x 341.275pt>
+<Figures/feb2006_tidesurge_spatial.pdf, id=320, 723.70375pt x 341.275pt>
 File: Figures/feb2006_tidesurge_spatial.pdf Graphic file (type pdf)
 
 <use Figures/feb2006_tidesurge_spatial.pdf>
@@ -631,9 +632,18 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [21 <./Figures/feb2006_tidesurge.pdf> <./Figures/feb2006_tidesurge_spatial.pdf
+ [21 <./Figures/feb2006_factors.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [22 <./Figures/feb2006_tidesurge.pdf> <./Figures/feb2006_tidesurge_spatial.pdf
 >]
-<Figures/dec2006.pdf, id=422, 724.12721pt x 481.10521pt>
+<Figures/dec2006.pdf, id=425, 724.12721pt x 481.10521pt>
 File: Figures/dec2006.pdf Graphic file (type pdf)
 
 <use Figures/dec2006.pdf>
@@ -645,43 +655,24 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [22 <./Figures/dec2006.pdf>]
+ [23 <./Figures/dec2006.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<Figures/dec2006_spatial.pdf, id=473, 715.67375pt x 357.335pt>
+<Figures/dec2006_spatial.pdf, id=476, 715.67375pt x 357.335pt>
 File: Figures/dec2006_spatial.pdf Graphic file (type pdf)
 
 <use Figures/dec2006_spatial.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [23 <./Figures/dec2006_spatial.pdf>]
 
 pdfTeX warning: pdflatex (file ./Figures/dec2006_spatial_sshonly.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<Figures/dec2006_spatial_sshonly.pdf, id=481, 715.67375pt x 357.335pt>
+<Figures/dec2006_spatial_sshonly.pdf, id=478, 715.67375pt x 357.335pt>
 File: Figures/dec2006_spatial_sshonly.pdf Graphic file (type pdf)
 
 <use Figures/dec2006_spatial_sshonly.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [24 <./Figures/dec2006_spatial_sshonly.pdf>]
-<Figures/nov2009.pdf, id=489, 405.30798pt x 425.09596pt>
-File: Figures/nov2009.pdf Graphic file (type pdf)
-
-<use Figures/nov2009.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -690,12 +681,37 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [25 <./Figures/nov2009.pdf>]
-<Figures/dec2012_weather.pdf, id=542, 764.3509pt x 649.13298pt>
+ [24 <./Figures/dec2006_spatial.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [25 <./Figures/dec2006_spatial_sshonly.pdf>]
+<Figures/nov2009.pdf, id=493, 405.30798pt x 425.09596pt>
+File: Figures/nov2009.pdf Graphic file (type pdf)
+
+<use Figures/nov2009.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [26 <./Figures/nov2009.pdf>]
+<Figures/dec2012_weather.pdf, id=545, 764.3509pt x 649.13298pt>
 File: Figures/dec2012_weather.pdf Graphic file (type pdf)
 
 <use Figures/dec2012_weather.pdf>
-Overfull \hbox (2.61409pt too wide) in paragraph at lines 381--382
+Overfull \hbox (2.61409pt too wide) in paragraph at lines 403--404
  [][] 
  []
 
@@ -711,7 +727,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [26]
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -720,8 +736,8 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [27 <./Figures/dec2012_weather.pdf>]
-<Figures/dec2012_surge.pdf, id=952, 741.51247pt x 285.07285pt>
+ [28 <./Figures/dec2012_weather.pdf>]
+<Figures/dec2012_surge.pdf, id=955, 741.51247pt x 285.07285pt>
 File: Figures/dec2012_surge.pdf Graphic file (type pdf)
 
 <use Figures/dec2012_surge.pdf>
@@ -733,19 +749,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [28 <./Figures/dec2012_surge.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [29]
+ [29 <./Figures/dec2012_surge.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -761,19 +765,15 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [31]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./manuscriptAO.bbl
-Underfull \vbox (badness 1454) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -783,6 +783,19 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
  [32]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./manuscriptAO.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [33]
 Underfull \hbox (badness 3460) in paragraph at lines 311--322
 []\OT1/cmr/m/n/10.95 Environment Canada.  (2014b).  \OT1/cmr/m/it/10.95 High Re
 s-o-lu-tion De-ter-min-is-tic Pre-dic-tion Sys-tem.
@@ -800,7 +813,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [33]
+ [34]
 Underfull \hbox (badness 1478) in paragraph at lines 588--602
 \OT1/cmr/m/it/10.95 53N, lon-gi-tude 116W-133W\OT1/cmr/m/n/10.95 .  U. S. Ge-o-
 log-i-cal Sur-vey Open-File Re-port 99-369.
@@ -818,7 +831,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [34]
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -830,16 +843,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [35])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (29.0pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (703.0pt too high) has occurred while \output is active []
-
- [36]
+ [36])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -861,6 +865,15 @@ Overfull \vbox (703.0pt too high) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \vbox (29.0pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (703.0pt too high) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -869,7 +882,7 @@ Overfull \vbox (29.0pt too high) has occurred while \output is active []
 
 Overfull \vbox (703.0pt too high) has occurred while \output is active []
 
- [39]
+ [40]
 (./manuscriptAO.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -878,18 +891,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 3566 strings out of 495061
- 45679 string characters out of 1182622
- 150670 words of memory out of 3000000
- 6698 multiletter control sequences out of 15000+50000
+ 3572 strings out of 495061
+ 45803 string characters out of 1182622
+ 150655 words of memory out of 3000000
+ 6704 multiletter control sequences out of 15000+50000
  14332 words of font info for 57 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 39i,12n,27p,2022b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,27p,2125b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-t
 exlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/font
@@ -908,9 +918,9 @@ ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
 s/cm/cmti9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.p
 fb>
-Output written on manuscriptAO.pdf (39 pages, 5202736 bytes).
+Output written on manuscriptAO.pdf (40 pages, 5212245 bytes).
 PDF statistics:
- 1106 PDF objects out of 1200 (max. 8388607)
+ 1109 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -844,6 +844,29 @@ Murty, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Parker%
+}{%
+Parker%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+parker2007NOAA}
+\APACinsertmetastar {%
+parker2007NOAA}%
+\begin{APACrefauthors}%
+Parker, B\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+\APACrefbtitle {Tidal Analysis and Prediction} {Tidal analysis and prediction}\
+  \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{}{NOAA Special Publication NOS CO-OPS 3}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Pawlowicz%
 , Beardsley%
 \BCBL {}\ \BBA {} Lentz%
