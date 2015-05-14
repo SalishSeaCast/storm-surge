@@ -8,45 +8,45 @@ apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No address in forseth2006adaptation
 Warning--`others' not consistent with 6th ed. of the APA Manual
 Warning--No address in parker2007NOAA
-You've used 49 entries,
+You've used 52 entries,
             6951 wiz_defined-function locations,
-            1560 strings with 19411 characters,
-and the built_in function-call counts, 100071 in all, are:
-= -- 11948
-> -- 798
-< -- 5453
-+ -- 5527
-- -- 103
-* -- 6840
-:= -- 19711
-add.period$ -- 200
-call.type$ -- 49
-change.case$ -- 864
+            1578 strings with 20214 characters,
+and the built_in function-call counts, 107650 in all, are:
+= -- 12827
+> -- 863
+< -- 5917
++ -- 5998
+- -- 111
+* -- 7385
+:= -- 21286
+add.period$ -- 211
+call.type$ -- 52
+change.case$ -- 915
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 2599
-empty$ -- 3663
-format.name$ -- 1395
-if$ -- 18180
+cite$ -- 106
+duplicate$ -- 2798
+empty$ -- 3907
+format.name$ -- 1517
+if$ -- 19483
 int.to.chr$ -- 0
-int.to.str$ -- 151
+int.to.str$ -- 160
 missing$ -- 0
-newline$ -- 1233
-num.names$ -- 374
-pop$ -- 1555
+newline$ -- 1313
+num.names$ -- 398
+pop$ -- 1641
 preamble$ -- 1
-purify$ -- 211
+purify$ -- 223
 quote$ -- 0
-skip$ -- 5785
+skip$ -- 6206
 stack$ -- 0
-substring$ -- 5901
-swap$ -- 1520
-text.length$ -- 124
+substring$ -- 6394
+swap$ -- 1630
+text.length$ -- 131
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3710
+type$ -- 3950
 warning$ -- 3
-while$ -- 503
+while$ -- 546
 width$ -- 0
-write$ -- 1569
+write$ -- 1677
 (There were 3 warnings)

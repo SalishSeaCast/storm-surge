@@ -142,6 +142,38 @@ Bobanovi{\'c}, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Brossier%
+, B{\'e}ranger%
+\BCBL {}\ \BBA {} Drobinski%
+}{%
+Brossier%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+brossier2012sensitivity}
+\APACinsertmetastar {%
+brossier2012sensitivity}%
+\begin{APACrefauthors}%
+Brossier, C\BPBI L.%
+, B{\'e}ranger, K.%
+\BCBL {}\ \BBA {} Drobinski, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sensitivity of the northwestern Mediterranean Sea
+  coastal and thermohaline circulations simulated by the 1/12-resolution ocean
+  model NEMO-MED12 to the spatial and temporal resolution of atmospheric
+  forcing} {Sensitivity of the northwestern mediterranean sea coastal and
+  thermohaline circulations simulated by the 1/12-resolution ocean model
+  nemo-med12 to the spatial and temporal resolution of atmospheric
+  forcing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ocean Modelling}{43}{}{94--107}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 P.~Crean%
 , Murty%
 \BCBL {}\ \BBA {} Stronach%
@@ -677,6 +709,34 @@ Lane, E\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ma%
+, Han%
+\BCBL {}\ \BBA {} de Young%
+}{%
+Ma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+ma2015oceanic}
+\APACinsertmetastar {%
+ma2015oceanic}%
+\begin{APACrefauthors}%
+Ma, Z.%
+, Han, G.%
+\BCBL {}\ \BBA {} de Young, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Oceanic responses to Hurricane Igor over the Grand
+  Banks: A modeling study} {Oceanic responses to hurricane igor over the grand
+  banks: A modeling study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Oceans}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Madec%
 \ \protect \BOthers {.}}{%
 Madec%
@@ -700,6 +760,36 @@ Madec, G.%
 \APACaddressPublisher{France}{}.
 \newblock
 \APACrefnote{Ver 3.4, ISSN No 1288-1619}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Maraldi%
+\ \protect \BOthers {.}}{%
+Maraldi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+maraldi2013nemo}
+\APACinsertmetastar {%
+maraldi2013nemo}%
+\begin{APACrefauthors}%
+Maraldi, C.%
+, Chanut, J.%
+, Levier, B.%
+, Ayoub, N.%
+, De~Mey, P.%
+, Reffray, G.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {NEMO on the shelf: assessment of the
+  Iberia-Biscay-Ireland configuration.} {Nemo on the shelf: assessment of the
+  iberia-biscay-ireland configuration.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ocean Science}{9}{}{745--771}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
