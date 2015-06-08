@@ -1,0 +1,16 @@
+P14 - Because the tides were tuned for a good match in the Strait of
+Georgia, the match in the Strait of Juan de Fuca has suffered,
+particularly noticeable at the station closest to the open boundary (Port
+Renfrew, 1).
+
+P15 - Note that the model will contain tidal energy from shallow water
+constituents due nonlinear interactions in the model equations.
+
+P19 - When the northern boundary forcing is exlcuded the surge amplitude
+at Campbell River drops by about 10 cm.
+
+P14: I am wondering if the "suffered" part gives a bad impression of the
+SJF tides. Maybe something like the match was "compromised" or that there
+was a "trade off".
+P15: due "to" nonlinear interactions?
+P19: excluded typo
