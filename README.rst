@@ -17,10 +17,10 @@ The files are organized into several folders:
 * FigureScripts - notebooks and other files needed to generate figures
 * Revisions - files used to guide the revisions process, including response to referees, co-author comments, and extra analysis notebooks
 
-   - tides - files used to produce new tidal predictions
+  - tides - files used to produce new tidal predictions
 
-      + analysis - tidal predictions for analysis
-      + forcing - tidal predictions for forcing
+    + analysis - tidal predictions for analysis
+    + forcing - tidal predictions for forcing
 * RoughWork - rough drafts and figures
 * run_files - namelists and yaml files used to produce simulations
 
