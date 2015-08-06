@@ -31,7 +31,7 @@ $^{3}${\em{Bedford Institute of Oceanography}}\\\received{v1.2 released April 20
 \maketitle
 
 \begin{abstract}
-The Strait of Georgia is a large, semi-enclosed body of water between Vancouver Island and the mainland of British Columbia connected to the Pacific Ocean via the Strait of Juan de Fuca at the south and Johnstone Strait at the north. During the winter months, coastal communities in the Strait of Georgia are at risk to flooding caused by storm surges, a natural hazard that can occur when a strong storm coincides with high tide. This investigation produces storm surge hindcasts using a three-dimensional numerical ocean model for the Strait of Georgia and the surrounding bodies of water (Strait of Juan de Fuca, Puget Sound, and Johnstone Strait) collectively known as the Salish Sea. The numerical model employs the Nucleus for European Modelling of the Ocean (NEMO) architecture in a regional configuration. The model is evaluated through {\color{red} the} comparisons of tidal elevation harmonics and storm surge with observations. Important forcing factors contributing to storm surges have been assessed. It is shown that the surge entering the domain from the Pacific Ocean contributes most significantly to the {\color{red} surge amplitude within the Strait of Georgia. Comparisons between simulations with high resolution and low resolution atmospheric forcing further emphasize that remote forcing is the dominant factor in surge amplitudes of this region.} In addition, local wind patterns cause a slight increase in surge amplitude on the mainland side of the Strait of Georgia when compared to the Vancouver Island coastal areas during a major wind storm on Dec 15, 2006. Generally, surge amplitudes are found to be greater within the Strait of Georgia when compared to amplitudes in the Strait of Juan de Fuca.
+The Strait of Georgia is a large, semi-enclosed body of water between Vancouver Island and the mainland of British Columbia connected to the Pacific Ocean via the Strait of Juan de Fuca at the south and Johnstone Strait at the north. During the winter months, coastal communities in the Strait of Georgia are at risk to flooding caused by storm surges, a natural hazard that can occur when a strong storm coincides with high tide. This investigation produces storm surge hindcasts using a three-dimensional numerical ocean model for the Strait of Georgia and the surrounding bodies of water (Strait of Juan de Fuca, Puget Sound, and Johnstone Strait) collectively known as the Salish Sea. The numerical model employs the Nucleus for European Modelling of the Ocean (NEMO) architecture in a regional configuration. The model is evaluated through the comparisons of tidal elevation harmonics and storm surge with observations. Important forcing factors contributing to storm surges have been assessed. It is shown that the surge entering the domain from the Pacific Ocean contributes most significantly to the surge amplitude within the Strait of Georgia. Comparisons between simulations with high resolution and low resolution atmospheric forcing further emphasize that remote forcing is the dominant factor in surge amplitudes of this region. In addition, local wind patterns cause a slight increase in surge amplitude on the mainland side of the Strait of Georgia when compared to the Vancouver Island coastal areas during a major wind storm on Dec 15, 2006. Generally, surge amplitudes are found to be greater within the Strait of Georgia when compared to amplitudes in the Strait of Juan de Fuca.
 \end{abstract}
 
 \begin{keywords}storm surge; Strait of Georgia; Salish Sea; numerical modelling; spatial variation
@@ -39,7 +39,7 @@ The Strait of Georgia is a large, semi-enclosed body of water between Vancouver 
 
 \section{Introduction}\label{sec:intro}
 
-The Strait of Georgia is a strongly stratified, semi-enclosed body of water located between Vancouver Island and the mainland of British Columbia {\color{red}\citep{thomson1981oceanography}}. It is part of a larger system of waterways collectively known as the Salish Sea and is connected to the Pacific Ocean via the Strait of Juan de Fuca and Johnstone Strait (Figure \ref{fig:domain}). At its southern end, the Strait of Georgia is connected to the Strait of Juan de Fuca through several passages, the largest being Haro Strait. The San Juan and Gulf Islands are scattered throughout these passages where complex bathymetry and steep topographic slopes induce vigorous tidal mixing {\color{red}\citep{thomson1981oceanography}}.  Mixed diurnal and semi-diurnal tides are found throughout most of the Salish Sea but a semi-diurnal amphidrome is present nearby Victoria, where the tides are mainly diurnal \citep{thomson1981oceanography}. This system is {\color{red} a} home to several large coastal communities, such as Vancouver and Victoria, serves as a waterway for commercial traffic and recreational use, and supports a large and active fishing industry.   
+The Strait of Georgia is a strongly stratified, semi-enclosed body of water located between Vancouver Island and the mainland of British Columbia \citep{thomson1981oceanography}. It is part of a larger system of waterways collectively known as the Salish Sea and is connected to the Pacific Ocean via the Strait of Juan de Fuca and Johnstone Strait (Figure \ref{fig:domain}). At its southern end, the Strait of Georgia is connected to the Strait of Juan de Fuca through several passages, the largest being Haro Strait. The San Juan and Gulf Islands are scattered throughout these passages where complex bathymetry and steep topographic slopes induce vigorous tidal mixing \citep{thomson1981oceanography}.  Mixed diurnal and semi-diurnal tides are found throughout most of the Salish Sea but a semi-diurnal amphidrome is present nearby Victoria, where the tides are mainly diurnal \citep{thomson1981oceanography}. This system is a home to several large coastal communities, such as Vancouver and Victoria, serves as a waterway for commercial traffic and recreational use, and supports a large and active fishing industry.   
 
 %my attempt at physical oceanography in SoG- Susan feel free to edit.
 %Several features related to the physical oceanography of this region render it a challenge to model numerically. The outflow from the Fraser River in the late spring is the primary source of fresh water within the Strait of Georgia and leads to large vertical density gradients in the summer months \citep{thomson1981oceanography}. Additionally, strong tidal mixing through the San Juan and Gulf Islands produces horizontal density gradients that separate the saline waters of the Strait of Juan de Fuca and the fresher water of the Strait of Georgia. It is important to accurately represent the vertical mixing in this region as it sets the rate of export of fresh water through estuarine circulation \citep{masson2004modelling}. The strong tidal currents through the narrow channels of the north, such as Discovery Passage and Johnstone Strait, set a fairly restrictive time step and impose a particular challenge for numerical models. Several modelling efforts for this region exist, varying in choices of grid structure, mixing parametrizations, and domain. 
@@ -63,7 +63,7 @@ This article presents the development of a three-dimensional numerical ocean mod
 
 \section{Model Description}\label{sec:config}
 
-We have used the Nucleus for European Modelling of the Ocean (NEMO) framework in its regional configuration \citep{madec2012nemo} to develop an ocean model for the Salish Sea. NEMO is a highly modular tool used for studying ocean physics, ocean-ice interactions, and the bio-geochemical properties of the ocean. NEMO's ocean core solves the three-dimensional hydrostatic equations of motion for an incompressible fluid under the Boussinesq approximation on a structured computational grid.  Although these features are not being used in the present work, NEMO's options for grid nesting and bio-geochemical coupling make it a useful tool for studying the complex physics and bio-geochemical interactions within the Strait of Georgia. This work focuses on the physical configuration of the Salish Sea model, in particular, determining appropriate forcing and boundary conditions for accurate reproduction of tidal amplitudes and phases as well as storm surge elevations. Future work will include bio-geochemical coupling and data assimilation. NEMO version 3.4 was used in this study.  NEMO has been successfully used in other coastal modelling studies in the Northeast Atlantic \citep{maraldi2013nemo} and the Mediterranean Sea \citep{brossier2012sensitivity}.}
+We have used the Nucleus for European Modelling of the Ocean (NEMO) framework in its regional configuration \citep{madec2012nemo} to develop an ocean model for the Salish Sea. NEMO is a highly modular tool used for studying ocean physics, ocean-ice interactions, and the bio-geochemical properties of the ocean. NEMO's ocean core solves the three-dimensional hydrostatic equations of motion for an incompressible fluid under the Boussinesq approximation on a structured computational grid.  Although these features are not being used in the present work, NEMO's options for grid nesting and bio-geochemical coupling make it a useful tool for studying the complex physics and bio-geochemical interactions within the Strait of Georgia. This work focuses on the physical configuration of the Salish Sea model, in particular, determining appropriate forcing and boundary conditions for accurate reproduction of tidal amplitudes and phases as well as storm surge elevations. Future work will include bio-geochemical coupling and data assimilation. NEMO version 3.4 was used in this study.  NEMO has been successfully used in other coastal modelling studies in the Northeast Atlantic \citep{maraldi2013nemo} and the Mediterranean Sea \citep{brossier2012sensitivity}.
 
 The modelled domain extends from the Strait of Juan de Fuca to Puget Sound to Johnstone Strait (Figure \ref{fig:domain}). Bathymetry from the Cascadia physiography data set \citep{haugerud1999digital} was smoothed to limit large changes in depth across grid cells, so that $\Delta h/\bar{h} \leq 0.8$, where $\Delta h$ is the difference in depth between two adjacent grid cells and $\bar{h}$ is their average depth. For model stability, additional smoothing at the Strait of Juan de Fuca western boundary was imposed to achieve constant depth across the first ten grid cells inward from the open boundary. Depths between 0 m and 4 m were set to 4 m.  As depicted in Figure \ref{fig:domain}, the numerical grid is rotated $29^{\circ}$ counter-clockwise of North in order to maintain computational efficiency since currents within the Strait of Georgia are mainly aligned with this rotated axis.  A magnified image of the complex passages through the San Juan and Gulf Islands is provided in Figure \ref{fig:zoom}.
 
@@ -90,11 +90,11 @@ Temperature and salinity at the Juan de Fuca boundary were taken from a weekly c
 
 Sea surface height anomaly (or remote forcing) was set uniformly across the mouth of Juan de Fuca using values from the Tofino tide gauge \citep{DFOObservations} which is outside of, but close to, the western boundary of the model domain (Figure \ref{fig:domain}).  A monthly climatology was produced using daily averages from 2000-2010, binning them by month, averaging and setting the yearly mean to zero.  For the storm surge simulations, hourly variations in sea surface height were used.  These values are the Tofino tide gauge values with the tides removed. Tidal predictions were generated with the tidal analysis package called t\_tide \citep{pawlowicz2002classical} using a time series from the year of the storm surge. A harmonic analysis was performed for 67 constituents. In order to prevent over-predicted constituents due to high surge years, the time series was first filtered by applying a tide-killing Doodson filter \citep{parker2007NOAA} and periods with large non-tidal amplitudes were removed. Long period constituents such as Sa, Ssa, etc were not used in the tidal predictions since these constituents are often contaminated by non-tidal energy from seasonal meteorological trends. Further, constituents with a low signal to noise ratio were neglected.  The storm surge simulations also used the sea surface height anomaly from Port Hardy, forced at the northern boundary in Johnstone Strait. 
 
- Although Tofino is not the closest tide gauge to the western boundary, we found that the surge conditions on the western coast of Vancouver Island and near the mouth of the Strait of Juan de Fuca are fairly uniform as summarized in Table \ref{tab:pacificsurge}. Generally, surge amplitudes at Tofino are slightly larger and earlier than Neah Bay and Bamfield. The remote forcing is applied uniformly across the open boundaries. Given the similarities between the surge amplitude and phase at Neah Bay and Bamfield, this seems to be a reasonable assumption. In support of this assumption, a geostrophic slope calculation with an estuarine velocity of 20 cm s$^{-1}$ would imply a difference of less than 5 cm between the northern and southern sides of the Strait of Juan de Fuca. In the future, this uniform specification of sea level at the western boundary will be relaxed by taking values from the solution of a large-scale forecasting model.}
+ Although Tofino is not the closest tide gauge to the western boundary, we found that the surge conditions on the western coast of Vancouver Island and near the mouth of the Strait of Juan de Fuca are fairly uniform as summarized in Table \ref{tab:pacificsurge}. Generally, surge amplitudes at Tofino are slightly larger and earlier than Neah Bay and Bamfield. The remote forcing is applied uniformly across the open boundaries. Given the similarities between the surge amplitude and phase at Neah Bay and Bamfield, this seems to be a reasonable assumption. In support of this assumption, a geostrophic slope calculation with an estuarine velocity of 20 cm s$^{-1}$ would imply a difference of less than 5 cm between the northern and southern sides of the Strait of Juan de Fuca. In the future, this uniform specification of sea level at the western boundary will be relaxed by taking values from the solution of a large-scale forecasting model.
 
 \begin{table}[h]
 \centering 
-\tbl{}Average peak surge amplitudes and delay in peak timing from Tofino at several tide gauges on the Pacific coast. Averages obtained over the five surge events hindcasted in this article. A negative delay indicates that the peak surge occurred later than at Tofino.}
+\tbl{Average peak surge amplitudes and delay in peak timing from Tofino at several tide gauges on the Pacific coast. Averages obtained over the five surge events hindcasted in this article. A negative delay indicates that the peak surge occurred later than at Tofino.}
 {\begin{tabular}{|l |c | c|}
 \hline 
 Location & Mean surge amplitude (m) & Mean delay from Tofino (hrs) \\
@@ -138,14 +138,10 @@ where $A_0$, $A_m$, $g_0$ and $g_m$ are the observed and modelled amplitudes and
 
 In general, the K$_1$ tidal harmonics are well-represented by the model with complex differences below 5 cm at all stations except Seymour Narrows (station 27). Seymour Narrows is a very constricted region in Johnstone Strait and is not well resolved by the model. As such, the M$_2$ amplitude and phase are also poorly reproduced here.  The model's M$_2$ amphidrome, indicated by the drop in amplitude around station 5 (Victoria), is too strong resulting in lower than observed M$_2$ amplitudes in this region.  The model also represents the dip in M$_2$ amplitude around stations 25 and 26 reasonably well. Additionally, the M$_2$ phase errors in the Strait of Juan de Fuca (stations 1-7) are quite large, leading to large complex differences in this region.  The match in the Strait of Georgia (stations 10-24) is very good, with complex differences less than 6 cm, in part due to tidal tuning for highly accurate tides in the main region of interest. Because the tides were tuned for a good match in the Strait of Georgia, the match in the Strait of Juan de Fuca was compromised; the effect is particularly noticeable at the station closest to the open boundary (Port Renfrew, 1).  Details on the tidal tuning procedure are provided in Appendix \ref{sec:appendix}.
 
-%perhaps a table of complex differences at tidal stations similar to Table 1 of Foreman et al (1995)  (such as the one produced by tidetools.calc_diffs_meas_mod) here?
-%(would be cool to include the complex differences calculated at the VENUS nodes too)
-%perhaps a nice contour map of M2 and K1 amps and phases goes here?
-%if it's favourable, we could compare our complex differences to Foreman et al (1995), who got an average of D=3cm for M2 and D=2.5cm for K1
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ tides.pdf}
+\includegraphics[scale=0.6]{tides.pdf}
 \caption{Evaluation of model tidal amplitude and phases for the M$_2$ and K$_1$ constituents. On the left, a transect through the stations used for comparison. On the right, modelled M$_2$ (black) and K$_1$ (grey) amplitude (top) and phase (middle) compared with observations in the dashed curves of the same colour. The bottom plot displays the M$_2$ and K$_1$ complex differences. Station names and numbers are listed Appendix \ref{sec:appendix} in Table \ref{tab:comparison}.}
 \label{fig:tides}
 \end{figure}
@@ -183,7 +179,7 @@ In general, there is also very good agreement between the observed and modelled 
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ feb2006.pdf}
+\includegraphics[scale=0.6]{feb2006.pdf}
 \caption{Comparison of observations and model output for the Feb 4, 2006 storm surge. Left: total water level observation (solid) and corrected model (dashed). Right: observed residuals (solid) and modelled residuals (dashed).}
 \label{fig:feb2006}
 \end{figure}
@@ -329,7 +325,7 @@ These comparisons point to the importance of including, as a forcing condition a
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ feb2006_factors.pdf}
+\includegraphics[scale=0.6]{feb2006_factors.pdf}
 \caption{Comparison of the modelled residual for four simulations in Feb 2006: A simulation with all forcing (solid black), a simulation without local atmospheric forcing (dashed green), a simulation without remote forcing (solid red), and a simulation with only tides and local wind forcing, i.e.\ no remote forcing or local atmospheric pressure (dashed blue). }
 \label{fig:factors}
 \end{figure}
@@ -338,27 +334,27 @@ Next, an assessment of the importance of including the tide-surge interaction, w
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ feb2006_tidesurge.pdf}
+\includegraphics[scale=0.6]{feb2006_tidesurge.pdf}
 \caption{Modelled residuals (solid) compared with a simulation of the surge propagation without tidal forcing (dashed) for the Feb 2006 hindcast. }
 \label{fig:tidesurge}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ feb2006_tidesurge_spatial.pdf}
+\includegraphics[scale=0.6]{feb2006_tidesurge_spatial.pdf}
 \caption{Spatial dependency of tide-surge interaction in Feb 2006 hindcast. Difference in sea surface height between simulations with tidal forcing and without tidal forcing. Each plot is an average over 4 hours. }
 \label{fig:tidesurge_spatial}
 \end{figure}
 
 
 \subsection{Spatial Extent of Surge}\label{sec:spatial}
-A major wind storm on Dec 15, 2006 is hindcasted next. Although the storm was very strong (gusts over 120 km hr$^{-1}$) and the observed residual at Point Atkinson reached {\color{red}94 cm}, this event did not coincide with high tide and so no significant or reported flooding occurred in the Vancouver area \citep{forseth2006adaptation}. Because of the high winds, this event has been used to examine the propagation of the surge throughout the domain and spatial variations in the surge amplitude. First, an assessment of the accuracy of the hindcast is provided. 
+A major wind storm on Dec 15, 2006 is hindcasted next. Although the storm was very strong (gusts over 120 km hr$^{-1}$) and the observed residual at Point Atkinson reached 94 cm, this event did not coincide with high tide and so no significant or reported flooding occurred in the Vancouver area \citep{forseth2006adaptation}. Because of the high winds, this event has been used to examine the propagation of the surge throughout the domain and spatial variations in the surge amplitude. First, an assessment of the accuracy of the hindcast is provided. 
 
 Modelled residuals are generally too low in this hindcast (Figure \ref{fig:dec2006}), however, the timing of the surge agrees well. All Willmott skill scores rank above 0.89 and the $\gamma^2$ measure also indicates good agreement between model and observations (Table \ref{tab:statistics}). The $\gamma^2$ measure suggests that the standard deviation of the error in the modelled residuals is roughly half of the standard deviation of the observed residuals. Note that the performance has degraded when compared to the Feb 2006 and Nov 2006 cases. This could be due to a number of factors. First, the very large wind speeds observed during this storm are significantly underrepresented by the atmospheric model leading to lower wind stress and less piling of water against the coast. Second, the anomaly forcing at the open boundaries could be too low. The observed residual at Tofino, BC (a point nearby but outside of the domain) is up to 10 cm  lower than the observed residual at Neah Bay, WA (a point nearby but inside of the domain). Since the storm surge is less sensitive to wind forcing than anomaly forcing at the open boundaries, the latter is likely the cause, although it still does not account for all of the error.
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ dec2006.pdf}
+\includegraphics[scale=0.6]{dec2006.pdf}
 \caption{Comparison of observed and modelled water level and residuals during the Dec 15, 2006 storm surge simulation. }
 \label{fig:dec2006}
 \end{figure}
@@ -367,7 +363,7 @@ The evolution and spatial distribution of the surge is highlighted in Figure \re
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ dec2006_spatial.pdf}
+\includegraphics[scale=0.6]{dec2006_spatial.pdf}
 \caption{Propagation of the storm surge on Dec 15, 2006. Modelled residual every hour starting on Dec 15 at 02:30 UTC. Time advances from top left to bottom right. Wind vectors from the atmospheric forcing are overlaid in black.}
 \label{fig:spatial}
 \end{figure}
@@ -376,7 +372,7 @@ In a simulation without atmospheric forcing, the surge amplitude across the Stra
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ dec2006_spatial_sshonly.pdf}
+\includegraphics[scale=0.6]{dec2006_spatial_sshonly.pdf}
 \caption{As in Figure \ref{fig:spatial} but for a simulation that does not include atmospheric forcing. }
 \label{fig:spatial_sshonly}
 \end{figure}
@@ -389,7 +385,7 @@ Next, a relatively strong wind event recorded at Point Atkinson on Nov 19, 2009 
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ nov2009.pdf}
+\includegraphics[scale=0.6]{nov2009.pdf}
 \caption{Wind and storm surge conditions at Point Atkinson for a strong wind event on Nov 19, 2009. Top: Wind speed from Environment Canada observations \citep{ECClimateArchive} at Point Atkinson (solid) and from the atmospheric model (CGRF) at a grid point near Point Atkinson (dashed). Middle: Sea surface height anomaly at Tofino (solid) and Port Hardy (dashed) used as forcing conditions at the western and northern open boundaries. Bottom: Observed (solid) and modelled (dashed) residuals at Point Atkinson.  }
 \label{fig:nov2009}
 \end{figure}
@@ -404,8 +400,8 @@ First, a comparison of the wind speed and direction for the two models and obser
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ dec2012_weather.pdf}
-\caption{{\color{red}Comparison of observed and modelled winds during Dec 2012 storm surge simulation at Point Atkinson (top), Sandheads (middle) and NOAA Buoy 46087 (bottom). Observed winds shown in solid black, low resolution CGRF model in dashed black and high resolution model in grey. Observations from Sandheads and Point Atkinson are from the Environment Canada Climate Data archives \citep{ECClimateArchive}.  Observations at the NOAA Buoy were downloaded from: \url{http://www.ndbc.noaa.gov/station_page.php?station=46087}. Wind direction represents the direction that the wind is headed.} }
+\includegraphics[scale=0.6]{dec2012_weather.pdf}
+\caption{Comparison of observed and modelled winds during Dec 2012 storm surge simulation at Point Atkinson (top), Sandheads (middle) and NOAA Buoy 46087 (bottom). Observed winds shown in solid black, low resolution CGRF model in dashed black and high resolution model in grey. Observations from Sandheads and Point Atkinson are from the Environment Canada Climate Data archives \citep{ECClimateArchive}.  Observations at the NOAA Buoy were downloaded from: \url{http://www.ndbc.noaa.gov/station_page.php?station=46087}. Wind direction represents the direction that the wind is headed.} 
 \label{fig:dec2012_weather}
 \end{figure}
 
@@ -413,7 +409,7 @@ Hindcasts with both atmospheric forcing products agree well with the observation
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{ dec2012_surge.pdf}
+\includegraphics[scale=0.6]{dec2012_surge.pdf}
 \caption{Comparison of observed (solid black) and modelled residuals for the Dec 2012 storm surge simulation. Modelled residuals from two simulations using a low resolution (dashed) and high resolution (grey) atmospheric products are shown. }
 \label{fig:dec2012_surge}
 \end{figure}
