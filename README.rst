@@ -14,8 +14,8 @@ The files are organized into several folders:
 
 * AO_guides - manuscript tex and pdf files, templates, and AO style files
 * comments - comments from co-authors before first submission
-* FigureScripts - notebooks and other files needed to generate figures
-* Revisions - files used to guide the revisions process, including response to referees, co-author comments, and extra analysis notebooks
+* FigureScripts - notebooks and other files needed to generate figures. Includes text files with storm surge statistics. 
+* Revisions - files used to guide the revisions process, including modified analysis files and extra analysis notebooks
 
   - tides - files used to produce new tidal predictions
 
@@ -29,3 +29,17 @@ Some additional files are described here:
 * contributions.txt - description of contributions from each author
 * refrees.txt - list of suggested referees
 * stormtools_revisions.py - module with analysis tools and functions 
+
+Dependencies
+************
+
+Some of the analysis and simulations depends on code and files written in separate packages. These packages include
+
+* SalishSeaTools - http://salishsea-meopar-tools.readthedocs.org/en/latest/SalishSeaTools/salishsea-tools.html#salishseatools
+* NEMO-forcing - https://bitbucket.org/salishsea/nemo-forcing
+
+For more information about the Salish Sea modelling project, please visit http://salishsea-meopar-docs.readthedocs.org/en/latest/
+
+Recent model results can be found here: http://salishsea.eos.ubc.ca/nemo/index.html
+
+
