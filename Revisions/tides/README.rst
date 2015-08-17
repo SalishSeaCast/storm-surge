@@ -56,7 +56,7 @@ Three output files are generated from each analysis
    - output from the t_tide harmonic analysis
 2. name_harmonics_dates_filter.csv
    - harmonic constituents from analyzing the filtered time series
-3.  name_t_tide_compare8_dates_snr2_filter.csv
+3. name_t_tide_compare8_dates_snr2_filter.csv
    - the three tidal predictions described above
 
 Files are organized into a forcing directory (stations outside of Salish Sea model domain) and a analysis directory (stations inside of Salish Sea model domain).
