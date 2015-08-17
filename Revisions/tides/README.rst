@@ -8,9 +8,9 @@ The predictions are calculated in the following manner:
 2. A harmonic analysis is applied to the filtered time series using t_tide (http://www.eos.ubc.ca/~rich/#T_Tide)
 3. Tidal predictions are generated from the constituents solved in the harmonic analysis.
 Three predictions are generated:
-   a. A prediction with all constituents that have signal to noise ratio greater than 2 and excluding long period constituents like Sa, Ssa, Mf, Ms, etc (pred_all).
-   b. A prediction like above but with shallow water constituents excluded (pred_noshallow).
-   c. A prediction with only the 8 large constituents :M2, S2, N2, K2, K1, O1, P1, Q1 (pred_8).
+    a. A prediction with all constituents that have signal to noise ratio greater than 2 and excluding long period constituents like Sa, Ssa, Mf, Ms, etc (pred_all).
+    b. A prediction like above but with shallow water constituents excluded (pred_noshallow).
+    c. A prediction with only the 8 large constituents :M2, S2, N2, K2, K1, O1, P1, Q1 (pred_8).
 
 
 Scripts
@@ -40,17 +40,18 @@ Input files
 The input files are water level times series from DFO or NOAA.
 
 * DFO
-  - Data is from this website http://www.isdm-gdsi.gc.ca/isdm-gdsi/twl-mne/index-eng.htm
-  - These file names have the format 'wlev_number_date.csv'
+    - Data is from this website http://www.isdm-gdsi.gc.ca/isdm-gdsi/twl-mne/index-eng.htm
+    - These file names have the format 'wlev_number_date.csv'
 * NOAA
-  - Data is from NOAA's National Ocean Service http://tidesandcurrents.noaa.gov/stations.html?type=Water+Levels
-  - The latitude of the station has been added to the second row, second column
-  - The file names have the format name_date.csv
+    - Data is from NOAA's National Ocean Service http://tidesandcurrents.noaa.gov/stations.html?type=Water+Levels
+    - The latitude of the station has been added to the second row, second column
+    - The file names have the format name_date.csv
 
 Output files
 ^^^^^^^^^^^^
 
 Three output files are generated from each analysis
+
 1. name_analysis_filter_dates
    - output from the t_tide harmonic analysis
 2. name_harmonics_dates_filter.csv
