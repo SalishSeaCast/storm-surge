@@ -40,9 +40,9 @@ Some of the analysis and simulations depends on code and files written in separa
 * Generation of SSH anomaly forcing files 
     - Tofino - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_Tofino.ipynb
     - Port Hardy - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_PortHardy.ipynb
-
-For more information about the Salish Sea modelling project, please visit http://salishsea-meopar-docs.readthedocs.org/en/latest/
-
-Recent model results can be found here: http://salishsea.eos.ubc.ca/nemo/index.html
+* NEMO code 3.4
+    - The simulations were generated with version 3.4 of the NEMO ocean model. More details are found here: http://www.nemo-ocean.eu/
+* For more information about the Salish Sea modelling project, please visit http://salishsea-meopar-docs.readthedocs.org/en/latest/
+* Recent model results can be found here: http://salishsea.eos.ubc.ca/nemo/index.html
 
 
