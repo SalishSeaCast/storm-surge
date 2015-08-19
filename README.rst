@@ -1,11 +1,31 @@
 ***********************************
 Salish Sea MEOPAR Storm Surge Paper
 ***********************************
-:Licenses: N/A
+:License: Apache License, Version 2.0:Licenses: N/A
 
 This is a private repo for development of the 1st storm surge paper from UBC Salish Sea MEOPAR project group.
 
 Some or all of the files in this repo will be made public upon publication of the paper to facilitate reproducibility of the paper's results.
+
+
+Licenses
+========
+
+The Salish Sea NEMO analysis and documentation are copyright 2013-2015 by the `S
+alish Sea MEOPAR Project Contributors`_ and The University of British Columbia.
+
+They are licensed under the Apache License, Version 2.0.
+http://www.apache.org/licenses/LICENSE-2.0
+Please see the LICENSE file for details of the license.
+
+The copyright of the manuscript files is held by Taylor and Francis. The manuscript can be cited as:
+
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V. (2015). Storm surges in the Strait of Georgia simulated with a regional model. Submitted to Atmosphere-Ocean.
+
+
+.. _Salish Sea MEOPAR Project Contributors: https://bitbucket.org/salishsea/docs
+/src/tip/CONTRIBUTORS.rst
+
 
 Organization of files
 **********************
