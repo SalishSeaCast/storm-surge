@@ -33,7 +33,6 @@ Organization of files
 The files are organized into several folders:
 
 * AO_guides - manuscript tex and pdf files, templates, and AO style files
-* comments - comments from co-authors before first submission
 * FigureScripts - notebooks and other files needed to generate figures. Includes text files with storm surge statistics. 
 * Revisions - files used to guide the revisions process, including modified analysis files and extra analysis notebooks
 
