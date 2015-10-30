@@ -3,9 +3,9 @@ Salish Sea MEOPAR Storm Surge Paper
 ***********************************
 :License: Apache License, Version 2.0:Licenses: N/A
 
-This is a private repo for development of the 1st storm surge paper from UBC Salish Sea MEOPAR project group.
+This is a repository for development of the 1st storm surge paper from UBC Salish Sea MEOPAR project group.
 
-Some or all of the files in this repo will be made public upon publication of the paper to facilitate reproducibility of the paper's results.
+This repository has been made public to facilitate reproducibility of the paper's results.
 
 
 Licenses
@@ -20,11 +20,11 @@ Please see the LICENSE file for details of the license.
 
 The copyright of the manuscript files is held by Taylor and Francis. The manuscript can be cited as:
 
-Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V. (2015). Storm surges in the Strait of Georgia simulated with a regional model. Submitted to Atmosphere-Ocean.
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V. (2015). Storm surges in the Strait of Georgia simulated with a regional model. Submitted to Atmosphere-Ocean. doi:10.1080/07055900.2015.1108899
 
 
 .. _Salish Sea MEOPAR Project Contributors: https://bitbucket.org/salishsea/docs
-/src/tip/CONTRIBUTORS.rst
+
 
 
 Organization of files
@@ -56,7 +56,6 @@ Dependencies
 Some of the analysis and simulations depends on code and files written in separate packages. These packages include
 
 * SalishSeaTools - http://salishsea-meopar-tools.readthedocs.org/en/latest/SalishSeaTools/salishsea-tools.html#salishseatools
-* NEMO-forcing - https://bitbucket.org/salishsea/nemo-forcing
 * Generation of SSH anomaly forcing files 
     - Tofino - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_Tofino.ipynb
     - Port Hardy - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_PortHardy.ipynb
