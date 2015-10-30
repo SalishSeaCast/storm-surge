@@ -33,20 +33,26 @@ Organization of files
 The files are organized into several folders:
 
 * AO_guides - manuscript tex and pdf files, templates, and AO style files
+
 * FigureScripts - notebooks and other files needed to generate figures. Includes text files with storm surge statistics.
+
 * Revisions - files used to guide the revisions process, including modified analysis files and extra analysis notebooks
 
   - tides - files used to produce new tidal predictions
 
     + analysis - tidal predictions for analysis
     + forcing - tidal predictions for forcing
+
 * RoughWork - rough drafts and figures
+
 * run_files - namelists and yaml files used to produce simulations
 
 Some additional files are described here:
 
 * contributions.txt - description of contributions from each author
+
 * refrees.txt - list of suggested referees
+
 * stormtools_revisions.py - module with analysis tools and functions 
 
 Dependencies
@@ -55,14 +61,19 @@ Dependencies
 Some of the analysis and simulations depends on code and files written in separate packages. These packages include
 
 * SalishSeaTools - http://salishsea-meopar-tools.readthedocs.org/en/latest/SalishSeaTools/salishsea-tools.html#salishseatools
+
 * Generation of SSH anomaly forcing files
  
     - Tofino - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_Tofino.ipynb
+
     - Port Hardy - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_PortHardy.ipynb
+
 * NEMO code 3.4
 
     - The simulations were generated with version 3.4 of the NEMO ocean model. More details are found here: http://www.nemo-ocean.eu/
+
 * For more information about the Salish Sea modelling project, please visit http://salishsea-meopar-docs.readthedocs.org/en/latest/
+
 * Recent model results can be found here: http://salishsea.eos.ubc.ca/nemo/index.html
 
 
