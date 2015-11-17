@@ -1,7 +1,7 @@
 ***********************************
 Salish Sea MEOPAR Storm Surge Paper
 ***********************************
-:License: Apache License, Version 2.0:Licenses: N/A
+:License: Apache License, Version 2.0
 
 This is a repository for development of the 1st storm surge paper from UBC Salish Sea MEOPAR project group.
 
