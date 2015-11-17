@@ -11,8 +11,8 @@ This repository has been made public to facilitate reproducibility of the paper'
 Licenses
 ========
 
-The Salish Sea NEMO analysis and documentation are copyright 2013-2015 by the `S
-alish Sea MEOPAR Project Contributors`_ and The University of British Columbia.
+The Salish Sea NEMO analysis and documentation are copyright 2013-2015 by the 
+`Salish Sea MEOPAR Project Contributors`_ and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0.
 http://www.apache.org/licenses/LICENSE-2.0
@@ -20,7 +20,7 @@ Please see the LICENSE file for details of the license.
 
 The copyright of the manuscript files is held by Taylor and Francis. The manuscript can be cited as:
 
-Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V. (2015). Storm surges in the Strait of Georgia simulated with a regional model. Submitted to Atmosphere-Ocean. doi:10.1080/07055900.2015.1108899
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V. (2015). Storm surges in the Strait of Georgia simulated with a regional model. Submitted to Atmosphere-Ocean. https://dx.doi.org/10.1080/07055900.2015.1108899
 
 
 .. _Salish Sea MEOPAR Project Contributors: https://bitbucket.org/salishsea/docs
@@ -55,6 +55,7 @@ Some additional files are described here:
 
 * stormtools_revisions.py - module with analysis tools and functions 
 
+
 Dependencies
 ************
 
@@ -64,16 +65,14 @@ Some of the analysis and simulations depends on code and files written in separa
 
 * Generation of SSH anomaly forcing files
 
-    - Tofino - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_Tofino.ipynb
+  - Tofino - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_Tofino.ipynb
 
-    - Port Hardy - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_PortHardy.ipynb
+  - Port Hardy - http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/tools/raw/tip/I_ForcingFiles/OBC/SSH_PortHardy.ipynb
 
 * NEMO code 3.4
 
-    - The simulations were generated with version 3.4 of the NEMO ocean model. More details are found here: http://www.nemo-ocean.eu/
+  - The simulations were generated with version 3.4 of the NEMO ocean model. More details are found here: http://www.nemo-ocean.eu/
 
 * For more information about the Salish Sea modelling project, please visit http://salishsea-meopar-docs.readthedocs.org/en/latest/
 
 * Recent model results can be found here: http://salishsea.eos.ubc.ca/nemo/index.html
-
-
