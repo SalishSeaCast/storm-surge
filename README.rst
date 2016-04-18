@@ -20,7 +20,7 @@ Please see the LICENSE file for details of the license.
 
 The copyright of the manuscript files is held by Taylor and Francis. The manuscript can be cited as:
 
-Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V. (2015). Storm surges in the Strait of Georgia simulated with a regional model. Submitted to Atmosphere-Ocean. https://dx.doi.org/10.1080/07055900.2015.1108899
+Soontiens, N., Allen, S., Latornell, D., Le Souef, K., Machuca, I., Paquin, J.-P., Lu, Y., Thompson, K., Korabel, V. (2016). Storm surges in the Strait of Georgia simulated with a regional model. Atmosphere-Ocean volume 54, issue 1. https://dx.doi.org/10.1080/07055900.2015.1108899
 
 
 .. _Salish Sea MEOPAR Project Contributors: https://bitbucket.org/salishsea/docs
